@@ -1,0 +1,27 @@
+{
+  "run": "286-20261109-130716-tester-286",
+  "role": "tester44",
+  "source": "dc3ab45d9b278d96e9e989f8bc75e44fce8e0a6f",
+  "docs": "0cb170393565b636454129aa101ea8a9095423e2",
+  "test_commit": "OUTPUT/testは独立git管理なし・実行スクリプトSHA256で固定",
+  "script_sha256": "fee7e4eff0b62215c6fad6dc76b69f060f149799acfc5018243de284442428ed",
+  "fixed_inputs": {
+    "OUTPUT/docs/fixtures.md": "f2fb19f92775f58520defbc0382218e7065af10a3e18fefc2d9901c3e313cc33",
+    "OUTPUT/docs/expected-results.md": "84dd39e5a442c78f2f6737f695e15f3259fd6dcfb275e722ef5ccb34eec9587f"
+  },
+  "clock": "2030-07-01T12:00:00+09:00",
+  "timezone": "Asia/Tokyo",
+  "uid": 1000,
+  "profile": "codex-seaside-inn-browser",
+  "image_id": "sha256:df2e05bfe3ba541630295ead4d85022dfa626760664691691899c90eb7e56fba",
+  "image_model_verification": "窓口起動前ゲートに依拠。コンテナ内inspectなし",
+  "model": "gpt-6.1-sol（指定条件）",
+  "scope": [
+    "T05",
+    "T06",
+    "T13",
+    "T15"
+  ],
+  "start": 1794197645.7511866,
+  "notification": "loopbackのみ・架空データ・外部通知なし"
+}

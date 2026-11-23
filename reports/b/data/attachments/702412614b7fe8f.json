@@ -1,0 +1,42 @@
+{
+  "reservations": [
+    {
+      "id": 1,
+      "number": "N-rAMqiO-PsG4RufPthlwro82eaG6z4RRV",
+      "room_id": "R01",
+      "checkin": "2030-07-20",
+      "checkout": "2030-07-22",
+      "guests": 2,
+      "total": 24000,
+      "status": "CONFIRMED"
+    }
+  ],
+  "occupancy": [
+    {
+      "room_id": "R01",
+      "stay_date": "2030-07-20",
+      "reservation_id": 1,
+      "closure_id": null
+    },
+    {
+      "room_id": "R01",
+      "stay_date": "2030-07-21",
+      "reservation_id": 1,
+      "closure_id": null
+    }
+  ],
+  "submissions": [
+    {
+      "reservation_id": 1
+    }
+  ],
+  "reservation_details": [
+    {
+      "reservation_id": 1,
+      "guest_name": "試験 太郎",
+      "email": "taro@example.invalid",
+      "snapshot": "{\"room_id\": \"R01\", \"checkin\": \"2030-07-20\", \"checkout\": \"2030-07-22\", \"name\": \"朝凪\", \"capacity\": 2, \"base_rate\": 12000, \"guests\": 2, \"nights\": 2, \"total\": 24000, \"breakdown\": [{\"stay_date\": \"2030-07-20\", \"base\": 12000, \"extra\": 0}, {\"stay_date\": \"2030-07-21\", \"base\": 12000, \"extra\": 0}], \"price_version\": \"P1\", \"condition_version\": \"C1\", \"condition\": \"チェックイン15:00～20:00、アウト10:00。子どもも同額。\", \"issued_at\": \"2030-07-01T12:00:00+09:00\", \"expires_at\": \"2030-07-01T12:15:00+09:00\"}",
+      "created_at": "2030-07-01T12:00:00+09:00"
+    }
+  ]
+}

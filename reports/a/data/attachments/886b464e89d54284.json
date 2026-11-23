@@ -1,0 +1,98 @@
+{
+  "reservations": [
+    [
+      1,
+      "N-woi3xkawDz7BCn5i7fXQL438B4zh4GXv",
+      "R01",
+      "2030-07-20",
+      "2030-07-22",
+      2,
+      24000,
+      "CONFIRMED"
+    ],
+    [
+      2,
+      "N--gIVikE6QI_hSn7fXuvdNRKccmmXG5Lx",
+      "R02",
+      "2030-07-20",
+      "2030-07-22",
+      2,
+      28000,
+      "CONFIRMED"
+    ],
+    [
+      3,
+      "N-vMg_V1Qelf3jpGNQSpiYxhm0dleh4fzG",
+      "R03",
+      "2030-07-20",
+      "2030-07-22",
+      2,
+      30000,
+      "CONFIRMED"
+    ]
+  ],
+  "occupancy": [
+    [
+      "R01",
+      "2030-07-20",
+      1,
+      null
+    ],
+    [
+      "R01",
+      "2030-07-21",
+      1,
+      null
+    ],
+    [
+      "R02",
+      "2030-07-20",
+      2,
+      null
+    ],
+    [
+      "R02",
+      "2030-07-21",
+      2,
+      null
+    ],
+    [
+      "R03",
+      "2030-07-20",
+      3,
+      null
+    ],
+    [
+      "R03",
+      "2030-07-21",
+      3,
+      null
+    ]
+  ],
+  "reservation_details": [
+    [
+      1,
+      "5ZEyyTZyAGZhSFhgSZOUdHez8vc_tSXyFQgQ9EPCpt4",
+      "試験 太郎",
+      "taro@example.invalid",
+      "{\"room_id\": \"R01\", \"checkin\": \"2030-07-20\", \"checkout\": \"2030-07-22\", \"name\": \"朝凪\", \"capacity\": 2, \"base_rate\": 12000, \"guests\": 2, \"nights\": 2, \"total\": 24000, \"breakdown\": [{\"stay_date\": \"2030-07-20\", \"base\": 12000, \"extra\": 0}, {\"stay_date\": \"2030-07-21\", \"base\": 12000, \"extra\": 0}], \"price_version\": \"P1\", \"condition_version\": \"C1\", \"condition\": \"チェックイン15:00～20:00、アウト10:00。子どもも同額。\", \"issued_at\": \"2030-07-01T12:00:00+09:00\", \"expires_at\": \"2030-07-01T12:15:00+09:00\"}",
+      "2030-07-01T12:00:00+09:00"
+    ],
+    [
+      2,
+      "p4VPZ-Cn5iqQ6ARI5JHSUlyMvPzg0JI1CAyXKyTdgf0",
+      "試験 太郎",
+      "taro@example.invalid",
+      "{\"room_id\": \"R02\", \"checkin\": \"2030-07-20\", \"checkout\": \"2030-07-22\", \"name\": \"潮音\", \"capacity\": 2, \"base_rate\": 14000, \"guests\": 2, \"nights\": 2, \"total\": 28000, \"breakdown\": [{\"stay_date\": \"2030-07-20\", \"base\": 14000, \"extra\": 0}, {\"stay_date\": \"2030-07-21\", \"base\": 14000, \"extra\": 0}], \"price_version\": \"P1\", \"condition_version\": \"C1\", \"condition\": \"チェックイン15:00～20:00、アウト10:00。子どもも同額。\", \"issued_at\": \"2030-07-01T12:00:00+09:00\", \"expires_at\": \"2030-07-01T12:15:00+09:00\"}",
+      "2030-07-01T12:00:00+09:00"
+    ],
+    [
+      3,
+      "NcRR5TY4Br89Ab9uESK0vdrA1YXD5b-Wx9dksIHoUA4",
+      "試験 太郎",
+      "taro@example.invalid",
+      "{\"room_id\": \"R03\", \"checkin\": \"2030-07-20\", \"checkout\": \"2030-07-22\", \"name\": \"砂浜\", \"capacity\": 3, \"base_rate\": 15000, \"guests\": 2, \"nights\": 2, \"total\": 30000, \"breakdown\": [{\"stay_date\": \"2030-07-20\", \"base\": 15000, \"extra\": 0}, {\"stay_date\": \"2030-07-21\", \"base\": 15000, \"extra\": 0}], \"price_version\": \"P1\", \"condition_version\": \"C1\", \"condition\": \"チェックイン15:00～20:00、アウト10:00。子どもも同額。\", \"issued_at\": \"2030-07-01T12:00:00+09:00\", \"expires_at\": \"2030-07-01T12:15:00+09:00\"}",
+      "2030-07-01T12:00:00+09:00"
+    ]
+  ]
+}

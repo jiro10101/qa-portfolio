@@ -1,0 +1,625 @@
+[
+  {
+    "t": "T06",
+    "name": "R 確認時保存なし",
+    "expected": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "t": "T06",
+    "name": "R 両BEGIN同期",
+    "expected": 2,
+    "actual": 2,
+    "passed": true
+  },
+  {
+    "t": "T06",
+    "name": "R 件数",
+    "expected": [
+      1,
+      2,
+      1,
+      1
+    ],
+    "actual": [
+      1,
+      2,
+      1,
+      1
+    ],
+    "passed": true
+  },
+  {
+    "t": "T06",
+    "name": "R 固定保存",
+    "expected": [
+      "R01",
+      "2030-07-20",
+      "2030-07-22",
+      2,
+      24000,
+      "CONFIRMED"
+    ],
+    "actual": [
+      "R01",
+      "2030-07-20",
+      "2030-07-22",
+      2,
+      24000,
+      "CONFIRMED"
+    ],
+    "passed": true
+  },
+  {
+    "t": "T06",
+    "name": "R 日別在庫",
+    "expected": [
+      [
+        "R01",
+        "2030-07-20",
+        1
+      ],
+      [
+        "R01",
+        "2030-07-21",
+        1
+      ]
+    ],
+    "actual": [
+      [
+        "R01",
+        "2030-07-20",
+        1
+      ],
+      [
+        "R01",
+        "2030-07-21",
+        1
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "t": "T06",
+    "name": "R 提示snapshot",
+    "expected": [
+      24000,
+      "P1",
+      "C1",
+      [
+        12000,
+        12000
+      ]
+    ],
+    "actual": [
+      24000,
+      "P1",
+      "C1",
+      [
+        12000,
+        12000
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "t": "T06",
+    "name": "R submission参照",
+    "expected": 1,
+    "actual": 1,
+    "passed": true
+  },
+  {
+    "t": "T06",
+    "name": "R 外部キー孤児0",
+    "expected": [],
+    "actual": [],
+    "passed": true
+  },
+  {
+    "t": "T06",
+    "name": "R 番号非空一意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T06",
+    "name": "R GET全表不変",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T06",
+    "name": "R 再送拒否等で保存不変",
+    "expected": {
+      "reservations": [
+        {
+          "id": 1,
+          "number": "N-TlaxNcd_IInGdvI7z-R5qaNsv5Is5yhi",
+          "room_id": "R01",
+          "checkin": "2030-07-20",
+          "checkout": "2030-07-22",
+          "guests": 2,
+          "total": 24000,
+          "status": "CONFIRMED"
+        }
+      ],
+      "occupancy": [
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-20",
+          "reservation_id": 1,
+          "closure_id": null
+        },
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-21",
+          "reservation_id": 1,
+          "closure_id": null
+        }
+      ],
+      "submissions": [
+        {
+          "reservation_id": 1
+        }
+      ],
+      "reservation_details": [
+        {
+          "reservation_id": 1,
+          "guest_name": "試験 太郎",
+          "email": "taro@example.invalid",
+          "snapshot": "{\"room_id\": \"R01\", \"checkin\": \"2030-07-20\", \"checkout\": \"2030-07-22\", \"name\": \"朝凪\", \"capacity\": 2, \"base_rate\": 12000, \"guests\": 2, \"nights\": 2, \"total\": 24000, \"breakdown\": [{\"stay_date\": \"2030-07-20\", \"base\": 12000, \"extra\": 0}, {\"stay_date\": \"2030-07-21\", \"base\": 12000, \"extra\": 0}], \"price_version\": \"P1\", \"condition_version\": \"C1\", \"condition\": \"チェックイン15:00～20:00、アウト10:00。子どもも同額。\", \"issued_at\": \"2030-07-01T12:00:00+09:00\", \"expires_at\": \"2030-07-01T12:15:00+09:00\"}",
+          "created_at": "2030-07-01T12:00:00+09:00"
+        }
+      ],
+      "foreign_key_violations": []
+    },
+    "actual": {
+      "reservations": [
+        {
+          "id": 1,
+          "number": "N-TlaxNcd_IInGdvI7z-R5qaNsv5Is5yhi",
+          "room_id": "R01",
+          "checkin": "2030-07-20",
+          "checkout": "2030-07-22",
+          "guests": 2,
+          "total": 24000,
+          "status": "CONFIRMED"
+        }
+      ],
+      "occupancy": [
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-20",
+          "reservation_id": 1,
+          "closure_id": null
+        },
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-21",
+          "reservation_id": 1,
+          "closure_id": null
+        }
+      ],
+      "submissions": [
+        {
+          "reservation_id": 1
+        }
+      ],
+      "reservation_details": [
+        {
+          "reservation_id": 1,
+          "guest_name": "試験 太郎",
+          "email": "taro@example.invalid",
+          "snapshot": "{\"room_id\": \"R01\", \"checkin\": \"2030-07-20\", \"checkout\": \"2030-07-22\", \"name\": \"朝凪\", \"capacity\": 2, \"base_rate\": 12000, \"guests\": 2, \"nights\": 2, \"total\": 24000, \"breakdown\": [{\"stay_date\": \"2030-07-20\", \"base\": 12000, \"extra\": 0}, {\"stay_date\": \"2030-07-21\", \"base\": 12000, \"extra\": 0}], \"price_version\": \"P1\", \"condition_version\": \"C1\", \"condition\": \"チェックイン15:00～20:00、アウト10:00。子どもも同額。\", \"issued_at\": \"2030-07-01T12:00:00+09:00\", \"expires_at\": \"2030-07-01T12:15:00+09:00\"}",
+          "created_at": "2030-07-01T12:00:00+09:00"
+        }
+      ],
+      "foreign_key_violations": []
+    },
+    "passed": true
+  },
+  {
+    "t": "T06",
+    "name": "X4 確認時保存なし",
+    "expected": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "t": "T06",
+    "name": "X4 上流303とCOMMIT済み",
+    "expected": [
+      303,
+      [
+        1,
+        2,
+        1,
+        1
+      ]
+    ],
+    "actual": [
+      303,
+      [
+        1,
+        2,
+        1,
+        1
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "t": "T06",
+    "name": "X4 実ソケット切断",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T06",
+    "name": "X4 件数",
+    "expected": [
+      1,
+      2,
+      1,
+      1
+    ],
+    "actual": [
+      1,
+      2,
+      1,
+      1
+    ],
+    "passed": true
+  },
+  {
+    "t": "T06",
+    "name": "X4 固定保存",
+    "expected": [
+      "R01",
+      "2030-07-20",
+      "2030-07-22",
+      2,
+      24000,
+      "CONFIRMED"
+    ],
+    "actual": [
+      "R01",
+      "2030-07-20",
+      "2030-07-22",
+      2,
+      24000,
+      "CONFIRMED"
+    ],
+    "passed": true
+  },
+  {
+    "t": "T06",
+    "name": "X4 日別在庫",
+    "expected": [
+      [
+        "R01",
+        "2030-07-20",
+        1
+      ],
+      [
+        "R01",
+        "2030-07-21",
+        1
+      ]
+    ],
+    "actual": [
+      [
+        "R01",
+        "2030-07-20",
+        1
+      ],
+      [
+        "R01",
+        "2030-07-21",
+        1
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "t": "T06",
+    "name": "X4 提示snapshot",
+    "expected": [
+      24000,
+      "P1",
+      "C1",
+      [
+        12000,
+        12000
+      ]
+    ],
+    "actual": [
+      24000,
+      "P1",
+      "C1",
+      [
+        12000,
+        12000
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "t": "T06",
+    "name": "X4 submission参照",
+    "expected": 1,
+    "actual": 1,
+    "passed": true
+  },
+  {
+    "t": "T06",
+    "name": "X4 外部キー孤児0",
+    "expected": [],
+    "actual": [],
+    "passed": true
+  },
+  {
+    "t": "T06",
+    "name": "X4 番号非空一意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T06",
+    "name": "X4 再送拒否等で保存不変",
+    "expected": {
+      "reservations": [
+        {
+          "id": 1,
+          "number": "N-A6UKvUYccFx6pq5fZoobH_Psy4j2xbGp",
+          "room_id": "R01",
+          "checkin": "2030-07-20",
+          "checkout": "2030-07-22",
+          "guests": 2,
+          "total": 24000,
+          "status": "CONFIRMED"
+        }
+      ],
+      "occupancy": [
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-20",
+          "reservation_id": 1,
+          "closure_id": null
+        },
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-21",
+          "reservation_id": 1,
+          "closure_id": null
+        }
+      ],
+      "submissions": [
+        {
+          "reservation_id": 1
+        }
+      ],
+      "reservation_details": [
+        {
+          "reservation_id": 1,
+          "guest_name": "試験 太郎",
+          "email": "taro@example.invalid",
+          "snapshot": "{\"room_id\": \"R01\", \"checkin\": \"2030-07-20\", \"checkout\": \"2030-07-22\", \"name\": \"朝凪\", \"capacity\": 2, \"base_rate\": 12000, \"guests\": 2, \"nights\": 2, \"total\": 24000, \"breakdown\": [{\"stay_date\": \"2030-07-20\", \"base\": 12000, \"extra\": 0}, {\"stay_date\": \"2030-07-21\", \"base\": 12000, \"extra\": 0}], \"price_version\": \"P1\", \"condition_version\": \"C1\", \"condition\": \"チェックイン15:00～20:00、アウト10:00。子どもも同額。\", \"issued_at\": \"2030-07-01T12:00:00+09:00\", \"expires_at\": \"2030-07-01T12:15:00+09:00\"}",
+          "created_at": "2030-07-01T12:00:00+09:00"
+        }
+      ],
+      "foreign_key_violations": []
+    },
+    "actual": {
+      "reservations": [
+        {
+          "id": 1,
+          "number": "N-A6UKvUYccFx6pq5fZoobH_Psy4j2xbGp",
+          "room_id": "R01",
+          "checkin": "2030-07-20",
+          "checkout": "2030-07-22",
+          "guests": 2,
+          "total": 24000,
+          "status": "CONFIRMED"
+        }
+      ],
+      "occupancy": [
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-20",
+          "reservation_id": 1,
+          "closure_id": null
+        },
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-21",
+          "reservation_id": 1,
+          "closure_id": null
+        }
+      ],
+      "submissions": [
+        {
+          "reservation_id": 1
+        }
+      ],
+      "reservation_details": [
+        {
+          "reservation_id": 1,
+          "guest_name": "試験 太郎",
+          "email": "taro@example.invalid",
+          "snapshot": "{\"room_id\": \"R01\", \"checkin\": \"2030-07-20\", \"checkout\": \"2030-07-22\", \"name\": \"朝凪\", \"capacity\": 2, \"base_rate\": 12000, \"guests\": 2, \"nights\": 2, \"total\": 24000, \"breakdown\": [{\"stay_date\": \"2030-07-20\", \"base\": 12000, \"extra\": 0}, {\"stay_date\": \"2030-07-21\", \"base\": 12000, \"extra\": 0}], \"price_version\": \"P1\", \"condition_version\": \"C1\", \"condition\": \"チェックイン15:00～20:00、アウト10:00。子どもも同額。\", \"issued_at\": \"2030-07-01T12:00:00+09:00\", \"expires_at\": \"2030-07-01T12:15:00+09:00\"}",
+          "created_at": "2030-07-01T12:00:00+09:00"
+        }
+      ],
+      "foreign_key_violations": []
+    },
+    "passed": true
+  },
+  {
+    "t": "T06",
+    "name": "R 検索候補",
+    "expected": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "actual": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "passed": true
+  },
+  {
+    "t": "T06",
+    "name": "R 同K並行303",
+    "expected": [
+      303,
+      303
+    ],
+    "actual": [
+      303,
+      303
+    ],
+    "passed": true
+  },
+  {
+    "t": "T06",
+    "name": "R-A 同番号・金額",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T06",
+    "name": "R-B 同番号・金額",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T06",
+    "name": "GET再読込 同番号・金額",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T06",
+    "name": "連打 同番号・金額",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T06",
+    "name": "R POST再送同N",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T06",
+    "name": "K 人数変更409",
+    "expected": 409,
+    "actual": 409,
+    "passed": true
+  },
+  {
+    "t": "T06",
+    "name": "R 検索候補",
+    "expected": [
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "actual": [
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "passed": true
+  },
+  {
+    "t": "T06",
+    "name": "X4 検索候補",
+    "expected": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "actual": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "passed": true
+  },
+  {
+    "t": "T06",
+    "name": "X4 再送303",
+    "expected": 303,
+    "actual": 303,
+    "passed": true
+  },
+  {
+    "t": "T06",
+    "name": "X4再送 同番号・金額",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T06",
+    "name": "X4 検索候補",
+    "expected": [
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "actual": [
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "passed": true
+  }
+]

@@ -1,0 +1,155 @@
+[
+  {
+    "raw": "X4/raw-video-X4/page@108d6027baa5c32063d2c009a7d7b082.webm",
+    "view": "X4/raw-video-X4/page@108d6027baa5c32063d2c009a7d7b082.2x.mp4",
+    "exit": 0,
+    "status": "成功",
+    "raw_seconds": 21.96,
+    "view_seconds": 10.98,
+    "ratio": 2.0
+  },
+  {
+    "raw": "R/raw-video-R/page@3a2c49b4799f3cc1b7c0fbd0c1cf2338.webm",
+    "view": "R/raw-video-R/page@3a2c49b4799f3cc1b7c0fbd0c1cf2338.2x.mp4",
+    "exit": 0,
+    "status": "成功",
+    "raw_seconds": 23.84,
+    "view_seconds": 11.92,
+    "ratio": 2.0
+  },
+  {
+    "raw": "R/raw-video-R/page@490a4e09b54288a0e5df2d8782f28ab5.webm",
+    "view": "R/raw-video-R/page@490a4e09b54288a0e5df2d8782f28ab5.2x.mp4",
+    "exit": 0,
+    "status": "成功",
+    "raw_seconds": 22.36,
+    "view_seconds": 11.18,
+    "ratio": 2.0
+  },
+  {
+    "raw": "Q1/raw-video-Q1/page@72073c12028c3f7b33116e194aa39e6b.webm",
+    "view": "Q1/raw-video-Q1/page@72073c12028c3f7b33116e194aa39e6b.2x.mp4",
+    "exit": 0,
+    "status": "成功",
+    "raw_seconds": 17.04,
+    "view_seconds": 8.52,
+    "ratio": 2.0
+  },
+  {
+    "raw": "X2/raw-video-X2/page@f8f2d454d67a87b63c4351d5b8d65e1c.webm",
+    "view": "X2/raw-video-X2/page@f8f2d454d67a87b63c4351d5b8d65e1c.2x.mp4",
+    "exit": 0,
+    "status": "成功",
+    "raw_seconds": 32.96,
+    "view_seconds": 16.48,
+    "ratio": 2.0
+  },
+  {
+    "raw": "X2/raw-video-X2/page@cd5284fe3163f4a2c56842d11c9e20b1.webm",
+    "view": "X2/raw-video-X2/page@cd5284fe3163f4a2c56842d11c9e20b1.2x.mp4",
+    "exit": 0,
+    "status": "成功",
+    "raw_seconds": 1.2,
+    "view_seconds": 0.6,
+    "ratio": 2.0
+  },
+  {
+    "raw": "X5/raw-video-X5/page@5716e212102544401c2e9cabb86d5a73.webm",
+    "view": "X5/raw-video-X5/page@5716e212102544401c2e9cabb86d5a73.2x.mp4",
+    "exit": 0,
+    "status": "成功",
+    "raw_seconds": 30.28,
+    "view_seconds": 15.14,
+    "ratio": 2.0
+  },
+  {
+    "raw": "X5/raw-video-X5/page@1c375e32040a94279c68e5b5c05ead48.webm",
+    "view": "X5/raw-video-X5/page@1c375e32040a94279c68e5b5c05ead48.2x.mp4",
+    "exit": 0,
+    "status": "成功",
+    "raw_seconds": 1.2,
+    "view_seconds": 0.6,
+    "ratio": 2.0
+  },
+  {
+    "raw": "Q2/raw-video-Q2/page@8e03c0accfea4ca5126c87975ea2b518.webm",
+    "view": "Q2/raw-video-Q2/page@8e03c0accfea4ca5126c87975ea2b518.2x.mp4",
+    "exit": 0,
+    "status": "成功",
+    "raw_seconds": 14.56,
+    "view_seconds": 7.28,
+    "ratio": 2.0
+  },
+  {
+    "raw": "X1/raw-video-X1/page@c494da4a104d789c463b31deb2de6774.webm",
+    "view": "X1/raw-video-X1/page@c494da4a104d789c463b31deb2de6774.2x.mp4",
+    "exit": 0,
+    "status": "成功",
+    "raw_seconds": 1.2,
+    "view_seconds": 0.6,
+    "ratio": 2.0
+  },
+  {
+    "raw": "X1/raw-video-X1/page@ca9d0a06ea748c65f7d6de48e3481d18.webm",
+    "view": "X1/raw-video-X1/page@ca9d0a06ea748c65f7d6de48e3481d18.2x.mp4",
+    "exit": 0,
+    "status": "成功",
+    "raw_seconds": 34.32,
+    "view_seconds": 17.16,
+    "ratio": 2.0
+  },
+  {
+    "raw": "V/raw-video-V-A/page@5e21f6ef23677eb80ea0bed79a44e85b.webm",
+    "view": "V/raw-video-V-A/page@5e21f6ef23677eb80ea0bed79a44e85b.2x.mp4",
+    "exit": 0,
+    "status": "成功",
+    "raw_seconds": 19.08,
+    "view_seconds": 9.54,
+    "ratio": 2.0
+  },
+  {
+    "raw": "V/raw-video-V-B/page@9328fb5ceebcf3e13dd49a16fed69a1b.webm",
+    "view": "V/raw-video-V-B/page@9328fb5ceebcf3e13dd49a16fed69a1b.2x.mp4",
+    "exit": 0,
+    "status": "成功",
+    "raw_seconds": 19.76,
+    "view_seconds": 9.88,
+    "ratio": 2.0
+  },
+  {
+    "raw": "X3/raw-video-X3/page@317ff925cb754987697c78ffa409d8c3.webm",
+    "view": "X3/raw-video-X3/page@317ff925cb754987697c78ffa409d8c3.2x.mp4",
+    "exit": 0,
+    "status": "成功",
+    "raw_seconds": 1.2,
+    "view_seconds": 0.6,
+    "ratio": 2.0
+  },
+  {
+    "raw": "X3/raw-video-X3/page@6e4da06d36e51d8e794c34f015ce87fd.webm",
+    "view": "X3/raw-video-X3/page@6e4da06d36e51d8e794c34f015ce87fd.2x.mp4",
+    "exit": 0,
+    "status": "成功",
+    "raw_seconds": 31.52,
+    "view_seconds": 15.76,
+    "ratio": 2.0
+  },
+  {
+    "raw": "L/raw-video-L-B/page@05f79af36e4f4a366ef6a5dd9e99fcca.webm",
+    "view": "L/raw-video-L-B/page@05f79af36e4f4a366ef6a5dd9e99fcca.2x.mp4",
+    "exit": 0,
+    "status": "成功",
+    "raw_seconds": 21.6,
+    "view_seconds": 10.8,
+    "ratio": 2.0
+  },
+  {
+    "raw": "L/raw-video-L-A/page@0dc9504699166ab7e3f13375f4f856be.webm",
+    "view": "L/raw-video-L-A/page@0dc9504699166ab7e3f13375f4f856be.2x.mp4",
+    "exit": 0,
+    "status": "成功",
+    "raw_seconds": 20.44,
+    "view_seconds": 10.22,
+    "ratio": 2.0
+  }
+]

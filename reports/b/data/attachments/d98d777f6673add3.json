@@ -1,0 +1,30 @@
+{
+  "reservations": [
+    {
+      "id": 1,
+      "number": "FX-B01",
+      "room_id": "R02",
+      "checkin": "2030-07-21",
+      "checkout": "2030-07-22",
+      "guests": 2,
+      "total": 14000,
+      "status": "CONFIRMED"
+    }
+  ],
+  "occupancy": [
+    {
+      "room_id": "R02",
+      "stay_date": "2030-07-21",
+      "reservation_id": 1,
+      "closure_id": null
+    },
+    {
+      "room_id": "R05",
+      "stay_date": "2030-07-20",
+      "reservation_id": null,
+      "closure_id": 1
+    }
+  ],
+  "submissions": [],
+  "reservation_details": []
+}

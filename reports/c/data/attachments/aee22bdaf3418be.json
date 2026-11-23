@@ -1,0 +1,1002 @@
+[
+  {
+    "case": "X1",
+    "event": "commit",
+    "ns": 99918781787630,
+    "thread": 140259396812864
+  },
+  {
+    "case": "X2",
+    "event": "commit",
+    "ns": 99918835436416,
+    "thread": 140259396812864
+  },
+  {
+    "case": "X3",
+    "event": "commit",
+    "ns": 99918888229121,
+    "thread": 140259396812864
+  },
+  {
+    "case": "X5",
+    "event": "commit",
+    "ns": 99918940815620,
+    "thread": 140259396812864
+  },
+  {
+    "case": "R",
+    "event": "commit",
+    "ns": 99918990775775,
+    "thread": 140259396812864
+  },
+  {
+    "case": "X4",
+    "event": "commit",
+    "ns": 99919043399051,
+    "thread": 140259396812864
+  },
+  {
+    "case": "L",
+    "event": "commit",
+    "ns": 99919087538301,
+    "thread": 140259396812864
+  },
+  {
+    "case": "V",
+    "event": "commit",
+    "ns": 99919122900751,
+    "thread": 140259396812864
+  },
+  {
+    "case": "Q1",
+    "event": "commit",
+    "ns": 99919171894218,
+    "thread": 140259396812864
+  },
+  {
+    "case": "Q2",
+    "event": "commit",
+    "ns": 99919230456461,
+    "thread": 140259396812864
+  },
+  {
+    "case": "X1",
+    "event": "commit",
+    "ns": 99919967847293,
+    "thread": 140258951796416
+  },
+  {
+    "case": "X1",
+    "event": "commit",
+    "ns": 99919973276436,
+    "thread": 140258951796416
+  },
+  {
+    "case": "X1",
+    "event": "commit",
+    "ns": 99920440265598,
+    "thread": 140258951796416
+  },
+  {
+    "case": "X1",
+    "event": "control-review",
+    "ns": 99920820127649,
+    "thread": 140259396812864
+  },
+  {
+    "case": "X1",
+    "event": "begin-attempt",
+    "ns": 99921000309676,
+    "thread": 140258951796416
+  },
+  {
+    "case": "X1",
+    "event": "inject-before-commit",
+    "ns": 99921001332558,
+    "thread": 140258951796416,
+    "stage": "X1",
+    "uncommitted_counts": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": "X1",
+    "event": "rollback",
+    "ns": 99921002174054,
+    "thread": 140258951796416
+  },
+  {
+    "case": "X1",
+    "event": "control-failed",
+    "ns": 99921369038625,
+    "thread": 140259396812864
+  },
+  {
+    "case": "X1",
+    "event": "control-release",
+    "ns": 99921764199707,
+    "thread": 140259396812864
+  },
+  {
+    "case": "X1",
+    "event": "fault-disabled-lock-released",
+    "ns": 99921764459141,
+    "thread": 140259396812864
+  },
+  {
+    "case": "X1",
+    "event": "begin-attempt",
+    "ns": 99921916624402,
+    "thread": 140258951796416
+  },
+  {
+    "case": "X1",
+    "event": "commit",
+    "ns": 99921917939060,
+    "thread": 140258951796416
+  },
+  {
+    "case": "X1",
+    "event": "control-saved",
+    "ns": 99922161289911,
+    "thread": 140259396812864
+  },
+  {
+    "case": "X1",
+    "event": "begin-attempt",
+    "ns": 99922322746281,
+    "thread": 140258951796416
+  },
+  {
+    "case": "X1",
+    "event": "commit",
+    "ns": 99922323334250,
+    "thread": 140258951796416
+  },
+  {
+    "case": "X1",
+    "event": "control-unchanged",
+    "ns": 99922349447838,
+    "thread": 140259396812864
+  },
+  {
+    "case": "X2",
+    "event": "commit",
+    "ns": 99922755768947,
+    "thread": 140258951796416
+  },
+  {
+    "case": "X2",
+    "event": "commit",
+    "ns": 99922760581843,
+    "thread": 140258951796416
+  },
+  {
+    "case": "X2",
+    "event": "commit",
+    "ns": 99923208554974,
+    "thread": 140258951796416
+  },
+  {
+    "case": "X2",
+    "event": "control-review",
+    "ns": 99923571267671,
+    "thread": 140259396812864
+  },
+  {
+    "case": "X2",
+    "event": "begin-attempt",
+    "ns": 99923732277948,
+    "thread": 140258951796416
+  },
+  {
+    "case": "X2",
+    "event": "inject-before-commit",
+    "ns": 99923733324544,
+    "thread": 140258951796416,
+    "stage": "X2",
+    "uncommitted_counts": [
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "case": "X2",
+    "event": "rollback",
+    "ns": 99923734099730,
+    "thread": 140258951796416
+  },
+  {
+    "case": "X2",
+    "event": "control-failed",
+    "ns": 99924121757002,
+    "thread": 140259396812864
+  },
+  {
+    "case": "X2",
+    "event": "control-release",
+    "ns": 99924517890269,
+    "thread": 140259396812864
+  },
+  {
+    "case": "X2",
+    "event": "fault-disabled-lock-released",
+    "ns": 99924518261316,
+    "thread": 140259396812864
+  },
+  {
+    "case": "X2",
+    "event": "begin-attempt",
+    "ns": 99924665897425,
+    "thread": 140258951796416
+  },
+  {
+    "case": "X2",
+    "event": "commit",
+    "ns": 99924667619501,
+    "thread": 140258951796416
+  },
+  {
+    "case": "X2",
+    "event": "control-saved",
+    "ns": 99924916345052,
+    "thread": 140259396812864
+  },
+  {
+    "case": "X2",
+    "event": "begin-attempt",
+    "ns": 99925065942336,
+    "thread": 140258951796416
+  },
+  {
+    "case": "X2",
+    "event": "commit",
+    "ns": 99925066905094,
+    "thread": 140258951796416
+  },
+  {
+    "case": "X2",
+    "event": "control-unchanged",
+    "ns": 99925079830018,
+    "thread": 140259396812864
+  },
+  {
+    "case": "X3",
+    "event": "commit",
+    "ns": 99925501944808,
+    "thread": 140258951796416
+  },
+  {
+    "case": "X3",
+    "event": "commit",
+    "ns": 99925505111822,
+    "thread": 140258951796416
+  },
+  {
+    "case": "X3",
+    "event": "commit",
+    "ns": 99925948556655,
+    "thread": 140258951796416
+  },
+  {
+    "case": "X3",
+    "event": "control-review",
+    "ns": 99926335279499,
+    "thread": 140259396812864
+  },
+  {
+    "case": "X3",
+    "event": "begin-attempt",
+    "ns": 99926499910116,
+    "thread": 140258951796416
+  },
+  {
+    "case": "X3",
+    "event": "inject-before-commit",
+    "ns": 99926501924656,
+    "thread": 140258951796416,
+    "stage": "X3",
+    "uncommitted_counts": [
+      1,
+      2,
+      0,
+      1
+    ]
+  },
+  {
+    "case": "X3",
+    "event": "rollback",
+    "ns": 99926503303298,
+    "thread": 140258951796416
+  },
+  {
+    "case": "X3",
+    "event": "control-failed",
+    "ns": 99926887926391,
+    "thread": 140259396812864
+  },
+  {
+    "case": "X3",
+    "event": "control-release",
+    "ns": 99927286219656,
+    "thread": 140259396812864
+  },
+  {
+    "case": "X3",
+    "event": "fault-disabled-lock-released",
+    "ns": 99927287414008,
+    "thread": 140259396812864
+  },
+  {
+    "case": "X3",
+    "event": "begin-attempt",
+    "ns": 99927414283245,
+    "thread": 140258951796416
+  },
+  {
+    "case": "X3",
+    "event": "commit",
+    "ns": 99927415800872,
+    "thread": 140258951796416
+  },
+  {
+    "case": "X3",
+    "event": "control-saved",
+    "ns": 99927654353365,
+    "thread": 140259396812864
+  },
+  {
+    "case": "X3",
+    "event": "begin-attempt",
+    "ns": 99927805706294,
+    "thread": 140258951796416
+  },
+  {
+    "case": "X3",
+    "event": "commit",
+    "ns": 99927807234663,
+    "thread": 140258951796416
+  },
+  {
+    "case": "X3",
+    "event": "control-unchanged",
+    "ns": 99927820157217,
+    "thread": 140259396812864
+  },
+  {
+    "case": "X5",
+    "event": "commit",
+    "ns": 99928199718890,
+    "thread": 140258951796416
+  },
+  {
+    "case": "X5",
+    "event": "commit",
+    "ns": 99928202886238,
+    "thread": 140258951796416
+  },
+  {
+    "case": "X5",
+    "event": "commit",
+    "ns": 99928628848946,
+    "thread": 140258951796416
+  },
+  {
+    "case": "X5",
+    "event": "control-review",
+    "ns": 99928981274376,
+    "thread": 140259396812864
+  },
+  {
+    "case": "X5",
+    "event": "real-write-lock-acquired",
+    "ns": 99928983421524,
+    "thread": 140259396812864
+  },
+  {
+    "case": "X5",
+    "event": "begin-attempt",
+    "ns": 99929145032760,
+    "thread": 140258951796416
+  },
+  {
+    "case": "X5",
+    "event": "control-failed",
+    "ns": 99934515663260,
+    "thread": 140259396812864
+  },
+  {
+    "case": "X5",
+    "event": "control-release",
+    "ns": 99934943756331,
+    "thread": 140259396812864
+  },
+  {
+    "case": "X5",
+    "event": "fault-disabled-lock-released",
+    "ns": 99934944411132,
+    "thread": 140259396812864
+  },
+  {
+    "case": "X5",
+    "event": "begin-attempt",
+    "ns": 99935062937745,
+    "thread": 140258951796416
+  },
+  {
+    "case": "X5",
+    "event": "commit",
+    "ns": 99935064252631,
+    "thread": 140258951796416
+  },
+  {
+    "case": "X5",
+    "event": "control-saved",
+    "ns": 99935311704741,
+    "thread": 140259396812864
+  },
+  {
+    "case": "X5",
+    "event": "begin-attempt",
+    "ns": 99935469728733,
+    "thread": 140258951796416
+  },
+  {
+    "case": "X5",
+    "event": "commit",
+    "ns": 99935470506041,
+    "thread": 140258951796416
+  },
+  {
+    "case": "X5",
+    "event": "control-unchanged",
+    "ns": 99935478948037,
+    "thread": 140259396812864
+  },
+  {
+    "case": "R",
+    "event": "commit",
+    "ns": 99935856587640,
+    "thread": 140258951796416
+  },
+  {
+    "case": "R",
+    "event": "commit",
+    "ns": 99935860717479,
+    "thread": 140258951796416
+  },
+  {
+    "case": "R",
+    "event": "commit",
+    "ns": 99936317827933,
+    "thread": 140258951796416
+  },
+  {
+    "case": "R",
+    "event": "control-review",
+    "ns": 99936797250783,
+    "thread": 140259396812864
+  },
+  {
+    "case": "R",
+    "event": "control-barrier",
+    "ns": 99936830859360,
+    "thread": 140259396812864
+  },
+  {
+    "case": "R",
+    "event": "begin-attempt",
+    "ns": 99937014084905,
+    "thread": 140258951796416
+  },
+  {
+    "case": "R",
+    "event": "begin-attempt",
+    "ns": 99937092617033,
+    "thread": 140258465281728
+  },
+  {
+    "case": "R",
+    "event": "begin-barrier-released",
+    "ns": 99937093190520,
+    "thread": 140258465281728
+  },
+  {
+    "case": "R",
+    "event": "begin-barrier-released",
+    "ns": 99937093632253,
+    "thread": 140258951796416
+  },
+  {
+    "case": "R",
+    "event": "commit",
+    "ns": 99937094788789,
+    "thread": 140258465281728
+  },
+  {
+    "case": "R",
+    "event": "commit",
+    "ns": 99937102670891,
+    "thread": 140258951796416
+  },
+  {
+    "case": "R",
+    "event": "control-parallel",
+    "ns": 99937351748165,
+    "thread": 140259396812864
+  },
+  {
+    "case": "R",
+    "event": "control-get-before",
+    "ns": 99937609081327,
+    "thread": 140259396812864
+  },
+  {
+    "case": "R",
+    "event": "control-get-after",
+    "ns": 99937794330824,
+    "thread": 140259396812864
+  },
+  {
+    "case": "R",
+    "event": "begin-attempt",
+    "ns": 99937978078767,
+    "thread": 140258951796416
+  },
+  {
+    "case": "R",
+    "event": "commit",
+    "ns": 99937978999584,
+    "thread": 140258951796416
+  },
+  {
+    "case": "R",
+    "event": "begin-attempt",
+    "ns": 99938099644081,
+    "thread": 140258951796416
+  },
+  {
+    "case": "R",
+    "event": "commit",
+    "ns": 99938100578890,
+    "thread": 140258951796416
+  },
+  {
+    "case": "R",
+    "event": "control-unchanged",
+    "ns": 99938134697574,
+    "thread": 140259396812864
+  },
+  {
+    "case": "X4",
+    "event": "commit",
+    "ns": 99938502237475,
+    "thread": 140258465281728
+  },
+  {
+    "case": "X4",
+    "event": "commit",
+    "ns": 99938506404589,
+    "thread": 140258465281728
+  },
+  {
+    "case": "X4",
+    "event": "commit",
+    "ns": 99938968771818,
+    "thread": 140258465281728
+  },
+  {
+    "case": "X4",
+    "event": "control-review",
+    "ns": 99939329686947,
+    "thread": 140259396812864
+  },
+  {
+    "case": "X4",
+    "event": "begin-attempt",
+    "ns": 99939501713557,
+    "thread": 140258465281728
+  },
+  {
+    "case": "X4",
+    "event": "commit",
+    "ns": 99939504452899,
+    "thread": 140258465281728
+  },
+  {
+    "case": "X4",
+    "event": "socket-shutdown-before-client-headers",
+    "ns": 99939510287410,
+    "thread": 140258951796416,
+    "upstream_status": 303,
+    "counts": [
+      1,
+      2,
+      1,
+      1
+    ]
+  },
+  {
+    "case": "X4",
+    "event": "control-cut",
+    "ns": 99939763205520,
+    "thread": 140259396812864
+  },
+  {
+    "case": "X4",
+    "event": "begin-attempt",
+    "ns": 99940146632251,
+    "thread": 140258465281728
+  },
+  {
+    "case": "X4",
+    "event": "commit",
+    "ns": 99940148216878,
+    "thread": 140258465281728
+  },
+  {
+    "case": "X4",
+    "event": "control-unchanged",
+    "ns": 99940517823160,
+    "thread": 140259396812864
+  },
+  {
+    "case": "L",
+    "event": "commit",
+    "ns": 99940906634559,
+    "thread": 140258951796416
+  },
+  {
+    "case": "L",
+    "event": "commit",
+    "ns": 99940910908893,
+    "thread": 140258951796416
+  },
+  {
+    "case": "L",
+    "event": "commit",
+    "ns": 99941382983082,
+    "thread": 140258951796416
+  },
+  {
+    "case": "L",
+    "event": "commit",
+    "ns": 99941918313582,
+    "thread": 140258951796416
+  },
+  {
+    "case": "L",
+    "event": "commit",
+    "ns": 99941921525335,
+    "thread": 140258951796416
+  },
+  {
+    "case": "L",
+    "event": "commit",
+    "ns": 99942379953219,
+    "thread": 140258951796416
+  },
+  {
+    "case": "L",
+    "event": "control-review",
+    "ns": 99942756965846,
+    "thread": 140259396812864
+  },
+  {
+    "case": "L",
+    "event": "control-barrier",
+    "ns": 99942821228889,
+    "thread": 140259396812864
+  },
+  {
+    "case": "L",
+    "event": "begin-attempt",
+    "ns": 99943042436795,
+    "thread": 140258951796416
+  },
+  {
+    "case": "L",
+    "event": "begin-attempt",
+    "ns": 99943044594999,
+    "thread": 140258465281728
+  },
+  {
+    "case": "L",
+    "event": "begin-barrier-released",
+    "ns": 99943048079862,
+    "thread": 140258465281728
+  },
+  {
+    "case": "L",
+    "event": "begin-barrier-released",
+    "ns": 99943048786425,
+    "thread": 140258951796416
+  },
+  {
+    "case": "L",
+    "event": "commit",
+    "ns": 99943050266648,
+    "thread": 140258465281728
+  },
+  {
+    "case": "L",
+    "event": "commit",
+    "ns": 99943059585241,
+    "thread": 140258951796416
+  },
+  {
+    "case": "L",
+    "event": "control-parallel",
+    "ns": 99943316437990,
+    "thread": 140259396812864
+  },
+  {
+    "case": "L",
+    "event": "control-unchanged",
+    "ns": 99943707599914,
+    "thread": 140259396812864
+  },
+  {
+    "case": "V",
+    "event": "commit",
+    "ns": 99944048844344,
+    "thread": 140258465281728
+  },
+  {
+    "case": "V",
+    "event": "commit",
+    "ns": 99944052255198,
+    "thread": 140258465281728
+  },
+  {
+    "case": "V",
+    "event": "commit",
+    "ns": 99944517485507,
+    "thread": 140258465281728
+  },
+  {
+    "case": "V",
+    "event": "commit",
+    "ns": 99945091298889,
+    "thread": 140258465281728
+  },
+  {
+    "case": "V",
+    "event": "commit",
+    "ns": 99945095467914,
+    "thread": 140258465281728
+  },
+  {
+    "case": "V",
+    "event": "commit",
+    "ns": 99945580314652,
+    "thread": 140258465281728
+  },
+  {
+    "case": "V",
+    "event": "control-review",
+    "ns": 99945927639084,
+    "thread": 140259396812864
+  },
+  {
+    "case": "V",
+    "event": "begin-attempt",
+    "ns": 99946118526698,
+    "thread": 140258465281728
+  },
+  {
+    "case": "V",
+    "event": "commit",
+    "ns": 99946121373181,
+    "thread": 140258465281728
+  },
+  {
+    "case": "V",
+    "event": "control-saved",
+    "ns": 99946362883379,
+    "thread": 140259396812864
+  },
+  {
+    "case": "V",
+    "event": "begin-attempt",
+    "ns": 99946565444414,
+    "thread": 140258465281728
+  },
+  {
+    "case": "V",
+    "event": "commit",
+    "ns": 99946568335540,
+    "thread": 140258465281728
+  },
+  {
+    "case": "V",
+    "event": "control-unchanged",
+    "ns": 99947426474995,
+    "thread": 140259396812864
+  },
+  {
+    "case": "Q1",
+    "event": "commit",
+    "ns": 99947750297060,
+    "thread": 140258465281728
+  },
+  {
+    "case": "Q1",
+    "event": "commit",
+    "ns": 99947754105002,
+    "thread": 140258465281728
+  },
+  {
+    "case": "Q1",
+    "event": "commit",
+    "ns": 99948221649306,
+    "thread": 140258465281728
+  },
+  {
+    "case": "Q1",
+    "event": "control-review",
+    "ns": 99948597232363,
+    "thread": 140259396812864
+  },
+  {
+    "case": "Q1",
+    "event": "control-change",
+    "ns": 99948633342734,
+    "thread": 140259396812864
+  },
+  {
+    "case": "Q1",
+    "event": "presentation-version-changed",
+    "ns": 99948638844411,
+    "thread": 140259396812864
+  },
+  {
+    "case": "Q1",
+    "event": "begin-attempt",
+    "ns": 99948784115504,
+    "thread": 140258465281728
+  },
+  {
+    "case": "Q1",
+    "event": "commit",
+    "ns": 99948786176324,
+    "thread": 140258465281728
+  },
+  {
+    "case": "Q1",
+    "event": "control-rejected",
+    "ns": 99949167607140,
+    "thread": 140259396812864
+  },
+  {
+    "case": "Q1",
+    "event": "commit",
+    "ns": 99949333945889,
+    "thread": 140258465281728
+  },
+  {
+    "case": "Q1",
+    "event": "commit",
+    "ns": 99949775386803,
+    "thread": 140258465281728
+  },
+  {
+    "case": "Q1",
+    "event": "control-new-review",
+    "ns": 99950123233331,
+    "thread": 140259396812864
+  },
+  {
+    "case": "Q1",
+    "event": "begin-attempt",
+    "ns": 99950267491413,
+    "thread": 140258465281728
+  },
+  {
+    "case": "Q1",
+    "event": "commit",
+    "ns": 99950270723388,
+    "thread": 140258465281728
+  },
+  {
+    "case": "Q1",
+    "event": "control-saved",
+    "ns": 99950527897398,
+    "thread": 140259396812864
+  },
+  {
+    "case": "Q2",
+    "event": "commit",
+    "ns": 99950918072606,
+    "thread": 140258465281728
+  },
+  {
+    "case": "Q2",
+    "event": "commit",
+    "ns": 99950922651465,
+    "thread": 140258465281728
+  },
+  {
+    "case": "Q2",
+    "event": "commit",
+    "ns": 99951382226870,
+    "thread": 140258465281728
+  },
+  {
+    "case": "Q2",
+    "event": "control-review",
+    "ns": 99951745036777,
+    "thread": 140259396812864
+  },
+  {
+    "case": "Q2",
+    "event": "control-change",
+    "ns": 99951811267831,
+    "thread": 140259396812864
+  },
+  {
+    "case": "Q2",
+    "event": "presentation-version-changed",
+    "ns": 99951818232848,
+    "thread": 140259396812864
+  },
+  {
+    "case": "Q2",
+    "event": "begin-attempt",
+    "ns": 99951972856532,
+    "thread": 140258465281728
+  },
+  {
+    "case": "Q2",
+    "event": "commit",
+    "ns": 99951974978054,
+    "thread": 140258465281728
+  },
+  {
+    "case": "Q2",
+    "event": "control-rejected",
+    "ns": 99952351551225,
+    "thread": 140259396812864
+  },
+  {
+    "case": "Q2",
+    "event": "commit",
+    "ns": 99952498404166,
+    "thread": 140258465281728
+  },
+  {
+    "case": "Q2",
+    "event": "commit",
+    "ns": 99952932311482,
+    "thread": 140258465281728
+  },
+  {
+    "case": "Q2",
+    "event": "control-new-review",
+    "ns": 99953310467954,
+    "thread": 140259396812864
+  },
+  {
+    "case": "Q2",
+    "event": "begin-attempt",
+    "ns": 99953466292651,
+    "thread": 140258465281728
+  },
+  {
+    "case": "Q2",
+    "event": "commit",
+    "ns": 99953468452451,
+    "thread": 140258465281728
+  },
+  {
+    "case": "Q2",
+    "event": "control-saved",
+    "ns": 99953715172340,
+    "thread": 140259396812864
+  }
+]

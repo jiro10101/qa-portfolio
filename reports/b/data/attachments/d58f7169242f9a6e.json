@@ -1,0 +1,140 @@
+{
+  "reservations": [
+    {
+      "id": 1,
+      "number": "FX-F01",
+      "room_id": "R01",
+      "checkin": "2030-07-20",
+      "checkout": "2030-07-22",
+      "guests": 2,
+      "total": 24000,
+      "status": "CONFIRMED"
+    },
+    {
+      "id": 2,
+      "number": "FX-F02",
+      "room_id": "R02",
+      "checkin": "2030-07-20",
+      "checkout": "2030-07-22",
+      "guests": 2,
+      "total": 28000,
+      "status": "CONFIRMED"
+    },
+    {
+      "id": 3,
+      "number": "FX-F03",
+      "room_id": "R03",
+      "checkin": "2030-07-20",
+      "checkout": "2030-07-22",
+      "guests": 2,
+      "total": 30000,
+      "status": "CONFIRMED"
+    },
+    {
+      "id": 4,
+      "number": "FX-F04",
+      "room_id": "R04",
+      "checkin": "2030-07-20",
+      "checkout": "2030-07-22",
+      "guests": 2,
+      "total": 36000,
+      "status": "CONFIRMED"
+    },
+    {
+      "id": 5,
+      "number": "FX-F05",
+      "room_id": "R05",
+      "checkin": "2030-07-20",
+      "checkout": "2030-07-22",
+      "guests": 2,
+      "total": 40000,
+      "status": "CONFIRMED"
+    },
+    {
+      "id": 6,
+      "number": "FX-F06",
+      "room_id": "R06",
+      "checkin": "2030-07-20",
+      "checkout": "2030-07-22",
+      "guests": 1,
+      "total": 18000,
+      "status": "CONFIRMED"
+    }
+  ],
+  "occupancy": [
+    {
+      "room_id": "R01",
+      "stay_date": "2030-07-20",
+      "reservation_id": 1,
+      "closure_id": null
+    },
+    {
+      "room_id": "R01",
+      "stay_date": "2030-07-21",
+      "reservation_id": 1,
+      "closure_id": null
+    },
+    {
+      "room_id": "R02",
+      "stay_date": "2030-07-20",
+      "reservation_id": 2,
+      "closure_id": null
+    },
+    {
+      "room_id": "R02",
+      "stay_date": "2030-07-21",
+      "reservation_id": 2,
+      "closure_id": null
+    },
+    {
+      "room_id": "R03",
+      "stay_date": "2030-07-20",
+      "reservation_id": 3,
+      "closure_id": null
+    },
+    {
+      "room_id": "R03",
+      "stay_date": "2030-07-21",
+      "reservation_id": 3,
+      "closure_id": null
+    },
+    {
+      "room_id": "R04",
+      "stay_date": "2030-07-20",
+      "reservation_id": 4,
+      "closure_id": null
+    },
+    {
+      "room_id": "R04",
+      "stay_date": "2030-07-21",
+      "reservation_id": 4,
+      "closure_id": null
+    },
+    {
+      "room_id": "R05",
+      "stay_date": "2030-07-20",
+      "reservation_id": 5,
+      "closure_id": null
+    },
+    {
+      "room_id": "R05",
+      "stay_date": "2030-07-21",
+      "reservation_id": 5,
+      "closure_id": null
+    },
+    {
+      "room_id": "R06",
+      "stay_date": "2030-07-20",
+      "reservation_id": 6,
+      "closure_id": null
+    },
+    {
+      "room_id": "R06",
+      "stay_date": "2030-07-21",
+      "reservation_id": 6,
+      "closure_id": null
+    }
+  ],
+  "submissions": [],
+  "reservation_details": []
+}

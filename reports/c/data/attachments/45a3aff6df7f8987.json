@@ -1,0 +1,770 @@
+[
+  {
+    "t": "T13",
+    "name": "L 確認時保存なし",
+    "expected": [
+      5,
+      10,
+      0,
+      0
+    ],
+    "actual": [
+      5,
+      10,
+      0,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "t": "T13",
+    "name": "L 両BEGIN同期",
+    "expected": 2,
+    "actual": 2,
+    "passed": true
+  },
+  {
+    "t": "T13",
+    "name": "L 既存5予約不変",
+    "expected": [
+      {
+        "id": 1,
+        "number": "FX-L02",
+        "room_id": "R02",
+        "checkin": "2030-07-20",
+        "checkout": "2030-07-22",
+        "guests": 2,
+        "total": 28000,
+        "status": "CONFIRMED"
+      },
+      {
+        "id": 2,
+        "number": "FX-L03",
+        "room_id": "R03",
+        "checkin": "2030-07-20",
+        "checkout": "2030-07-22",
+        "guests": 2,
+        "total": 30000,
+        "status": "CONFIRMED"
+      },
+      {
+        "id": 3,
+        "number": "FX-L04",
+        "room_id": "R04",
+        "checkin": "2030-07-20",
+        "checkout": "2030-07-22",
+        "guests": 2,
+        "total": 36000,
+        "status": "CONFIRMED"
+      },
+      {
+        "id": 4,
+        "number": "FX-L05",
+        "room_id": "R05",
+        "checkin": "2030-07-20",
+        "checkout": "2030-07-22",
+        "guests": 2,
+        "total": 40000,
+        "status": "CONFIRMED"
+      },
+      {
+        "id": 5,
+        "number": "FX-L06",
+        "room_id": "R06",
+        "checkin": "2030-07-20",
+        "checkout": "2030-07-22",
+        "guests": 1,
+        "total": 18000,
+        "status": "CONFIRMED"
+      }
+    ],
+    "actual": [
+      {
+        "id": 1,
+        "number": "FX-L02",
+        "room_id": "R02",
+        "checkin": "2030-07-20",
+        "checkout": "2030-07-22",
+        "guests": 2,
+        "total": 28000,
+        "status": "CONFIRMED"
+      },
+      {
+        "id": 2,
+        "number": "FX-L03",
+        "room_id": "R03",
+        "checkin": "2030-07-20",
+        "checkout": "2030-07-22",
+        "guests": 2,
+        "total": 30000,
+        "status": "CONFIRMED"
+      },
+      {
+        "id": 3,
+        "number": "FX-L04",
+        "room_id": "R04",
+        "checkin": "2030-07-20",
+        "checkout": "2030-07-22",
+        "guests": 2,
+        "total": 36000,
+        "status": "CONFIRMED"
+      },
+      {
+        "id": 4,
+        "number": "FX-L05",
+        "room_id": "R05",
+        "checkin": "2030-07-20",
+        "checkout": "2030-07-22",
+        "guests": 2,
+        "total": 40000,
+        "status": "CONFIRMED"
+      },
+      {
+        "id": 5,
+        "number": "FX-L06",
+        "room_id": "R06",
+        "checkin": "2030-07-20",
+        "checkout": "2030-07-22",
+        "guests": 1,
+        "total": 18000,
+        "status": "CONFIRMED"
+      }
+    ],
+    "passed": true
+  },
+  {
+    "t": "T13",
+    "name": "L 既存10占有不変",
+    "expected": [
+      {
+        "room_id": "R02",
+        "stay_date": "2030-07-20",
+        "reservation_id": 1,
+        "closure_id": null
+      },
+      {
+        "room_id": "R02",
+        "stay_date": "2030-07-21",
+        "reservation_id": 1,
+        "closure_id": null
+      },
+      {
+        "room_id": "R03",
+        "stay_date": "2030-07-20",
+        "reservation_id": 2,
+        "closure_id": null
+      },
+      {
+        "room_id": "R03",
+        "stay_date": "2030-07-21",
+        "reservation_id": 2,
+        "closure_id": null
+      },
+      {
+        "room_id": "R04",
+        "stay_date": "2030-07-20",
+        "reservation_id": 3,
+        "closure_id": null
+      },
+      {
+        "room_id": "R04",
+        "stay_date": "2030-07-21",
+        "reservation_id": 3,
+        "closure_id": null
+      },
+      {
+        "room_id": "R05",
+        "stay_date": "2030-07-20",
+        "reservation_id": 4,
+        "closure_id": null
+      },
+      {
+        "room_id": "R05",
+        "stay_date": "2030-07-21",
+        "reservation_id": 4,
+        "closure_id": null
+      },
+      {
+        "room_id": "R06",
+        "stay_date": "2030-07-20",
+        "reservation_id": 5,
+        "closure_id": null
+      },
+      {
+        "room_id": "R06",
+        "stay_date": "2030-07-21",
+        "reservation_id": 5,
+        "closure_id": null
+      }
+    ],
+    "actual": [
+      {
+        "room_id": "R02",
+        "stay_date": "2030-07-20",
+        "reservation_id": 1,
+        "closure_id": null
+      },
+      {
+        "room_id": "R02",
+        "stay_date": "2030-07-21",
+        "reservation_id": 1,
+        "closure_id": null
+      },
+      {
+        "room_id": "R03",
+        "stay_date": "2030-07-20",
+        "reservation_id": 2,
+        "closure_id": null
+      },
+      {
+        "room_id": "R03",
+        "stay_date": "2030-07-21",
+        "reservation_id": 2,
+        "closure_id": null
+      },
+      {
+        "room_id": "R04",
+        "stay_date": "2030-07-20",
+        "reservation_id": 3,
+        "closure_id": null
+      },
+      {
+        "room_id": "R04",
+        "stay_date": "2030-07-21",
+        "reservation_id": 3,
+        "closure_id": null
+      },
+      {
+        "room_id": "R05",
+        "stay_date": "2030-07-20",
+        "reservation_id": 4,
+        "closure_id": null
+      },
+      {
+        "room_id": "R05",
+        "stay_date": "2030-07-21",
+        "reservation_id": 4,
+        "closure_id": null
+      },
+      {
+        "room_id": "R06",
+        "stay_date": "2030-07-20",
+        "reservation_id": 5,
+        "closure_id": null
+      },
+      {
+        "room_id": "R06",
+        "stay_date": "2030-07-21",
+        "reservation_id": 5,
+        "closure_id": null
+      }
+    ],
+    "passed": true
+  },
+  {
+    "t": "T13",
+    "name": "L 件数",
+    "expected": [
+      6,
+      12,
+      1,
+      1
+    ],
+    "actual": [
+      6,
+      12,
+      1,
+      1
+    ],
+    "passed": true
+  },
+  {
+    "t": "T13",
+    "name": "L 固定保存",
+    "expected": [
+      "R01",
+      "2030-07-20",
+      "2030-07-22",
+      2,
+      24000,
+      "CONFIRMED"
+    ],
+    "actual": [
+      "R01",
+      "2030-07-20",
+      "2030-07-22",
+      2,
+      24000,
+      "CONFIRMED"
+    ],
+    "passed": true
+  },
+  {
+    "t": "T13",
+    "name": "L 日別在庫",
+    "expected": [
+      [
+        "R01",
+        "2030-07-20",
+        6
+      ],
+      [
+        "R01",
+        "2030-07-21",
+        6
+      ]
+    ],
+    "actual": [
+      [
+        "R01",
+        "2030-07-20",
+        6
+      ],
+      [
+        "R01",
+        "2030-07-21",
+        6
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "t": "T13",
+    "name": "L 提示snapshot",
+    "expected": [
+      24000,
+      "P1",
+      "C1",
+      [
+        12000,
+        12000
+      ]
+    ],
+    "actual": [
+      24000,
+      "P1",
+      "C1",
+      [
+        12000,
+        12000
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "t": "T13",
+    "name": "L submission参照",
+    "expected": 6,
+    "actual": 6,
+    "passed": true
+  },
+  {
+    "t": "T13",
+    "name": "L 外部キー孤児0",
+    "expected": [],
+    "actual": [],
+    "passed": true
+  },
+  {
+    "t": "T13",
+    "name": "L 番号非空一意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T13",
+    "name": "L 再送拒否等で保存不変",
+    "expected": {
+      "reservations": [
+        {
+          "id": 1,
+          "number": "FX-L02",
+          "room_id": "R02",
+          "checkin": "2030-07-20",
+          "checkout": "2030-07-22",
+          "guests": 2,
+          "total": 28000,
+          "status": "CONFIRMED"
+        },
+        {
+          "id": 2,
+          "number": "FX-L03",
+          "room_id": "R03",
+          "checkin": "2030-07-20",
+          "checkout": "2030-07-22",
+          "guests": 2,
+          "total": 30000,
+          "status": "CONFIRMED"
+        },
+        {
+          "id": 3,
+          "number": "FX-L04",
+          "room_id": "R04",
+          "checkin": "2030-07-20",
+          "checkout": "2030-07-22",
+          "guests": 2,
+          "total": 36000,
+          "status": "CONFIRMED"
+        },
+        {
+          "id": 4,
+          "number": "FX-L05",
+          "room_id": "R05",
+          "checkin": "2030-07-20",
+          "checkout": "2030-07-22",
+          "guests": 2,
+          "total": 40000,
+          "status": "CONFIRMED"
+        },
+        {
+          "id": 5,
+          "number": "FX-L06",
+          "room_id": "R06",
+          "checkin": "2030-07-20",
+          "checkout": "2030-07-22",
+          "guests": 1,
+          "total": 18000,
+          "status": "CONFIRMED"
+        },
+        {
+          "id": 6,
+          "number": "N-l78HtWZsxpPVyL1jy-OXZOYAmvYVlZim",
+          "room_id": "R01",
+          "checkin": "2030-07-20",
+          "checkout": "2030-07-22",
+          "guests": 2,
+          "total": 24000,
+          "status": "CONFIRMED"
+        }
+      ],
+      "occupancy": [
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-20",
+          "reservation_id": 6,
+          "closure_id": null
+        },
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-21",
+          "reservation_id": 6,
+          "closure_id": null
+        },
+        {
+          "room_id": "R02",
+          "stay_date": "2030-07-20",
+          "reservation_id": 1,
+          "closure_id": null
+        },
+        {
+          "room_id": "R02",
+          "stay_date": "2030-07-21",
+          "reservation_id": 1,
+          "closure_id": null
+        },
+        {
+          "room_id": "R03",
+          "stay_date": "2030-07-20",
+          "reservation_id": 2,
+          "closure_id": null
+        },
+        {
+          "room_id": "R03",
+          "stay_date": "2030-07-21",
+          "reservation_id": 2,
+          "closure_id": null
+        },
+        {
+          "room_id": "R04",
+          "stay_date": "2030-07-20",
+          "reservation_id": 3,
+          "closure_id": null
+        },
+        {
+          "room_id": "R04",
+          "stay_date": "2030-07-21",
+          "reservation_id": 3,
+          "closure_id": null
+        },
+        {
+          "room_id": "R05",
+          "stay_date": "2030-07-20",
+          "reservation_id": 4,
+          "closure_id": null
+        },
+        {
+          "room_id": "R05",
+          "stay_date": "2030-07-21",
+          "reservation_id": 4,
+          "closure_id": null
+        },
+        {
+          "room_id": "R06",
+          "stay_date": "2030-07-20",
+          "reservation_id": 5,
+          "closure_id": null
+        },
+        {
+          "room_id": "R06",
+          "stay_date": "2030-07-21",
+          "reservation_id": 5,
+          "closure_id": null
+        }
+      ],
+      "submissions": [
+        {
+          "reservation_id": 6
+        }
+      ],
+      "reservation_details": [
+        {
+          "reservation_id": 6,
+          "guest_name": "試験 花子",
+          "email": "hanako@example.invalid",
+          "snapshot": "{\"room_id\": \"R01\", \"checkin\": \"2030-07-20\", \"checkout\": \"2030-07-22\", \"name\": \"朝凪\", \"capacity\": 2, \"base_rate\": 12000, \"guests\": 2, \"nights\": 2, \"total\": 24000, \"breakdown\": [{\"stay_date\": \"2030-07-20\", \"base\": 12000, \"extra\": 0}, {\"stay_date\": \"2030-07-21\", \"base\": 12000, \"extra\": 0}], \"price_version\": \"P1\", \"condition_version\": \"C1\", \"condition\": \"チェックイン15:00～20:00、アウト10:00。子どもも同額。\", \"issued_at\": \"2030-07-01T12:00:00+09:00\", \"expires_at\": \"2030-07-01T12:15:00+09:00\"}",
+          "created_at": "2030-07-01T12:00:00+09:00"
+        }
+      ],
+      "foreign_key_violations": []
+    },
+    "actual": {
+      "reservations": [
+        {
+          "id": 1,
+          "number": "FX-L02",
+          "room_id": "R02",
+          "checkin": "2030-07-20",
+          "checkout": "2030-07-22",
+          "guests": 2,
+          "total": 28000,
+          "status": "CONFIRMED"
+        },
+        {
+          "id": 2,
+          "number": "FX-L03",
+          "room_id": "R03",
+          "checkin": "2030-07-20",
+          "checkout": "2030-07-22",
+          "guests": 2,
+          "total": 30000,
+          "status": "CONFIRMED"
+        },
+        {
+          "id": 3,
+          "number": "FX-L04",
+          "room_id": "R04",
+          "checkin": "2030-07-20",
+          "checkout": "2030-07-22",
+          "guests": 2,
+          "total": 36000,
+          "status": "CONFIRMED"
+        },
+        {
+          "id": 4,
+          "number": "FX-L05",
+          "room_id": "R05",
+          "checkin": "2030-07-20",
+          "checkout": "2030-07-22",
+          "guests": 2,
+          "total": 40000,
+          "status": "CONFIRMED"
+        },
+        {
+          "id": 5,
+          "number": "FX-L06",
+          "room_id": "R06",
+          "checkin": "2030-07-20",
+          "checkout": "2030-07-22",
+          "guests": 1,
+          "total": 18000,
+          "status": "CONFIRMED"
+        },
+        {
+          "id": 6,
+          "number": "N-l78HtWZsxpPVyL1jy-OXZOYAmvYVlZim",
+          "room_id": "R01",
+          "checkin": "2030-07-20",
+          "checkout": "2030-07-22",
+          "guests": 2,
+          "total": 24000,
+          "status": "CONFIRMED"
+        }
+      ],
+      "occupancy": [
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-20",
+          "reservation_id": 6,
+          "closure_id": null
+        },
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-21",
+          "reservation_id": 6,
+          "closure_id": null
+        },
+        {
+          "room_id": "R02",
+          "stay_date": "2030-07-20",
+          "reservation_id": 1,
+          "closure_id": null
+        },
+        {
+          "room_id": "R02",
+          "stay_date": "2030-07-21",
+          "reservation_id": 1,
+          "closure_id": null
+        },
+        {
+          "room_id": "R03",
+          "stay_date": "2030-07-20",
+          "reservation_id": 2,
+          "closure_id": null
+        },
+        {
+          "room_id": "R03",
+          "stay_date": "2030-07-21",
+          "reservation_id": 2,
+          "closure_id": null
+        },
+        {
+          "room_id": "R04",
+          "stay_date": "2030-07-20",
+          "reservation_id": 3,
+          "closure_id": null
+        },
+        {
+          "room_id": "R04",
+          "stay_date": "2030-07-21",
+          "reservation_id": 3,
+          "closure_id": null
+        },
+        {
+          "room_id": "R05",
+          "stay_date": "2030-07-20",
+          "reservation_id": 4,
+          "closure_id": null
+        },
+        {
+          "room_id": "R05",
+          "stay_date": "2030-07-21",
+          "reservation_id": 4,
+          "closure_id": null
+        },
+        {
+          "room_id": "R06",
+          "stay_date": "2030-07-20",
+          "reservation_id": 5,
+          "closure_id": null
+        },
+        {
+          "room_id": "R06",
+          "stay_date": "2030-07-21",
+          "reservation_id": 5,
+          "closure_id": null
+        }
+      ],
+      "submissions": [
+        {
+          "reservation_id": 6
+        }
+      ],
+      "reservation_details": [
+        {
+          "reservation_id": 6,
+          "guest_name": "試験 花子",
+          "email": "hanako@example.invalid",
+          "snapshot": "{\"room_id\": \"R01\", \"checkin\": \"2030-07-20\", \"checkout\": \"2030-07-22\", \"name\": \"朝凪\", \"capacity\": 2, \"base_rate\": 12000, \"guests\": 2, \"nights\": 2, \"total\": 24000, \"breakdown\": [{\"stay_date\": \"2030-07-20\", \"base\": 12000, \"extra\": 0}, {\"stay_date\": \"2030-07-21\", \"base\": 12000, \"extra\": 0}], \"price_version\": \"P1\", \"condition_version\": \"C1\", \"condition\": \"チェックイン15:00～20:00、アウト10:00。子どもも同額。\", \"issued_at\": \"2030-07-01T12:00:00+09:00\", \"expires_at\": \"2030-07-01T12:15:00+09:00\"}",
+          "created_at": "2030-07-01T12:00:00+09:00"
+        }
+      ],
+      "foreign_key_violations": []
+    },
+    "passed": true
+  },
+  {
+    "t": "T13",
+    "name": "L 検索候補",
+    "expected": [
+      "R01"
+    ],
+    "actual": [
+      "R01"
+    ],
+    "passed": true
+  },
+  {
+    "t": "T13",
+    "name": "L 検索候補",
+    "expected": [
+      "R01"
+    ],
+    "actual": [
+      "R01"
+    ],
+    "passed": true
+  },
+  {
+    "t": "T13",
+    "name": "L 独立K",
+    "expected": false,
+    "actual": false,
+    "passed": true
+  },
+  {
+    "t": "T13",
+    "name": "L 独立session",
+    "expected": false,
+    "actual": false,
+    "passed": true
+  },
+  {
+    "t": "T13",
+    "name": "L 成立1/競合1",
+    "expected": [
+      303,
+      409
+    ],
+    "actual": [
+      303,
+      409
+    ],
+    "passed": true
+  },
+  {
+    "t": "T13",
+    "name": "勝者 同番号・金額",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T13",
+    "name": "L 敗者空室消失",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T13",
+    "name": "L 敗者検索導線",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T13",
+    "name": "L 検索候補",
+    "expected": [],
+    "actual": [],
+    "passed": true
+  },
+  {
+    "t": "T13",
+    "name": "L 再検索満室",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  }
+]

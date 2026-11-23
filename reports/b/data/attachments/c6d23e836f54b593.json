@@ -1,0 +1,39 @@
+{
+  "run": "285-20261109-090252-tester-285",
+  "role": "tester44",
+  "source": "dc3ab45d9b278d96e9e989f8bc75e44fce8e0a6f",
+  "docs": "0cb170393565b636454129aa101ea8a9095423e2",
+  "script_sha256": "5d02828cef2c7b290f78fa199a6f25266bcc11bbc70b21e674ae21959fdf6723",
+  "fixed_inputs": {
+    "OUTPUT/docs/fixtures.md": "f2fb19f92775f58520defbc0382218e7065af10a3e18fefc2d9901c3e313cc33",
+    "OUTPUT/docs/expected-results.md": "84dd39e5a442c78f2f6737f695e15f3259fd6dcfb275e722ef5ccb34eec9587f"
+  },
+  "clock": "2030-07-01T12:00:00+09:00",
+  "timezone": "Asia/Tokyo",
+  "uid": 1000,
+  "profile": "codex-seaside-inn-browser",
+  "image_id": "sha256:df2e05bfe3ba541630295ead4d85022dfa626760664691691899c90eb7e56fba（窓口確認条件、コンテナ内inspectなし）",
+  "scope": [
+    "T03",
+    "T04",
+    "T11",
+    "T12",
+    "T14",
+    "T16"
+  ],
+  "notification": "送信機能なし、loopback以外遮断",
+  "start": 1794182797.3340275,
+  "stop": 1794182824.3348138,
+  "functional_exit": 0,
+  "allure_exit": 0,
+  "comparisons": 184,
+  "failed": 0,
+  "video": {
+    "status": "成功",
+    "exit": 0,
+    "raw": "raw-video/page@f9b3566987cc76417e576667cc329b37.webm",
+    "raw_seconds": 4.88,
+    "view_seconds": 2.52,
+    "ratio": 1.9365079365079365
+  }
+}

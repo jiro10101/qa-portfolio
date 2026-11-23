@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI駆動QA試験</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header wrap">
+  <div class="brandname">AI駆動QA試験</div>
+  <nav aria-label="メイン"><a href="#strength">強み</a><a href="#case">事例: 民宿サイト</a><a href="#tests">試験項目</a><a href="#how">確認のやり方</a><a href="#steps">進め方</a></nav>
+</header>
+<main>
+<section class="hero wrap">
+  <div>
+    <p class="eyebrow">AI-DRIVEN QA TESTING</p>
+    <h1>AIが出した「合格」を、<br>人が信じられる形にする。</h1>
+    <p class="lead">AIで試験を設計・実行・記録し、根拠を付けて報告します。見つかった問題も、確認しきれなかった点も、そのまま書きます。</p>
+    <a class="cta" href="#tests">試験項目と、動画・レポートを見る <span aria-hidden="true">↓</span></a>
+  </div>
+  <figure><img src="seaside-site/assets/exterior.svg" width="720" height="540" alt="試験対象にした架空の民宿のイラスト"><figcaption>試験対象: 架空の民宿「なぎさ」の予約サイト(デモ)</figcaption></figure>
+</section>
+
+<section class="s" id="strength"><div class="wrap">
+  <p class="eyebrow">01 — STRENGTH</p><h2>強みは、AI駆動の試験と、<br>根拠の残し方。</h2>
+  <ul class="three">
+    <li><span class="num2">01</span><h3>AIで、試験を回す</h3><p>要求から試験項目を起こし、予約の操作・同時実行・失敗の再現まで、実ブラウザで実行します。人手では回しにくい確認を、繰り返し行えます。</p></li>
+    <li><span class="num2">02</span><h3>期待結果に根拠を付ける</h3><p>「合格」の基準は、要求や設計の記述に紐づけ、試験の前に決めます。画面の値は、保存されたデータと照合します。</p></li>
+    <li><span class="num2">03</span><h3>未確認は、未確認と書く</h3><p>確認できていない範囲を明記します。結果は Allure レポートと動画で、項目ごとに辿れます。</p></li>
+  </ul>
+</div></section>
+
+<section class="s alt" id="case"><div class="wrap">
+  <p class="eyebrow">02 — CASE: SEASIDE INN</p><h2>事例: 架空の民宿の予約サイトを、<br>AIで試験した記録。</h2>
+  <div class="case-head">
+    <div><p>対象は、海辺の民宿(全6室)を想定した予約サイトです。宿泊者が、部屋・料金・行き方を確かめ、空室を検索して予約するまでを扱います。民宿「なぎさ」は<b>架空のデモ施設</b>で、実在の宿泊施設ではありません。</p></div>
+    <div><p>試験は 16 項目(試験1〜試験16)を、独立確認 A・B・C の 3 回に分けて実行しました。実行は AI の担当者が行いました。</p><p class="note">環境: 専用の実行環境と試験用データベース、実ブラウザ(Chromium)。画面幅は 320・390・1440 px。</p></div>
+  </div>
+  <p class="sitelink"><a href="seaside-site/index.html" target="_blank" rel="noopener"><span class="sl-label">試験対象のサイトを開く(別のタブで開きます)</span><span class="sl-name">海辺の民宿 なぎさ(架空デモ)— 閲覧用コピー ↗</span></a></p>
+  <p class="copynote">※これは<b>静的な閲覧用のコピー</b>です(トップ・客室・料金と宿泊・アクセス・問い合わせ・プライバシー)。予約サーバーは付いていないため、<b>検索・予約・宿側の画面は動作しません</b>。</p>
+  <ol class="flow" aria-label="試験の流れ">
+    <li><b>1. 期待結果を先に決める</b>要求から、試験項目と期待結果を作成</li>
+    <li><b>2. 独立確認 A</b>試験1・2・7〜10。掲載内容、画面幅、キーボード操作、画像と連絡先</li>
+    <li><b>3. 独立確認 B</b>試験3・4・11・12・14・16。予約、誤入力、複数泊、保存、宿側の照合</li>
+    <li class="hit"><b>4. 独立確認 C</b>試験5・6・13・15。失敗、再送、同時予約。最終の前の調整も、不採用の実行として記録に残した</li>
+  </ol>
+  <div class="stats">
+    <div class="stat"><b>16 / 16</b><span>自動部分で合格した項目(試験1〜16)</span></div>
+    <div class="stat"><b>1,404</b><span>期待と実際を比べた件数。不一致 0</span></div>
+    <div class="stat"><b>3 回</b><span>独立確認 A・B・C に分けて実施</span></div>
+    <div class="stat"><b>6 室</b><span>全室の掲載・料金を対象</span></div>
+  </div>
+  <p class="limits">これは、上の環境と条件での試験結果です。<b>人による確認(スマートフォン実機での操作、写真の目視、事業者による承認、支援技術での確認、本番環境)は行っていません。</b>また、実行と独立確認は同じ種類の AI によるもので、第三者の専門的な診断ではありません。民宿は架空のデモで、本番での品質を保証するものではありません。</p>
+</div></section>
+
+<section class="s" id="tests"><div class="wrap">
+  <p class="eyebrow">03 — TEST ITEMS</p><h2>試験項目の一覧</h2>
+  <p class="note tn">各項目から、Allure レポートと動画へ飛べます(別のタブで開きます)。Allure はレポート全体が開きます。確認 A は試験1・2・7〜10、B は試験3・4・11・12・14・16、C は試験5・6・13・15 を含みます。動画は、見やすいように実際の操作の 0.5 倍の速さで再生しています。</p>
+  <div class="tablewrap"><table>
+    <thead><tr><th>項目</th><th>試験名</th><th>確認すること</th><th>比較数</th><th>レポート</th><th>動画</th></tr></thead>
+    <tbody>
+      <tr><td class="id">試験1</td><td class="nm">6室の掲載</td><td class="sum">6室それぞれの一覧と詳細で、名称・定員・設備・寝具・眺望・料金・共通設備が決めた内容と一致するか。<br>室ごとの画像が対応しているか。</td><td class="num">345</td><td><a href="reports/a/index.html" target="_blank" rel="noopener">Allure(確認A)</a></td><td class="vids"><span class="none">なし</span></td></tr>
+      <tr><td class="id">試験2</td><td class="nm">料金と条件</td><td class="sum">全6室で、料金の単位・追加料金・食事・子ども・入退館・取消条件の表示と、料金例が、客室ページ・料金ページと一致するか。</td><td class="num">303</td><td><a href="reports/a/index.html" target="_blank" rel="noopener">Allure(確認A)</a></td><td class="vids"><span class="none">なし</span></td></tr>
+      <tr><td class="id">試験3</td><td class="nm">予約と料金</td><td class="sum">検索→選択→確認→確定の各段階の内容が、保存された予約と一致するか。<br>料金 24,000 円、1 予約 2 室泊、予約番号。</td><td class="num">30</td><td><a href="reports/b/index.html" target="_blank" rel="noopener">Allure(確認B)</a></td><td class="vids"><a href="videos/b-flow.mp4" target="_blank" rel="noopener">予約操作の動画</a></td></tr>
+      <tr><td class="id">試験4</td><td class="nm">誤入力</td><td class="sum">氏名・メール・日付・人数の誤った入力が個別に拒否され、欄ごとの理由が表示され、予約も在庫も変わらないか。</td><td class="num">101</td><td><a href="reports/b/index.html" target="_blank" rel="noopener">Allure(確認B)</a></td><td class="vids"><a href="videos/b-flow.mp4" target="_blank" rel="noopener">予約操作の動画</a></td></tr>
+      <tr><td class="id">試験5</td><td class="nm">保存の失敗</td><td class="sum">保存の途中で失敗させても予約の残骸が残らず、解除後に同じ操作が成功するか。<br>失敗は試験用に 3 通り注入し、データベースのロック待ちも確認。</td><td class="num">87</td><td><a href="reports/c/index.html" target="_blank" rel="noopener">Allure(確認C)</a></td><td class="vids"><a href="videos/t05-x1-2.mp4" target="_blank" rel="noopener">注入1</a> <a href="videos/t05-x2-2.mp4" target="_blank" rel="noopener">注入2</a> <a href="videos/t05-x3-2.mp4" target="_blank" rel="noopener">注入3</a> <a href="videos/t05-x5-2.mp4" target="_blank" rel="noopener">ロック待ち</a></td></tr>
+      <tr><td class="id">試験6</td><td class="nm">再送</td><td class="sum">同じ予約の連打・再読込・通信切断後の再送で、同じ予約番号になり二重に保存されないか。<br>人数を変えた再送が拒否されるか。</td><td class="num">35</td><td><a href="reports/c/index.html" target="_blank" rel="noopener">Allure(確認C)</a></td><td class="vids"><a href="videos/t06-r1.mp4" target="_blank" rel="noopener">連打 1</a> <a href="videos/t06-r2.mp4" target="_blank" rel="noopener">連打 2</a> <a href="videos/t06-x4.mp4" target="_blank" rel="noopener">切断後の再送</a></td></tr>
+      <tr><td class="id">試験7</td><td class="nm">PC・スマホの導線</td><td class="sum">画面幅 320・390・1440 px で、全ページと、検索から完了までの導線が、横にはみ出さず操作できるか。</td><td class="num">111</td><td><a href="reports/a/index.html" target="_blank" rel="noopener">Allure(確認A)</a></td><td class="vids"><a href="videos/t07-320.mp4" target="_blank" rel="noopener">320 px</a> <a href="videos/t07-390.mp4" target="_blank" rel="noopener">390 px</a> <a href="videos/t07-1440.mp4" target="_blank" rel="noopener">1440 px</a></td></tr>
+      <tr><td class="id">試験8</td><td class="nm">キーボード・入力補助</td><td class="sum">入力欄とエラーの関連付け、Tab 順とフォーカス、検索から確定までのキーボード操作ができるか。</td><td class="num">87</td><td><a href="reports/a/index.html" target="_blank" rel="noopener">Allure(確認A)</a></td><td class="vids"><span class="none">なし</span></td></tr>
+      <tr><td class="id">試験9</td><td class="nm">画像・アクセス・連絡</td><td class="sum">内部リンクと画像が表示され、代替テキストがあるか。<br>架空の住所・案内図・交通・駐車場・連絡の表示が一致し、実際に送信されるリンクがないか。</td><td class="num">125</td><td><a href="reports/a/index.html" target="_blank" rel="noopener">Allure(確認A)</a></td><td class="vids"><span class="none">なし</span></td></tr>
+      <tr><td class="id">試験10</td><td class="nm">専用データと証拠</td><td class="sum">試験専用のデータと実行記録を使い、既存のものを上書きしないか。<br>架空のデモと分かる注意が表示され、外部への通信が起きないか。</td><td class="num">58</td><td><a href="reports/a/index.html" target="_blank" rel="noopener">Allure(確認A)</a></td><td class="vids"><span class="none">なし</span></td></tr>
+      <tr><td class="id">試験11</td><td class="nm">複数泊・満室</td><td class="sum">複数泊で空いている部屋だけが候補になり、満室の日が空になるか。<br>保存と日別の在庫が一致するか。</td><td class="num">6</td><td><a href="reports/b/index.html" target="_blank" rel="noopener">Allure(確認B)</a></td><td class="vids"><a href="videos/b-flow.mp4" target="_blank" rel="noopener">予約操作の動画</a></td></tr>
+      <tr><td class="id">試験12</td><td class="nm">境界・重複</td><td class="sum">宿泊日の境界の予約が成功し、同じ部屋・同じ日の重複予約が拒否され、残骸が残らないか。</td><td class="num">9</td><td><a href="reports/b/index.html" target="_blank" rel="noopener">Allure(確認B)</a></td><td class="vids"><a href="videos/b-flow.mp4" target="_blank" rel="noopener">予約操作の動画</a></td></tr>
+      <tr><td class="id">試験13</td><td class="nm">同時予約</td><td class="sum">2 人が同時に最後の 1 室を予約したとき、成功 1・競合 1 になり、既存の予約が変わらないか。</td><td class="num">22</td><td><a href="reports/c/index.html" target="_blank" rel="noopener">Allure(確認C)</a></td><td class="vids"><a href="videos/t13-a.mp4" target="_blank" rel="noopener">利用者 A</a> <a href="videos/t13-b.mp4" target="_blank" rel="noopener">利用者 B</a></td></tr>
+      <tr><td class="id">試験14</td><td class="nm">保存の持続</td><td class="sum">別のブラウザで同じ予約番号から内容が確認でき、アプリの再起動後も同じ内容が残るか。</td><td class="num">7</td><td><a href="reports/b/index.html" target="_blank" rel="noopener">Allure(確認B)</a></td><td class="vids"><a href="videos/b-flow.mp4" target="_blank" rel="noopener">予約操作の動画</a></td></tr>
+      <tr><td class="id">試験15</td><td class="nm">検索後の変化</td><td class="sum">検索後に空室・料金・条件が変わったとき、旧操作が拒否され、新しい内容の再確認と再同意の後だけ確定するか。</td><td class="num">55</td><td><a href="reports/c/index.html" target="_blank" rel="noopener">Allure(確認C)</a></td><td class="vids"><a href="videos/t15-v-a.mp4" target="_blank" rel="noopener">空室の消失 A</a> <a href="videos/t15-v-b.mp4" target="_blank" rel="noopener">空室の消失 B</a> <a href="videos/t15-q1.mp4" target="_blank" rel="noopener">料金の変更</a> <a href="videos/t15-q2.mp4" target="_blank" rel="noopener">条件の変更</a></td></tr>
+      <tr><td class="id">試験16</td><td class="nm">宿側の照合</td><td class="sum">宿側の画面・API・データベースの予約が一致し、一般利用者や未認証のアクセスが拒否され、情報が漏れないか。</td><td class="num">23</td><td><a href="reports/b/index.html" target="_blank" rel="noopener">Allure(確認B)</a></td><td class="vids"><a href="videos/b-flow.mp4" target="_blank" rel="noopener">予約操作の動画</a></td></tr>
+    </tbody></table></div>
+</div></section>
+
+<section class="s alt" id="how"><div class="wrap">
+  <p class="eyebrow">04 — HOW I CHECK</p><h2>AIの結果を、そのまま信じない。</h2>
+  <div class="how">
+    <div><h3>期待結果は、試験の前に決める</h3><p>期待結果を、要求・設計に根拠を持たせて先に決めます。実行後に基準を合わせません。</p></div>
+    <div><h3>画面だけで合格にしない</h3><p>画面の予約番号・金額・日付を、保存されたデータと照合します。失敗や同時実行も、実際に起こして確かめます。</p></div>
+    <div><h3>うまくいかなかった実行も残す</h3><p>最終の前の調整や、不採用にした実行も、記録として残しています。</p></div>
+    <div><h3>確認できていない範囲を書く</h3><p>実機・人の目視・事業者の承認など、結果が及ばない範囲を、報告に明記します。</p></div>
+  </div>
+</div></section>
+
+<section class="s" id="steps"><div class="wrap">
+  <p class="eyebrow">05 — PROCESS</p><h2>進め方</h2>
+  <ol class="steps">
+    <li><b>要求の整理</b>対象と、確認したいことを伺います。</li>
+    <li><b>試験計画</b>期待結果に根拠を付けた項目を作り、合意します。</li>
+    <li><b>実行と記録</b>AIで試験を実行し、レポートと動画を残します。</li>
+    <li><b>報告</b>合否、指摘、未確認の点、試験の範囲を報告します。</li>
+  </ol>
+</div></section>
+
+</main>
+<footer class="footer wrap">民宿「なぎさ」は、試験用に作った架空の施設です。実在の宿泊施設とは関係ありません。</footer>
+</body>
+</html>

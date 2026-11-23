@@ -1,0 +1,13 @@
+{
+  "expected": {
+    "reservations": 3,
+    "occupancy": 6,
+    "email": "taro@example.invalid"
+  },
+  "actual": {
+    "reservations": 3,
+    "occupancy": 6,
+    "email": "taro@example.invalid"
+  },
+  "passed": true
+}

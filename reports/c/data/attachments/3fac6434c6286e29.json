@@ -1,0 +1,2723 @@
+[
+  {
+    "case": "X1",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:38533/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "ns": "99919695707702",
+    "body_digest": null
+  },
+  {
+    "case": "X1",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:38533/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200,
+    "ns": "99919708713446"
+  },
+  {
+    "case": "X1",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:38533/assets/site.css",
+    "ns": "99919716655320",
+    "body_digest": null
+  },
+  {
+    "case": "X1",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:38533/assets/site.css",
+    "status": 200,
+    "ns": "99919732779823"
+  },
+  {
+    "case": "X1",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:38533/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R01",
+    "ns": "99919961850068",
+    "body_digest": null
+  },
+  {
+    "case": "X1",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:38533/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R01",
+    "status": 200,
+    "ns": "99919981500233"
+  },
+  {
+    "case": "X1",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:38533/assets/site.css",
+    "ns": "99919996135773",
+    "body_digest": null
+  },
+  {
+    "case": "X1",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:38533/assets/site.css",
+    "status": 200,
+    "ns": "99920017707686"
+  },
+  {
+    "case": "X1",
+    "event": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:38533/booking/review/",
+    "ns": "99920430424267",
+    "body_digest": "2efd12eed782b91eca7263d4169ebdc40a83367033a03001adf80325224ed851"
+  },
+  {
+    "case": "X1",
+    "event": "response",
+    "method": "POST",
+    "url": "http://127.0.0.1:38533/booking/review/",
+    "status": 200,
+    "ns": "99920446296920"
+  },
+  {
+    "case": "X1",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:38533/assets/site.css",
+    "ns": "99920468370308",
+    "body_digest": null
+  },
+  {
+    "case": "X1",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:38533/assets/site.css",
+    "status": 200,
+    "ns": "99920474732388"
+  },
+  {
+    "case": "X1",
+    "event": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:38533/booking/confirm/",
+    "ns": "99920993906247",
+    "body_digest": "c27e20e1eb5b0cd2c18cb55e2d7683e6e4dbd11e4e1562c44e3400d820c330fd"
+  },
+  {
+    "case": "X1",
+    "event": "response",
+    "method": "POST",
+    "url": "http://127.0.0.1:38533/booking/confirm/",
+    "status": 503,
+    "ns": "99921006671692"
+  },
+  {
+    "case": "X1",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:38533/assets/site.css",
+    "ns": "99921027510750",
+    "body_digest": null
+  },
+  {
+    "case": "X1",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:38533/assets/site.css",
+    "status": 200,
+    "ns": "99921035336223"
+  },
+  {
+    "case": "X1",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:38533/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "ns": "99921446450209",
+    "body_digest": null
+  },
+  {
+    "case": "X1",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:38533/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200,
+    "ns": "99921452920198"
+  },
+  {
+    "case": "X1",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:38533/assets/site.css",
+    "ns": "99921463470713",
+    "body_digest": null
+  },
+  {
+    "case": "X1",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:38533/assets/site.css",
+    "status": 200,
+    "ns": "99921473292815"
+  },
+  {
+    "case": "X1",
+    "event": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:38533/booking/confirm/",
+    "ns": "99921910062975",
+    "body_digest": "c27e20e1eb5b0cd2c18cb55e2d7683e6e4dbd11e4e1562c44e3400d820c330fd"
+  },
+  {
+    "case": "X1",
+    "event": "response",
+    "method": "POST",
+    "url": "http://127.0.0.1:38533/booking/confirm/",
+    "status": 303,
+    "ns": "99921926280117"
+  },
+  {
+    "case": "X1",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:38533/booking/complete/?number=N-bRZPzVYb9Fa2ssIVNWwnay0w2Izv4vRx",
+    "ns": "99921926586550",
+    "body_digest": null
+  },
+  {
+    "case": "X1",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:38533/booking/complete/?number=N-bRZPzVYb9Fa2ssIVNWwnay0w2Izv4vRx",
+    "status": 200,
+    "ns": "99921929176603"
+  },
+  {
+    "case": "X1",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:38533/assets/site.css",
+    "ns": "99921936982965",
+    "body_digest": null
+  },
+  {
+    "case": "X1",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:38533/assets/site.css",
+    "status": 200,
+    "ns": "99921941428707"
+  },
+  {
+    "case": "X1",
+    "label": "resend",
+    "method": "POST",
+    "status": 200,
+    "url": "http://127.0.0.1:38533/booking/complete/?number=N-bRZPzVYb9Fa2ssIVNWwnay0w2Izv4vRx",
+    "start": "99922310103953",
+    "end": "99922333142153",
+    "body_digest": "c920e57c7a955e7255dccc2b1a43588fc7ad82a2b3ace86cd8be0f050fc8d118"
+  },
+  {
+    "case": "X1",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:38533/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "ns": "99922396769156",
+    "body_digest": null
+  },
+  {
+    "case": "X1",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:38533/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200,
+    "ns": "99922406141020"
+  },
+  {
+    "case": "X1",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:38533/assets/site.css",
+    "ns": "99922421129081",
+    "body_digest": null
+  },
+  {
+    "case": "X1",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:38533/assets/site.css",
+    "status": 200,
+    "ns": "99922432097107"
+  },
+  {
+    "case": "X2",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:43333/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "ns": "99922517103142",
+    "body_digest": null
+  },
+  {
+    "case": "X2",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:43333/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200,
+    "ns": "99922522058083"
+  },
+  {
+    "case": "X2",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:43333/assets/site.css",
+    "ns": "99922530595058",
+    "body_digest": null
+  },
+  {
+    "case": "X2",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:43333/assets/site.css",
+    "status": 200,
+    "ns": "99922540099474"
+  },
+  {
+    "case": "X2",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:43333/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R01",
+    "ns": "99922751062304",
+    "body_digest": null
+  },
+  {
+    "case": "X2",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:43333/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R01",
+    "status": 200,
+    "ns": "99922768489275"
+  },
+  {
+    "case": "X2",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:43333/assets/site.css",
+    "ns": "99922778069031",
+    "body_digest": null
+  },
+  {
+    "case": "X2",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:43333/assets/site.css",
+    "status": 200,
+    "ns": "99922796436850"
+  },
+  {
+    "case": "X2",
+    "event": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:43333/booking/review/",
+    "ns": "99923194497100",
+    "body_digest": "7ed2063c3ef6dec35b4d50fe19c162a5b4b40477a47937e787f5eb148ab05ec8"
+  },
+  {
+    "case": "X2",
+    "event": "response",
+    "method": "POST",
+    "url": "http://127.0.0.1:43333/booking/review/",
+    "status": 200,
+    "ns": "99923220914717"
+  },
+  {
+    "case": "X2",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:43333/assets/site.css",
+    "ns": "99923239959026",
+    "body_digest": null
+  },
+  {
+    "case": "X2",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:43333/assets/site.css",
+    "status": 200,
+    "ns": "99923247042141"
+  },
+  {
+    "case": "X2",
+    "event": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:43333/booking/confirm/",
+    "ns": "99923726275005",
+    "body_digest": "0b84df4cc78c30e5ee735a51054c5a82eb68201855f4bd52ce9e0ee1f4725580"
+  },
+  {
+    "case": "X2",
+    "event": "response",
+    "method": "POST",
+    "url": "http://127.0.0.1:43333/booking/confirm/",
+    "status": 503,
+    "ns": "99923738415613"
+  },
+  {
+    "case": "X2",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:43333/assets/site.css",
+    "ns": "99923757159810",
+    "body_digest": null
+  },
+  {
+    "case": "X2",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:43333/assets/site.css",
+    "status": 200,
+    "ns": "99923764713389"
+  },
+  {
+    "case": "X2",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:43333/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "ns": "99924197328647",
+    "body_digest": null
+  },
+  {
+    "case": "X2",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:43333/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200,
+    "ns": "99924202662737"
+  },
+  {
+    "case": "X2",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:43333/assets/site.css",
+    "ns": "99924212737715",
+    "body_digest": null
+  },
+  {
+    "case": "X2",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:43333/assets/site.css",
+    "status": 200,
+    "ns": "99924224316264"
+  },
+  {
+    "case": "X2",
+    "event": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:43333/booking/confirm/",
+    "ns": "99924659521155",
+    "body_digest": "0b84df4cc78c30e5ee735a51054c5a82eb68201855f4bd52ce9e0ee1f4725580"
+  },
+  {
+    "case": "X2",
+    "event": "response",
+    "method": "POST",
+    "url": "http://127.0.0.1:43333/booking/confirm/",
+    "status": 303,
+    "ns": "99924674655993"
+  },
+  {
+    "case": "X2",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:43333/booking/complete/?number=N-r4J8r2Poh3gay5YLiymV8Sd5Cq17vEdp",
+    "ns": "99924674888391",
+    "body_digest": null
+  },
+  {
+    "case": "X2",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:43333/booking/complete/?number=N-r4J8r2Poh3gay5YLiymV8Sd5Cq17vEdp",
+    "status": 200,
+    "ns": "99924678368426"
+  },
+  {
+    "case": "X2",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:43333/assets/site.css",
+    "ns": "99924689055195",
+    "body_digest": null
+  },
+  {
+    "case": "X2",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:43333/assets/site.css",
+    "status": 200,
+    "ns": "99924694459216"
+  },
+  {
+    "case": "X2",
+    "label": "resend",
+    "method": "POST",
+    "status": 200,
+    "url": "http://127.0.0.1:43333/booking/complete/?number=N-r4J8r2Poh3gay5YLiymV8Sd5Cq17vEdp",
+    "start": "99925060873359",
+    "end": "99925074166109",
+    "body_digest": "42be5f180a03851dd4bf76c2836401b1e1cff2e7028bf3cb29387cd4aee5c7d8"
+  },
+  {
+    "case": "X2",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:43333/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "ns": "99925137389444",
+    "body_digest": null
+  },
+  {
+    "case": "X2",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:43333/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200,
+    "ns": "99925145995561"
+  },
+  {
+    "case": "X2",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:43333/assets/site.css",
+    "ns": "99925161490234",
+    "body_digest": null
+  },
+  {
+    "case": "X2",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:43333/assets/site.css",
+    "status": 200,
+    "ns": "99925170794417"
+  },
+  {
+    "case": "X3",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:45629/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "ns": "99925263610036",
+    "body_digest": null
+  },
+  {
+    "case": "X3",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:45629/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200,
+    "ns": "99925268713525"
+  },
+  {
+    "case": "X3",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:45629/assets/site.css",
+    "ns": "99925276277334",
+    "body_digest": null
+  },
+  {
+    "case": "X3",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:45629/assets/site.css",
+    "status": 200,
+    "ns": "99925283680899"
+  },
+  {
+    "case": "X3",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:45629/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R01",
+    "ns": "99925499175683",
+    "body_digest": null
+  },
+  {
+    "case": "X3",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:45629/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R01",
+    "status": 200,
+    "ns": "99925509865822"
+  },
+  {
+    "case": "X3",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:45629/assets/site.css",
+    "ns": "99925520110778",
+    "body_digest": null
+  },
+  {
+    "case": "X3",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:45629/assets/site.css",
+    "status": 200,
+    "ns": "99925539440150"
+  },
+  {
+    "case": "X3",
+    "event": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:45629/booking/review/",
+    "ns": "99925943281955",
+    "body_digest": "b16f0d9294efe60c91ec9baea1494cdaa9f95b6e8aa90d48794d54731bc84f54"
+  },
+  {
+    "case": "X3",
+    "event": "response",
+    "method": "POST",
+    "url": "http://127.0.0.1:45629/booking/review/",
+    "status": 200,
+    "ns": "99925960986623"
+  },
+  {
+    "case": "X3",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:45629/assets/site.css",
+    "ns": "99925976534356",
+    "body_digest": null
+  },
+  {
+    "case": "X3",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:45629/assets/site.css",
+    "status": 200,
+    "ns": "99925987886326"
+  },
+  {
+    "case": "X3",
+    "event": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:45629/booking/confirm/",
+    "ns": "99926493298599",
+    "body_digest": "b2481000fd5a30875e49e41f428e30fa2a1e3b8e6b755727c7806dd69ebb54e5"
+  },
+  {
+    "case": "X3",
+    "event": "response",
+    "method": "POST",
+    "url": "http://127.0.0.1:45629/booking/confirm/",
+    "status": 503,
+    "ns": "99926509855788"
+  },
+  {
+    "case": "X3",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:45629/assets/site.css",
+    "ns": "99926522097175",
+    "body_digest": null
+  },
+  {
+    "case": "X3",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:45629/assets/site.css",
+    "status": 200,
+    "ns": "99926528688654"
+  },
+  {
+    "case": "X3",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:45629/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "ns": "99926959749131",
+    "body_digest": null
+  },
+  {
+    "case": "X3",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:45629/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200,
+    "ns": "99926964419800"
+  },
+  {
+    "case": "X3",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:45629/assets/site.css",
+    "ns": "99926972309569",
+    "body_digest": null
+  },
+  {
+    "case": "X3",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:45629/assets/site.css",
+    "status": 200,
+    "ns": "99926981435157"
+  },
+  {
+    "case": "X3",
+    "event": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:45629/booking/confirm/",
+    "ns": "99927408753881",
+    "body_digest": "b2481000fd5a30875e49e41f428e30fa2a1e3b8e6b755727c7806dd69ebb54e5"
+  },
+  {
+    "case": "X3",
+    "event": "response",
+    "method": "POST",
+    "url": "http://127.0.0.1:45629/booking/confirm/",
+    "status": 303,
+    "ns": "99927421851584"
+  },
+  {
+    "case": "X3",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:45629/booking/complete/?number=N-SSMVRmbAx4-Twzkx58IVIh44ykWnMLS9",
+    "ns": "99927422037833",
+    "body_digest": null
+  },
+  {
+    "case": "X3",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:45629/booking/complete/?number=N-SSMVRmbAx4-Twzkx58IVIh44ykWnMLS9",
+    "status": 200,
+    "ns": "99927425675331"
+  },
+  {
+    "case": "X3",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:45629/assets/site.css",
+    "ns": "99927436306947",
+    "body_digest": null
+  },
+  {
+    "case": "X3",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:45629/assets/site.css",
+    "status": 200,
+    "ns": "99927441106212"
+  },
+  {
+    "case": "X3",
+    "label": "resend",
+    "method": "POST",
+    "status": 200,
+    "url": "http://127.0.0.1:45629/booking/complete/?number=N-SSMVRmbAx4-Twzkx58IVIh44ykWnMLS9",
+    "start": "99927798566884",
+    "end": "99927815839866",
+    "body_digest": "38e9414e4cf39077c99b239f31d2da723452b745974b1593645b5dac7ead64bc"
+  },
+  {
+    "case": "X3",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:45629/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "ns": "99927878558718",
+    "body_digest": null
+  },
+  {
+    "case": "X3",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:45629/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200,
+    "ns": "99927887640602"
+  },
+  {
+    "case": "X3",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:45629/assets/site.css",
+    "ns": "99927903108493",
+    "body_digest": null
+  },
+  {
+    "case": "X3",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:45629/assets/site.css",
+    "status": 200,
+    "ns": "99927914605305"
+  },
+  {
+    "case": "X5",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:41579/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "ns": "99928012187396",
+    "body_digest": null
+  },
+  {
+    "case": "X5",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:41579/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200,
+    "ns": "99928017411004"
+  },
+  {
+    "case": "X5",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:41579/assets/site.css",
+    "ns": "99928027778957",
+    "body_digest": null
+  },
+  {
+    "case": "X5",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:41579/assets/site.css",
+    "status": 200,
+    "ns": "99928037633389"
+  },
+  {
+    "case": "X5",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:41579/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R01",
+    "ns": "99928196875435",
+    "body_digest": null
+  },
+  {
+    "case": "X5",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:41579/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R01",
+    "status": 200,
+    "ns": "99928207668863"
+  },
+  {
+    "case": "X5",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:41579/assets/site.css",
+    "ns": "99928222789925",
+    "body_digest": null
+  },
+  {
+    "case": "X5",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:41579/assets/site.css",
+    "status": 200,
+    "ns": "99928242287863"
+  },
+  {
+    "case": "X5",
+    "event": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:41579/booking/review/",
+    "ns": "99928624175074",
+    "body_digest": "fcf2814f2bf66fa2a9fddd6ecf5f22f6013d3684a11968f3fa517f238f2f0f18"
+  },
+  {
+    "case": "X5",
+    "event": "response",
+    "method": "POST",
+    "url": "http://127.0.0.1:41579/booking/review/",
+    "status": 200,
+    "ns": "99928637286708"
+  },
+  {
+    "case": "X5",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:41579/assets/site.css",
+    "ns": "99928648211543",
+    "body_digest": null
+  },
+  {
+    "case": "X5",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:41579/assets/site.css",
+    "status": 200,
+    "ns": "99928654801219"
+  },
+  {
+    "case": "X5",
+    "event": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:41579/booking/confirm/",
+    "ns": "99929140622638",
+    "body_digest": "1ebf87d52d76e97f02335630daf7d5102362a9d97e6870c8b49bf92c7dbb2b8d"
+  },
+  {
+    "case": "X5",
+    "event": "response",
+    "method": "POST",
+    "url": "http://127.0.0.1:41579/booking/confirm/",
+    "status": 503,
+    "ns": "99934167092657"
+  },
+  {
+    "case": "X5",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:41579/assets/site.css",
+    "ns": "99934185762084",
+    "body_digest": null
+  },
+  {
+    "case": "X5",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:41579/assets/site.css",
+    "status": 200,
+    "ns": "99934197254397"
+  },
+  {
+    "case": "X5",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:41579/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "ns": "99934609963298",
+    "body_digest": null
+  },
+  {
+    "case": "X5",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:41579/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200,
+    "ns": "99934615414884"
+  },
+  {
+    "case": "X5",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:41579/assets/site.css",
+    "ns": "99934626239842",
+    "body_digest": null
+  },
+  {
+    "case": "X5",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:41579/assets/site.css",
+    "status": 200,
+    "ns": "99934635629088"
+  },
+  {
+    "case": "X5",
+    "event": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:41579/booking/confirm/",
+    "ns": "99935058092877",
+    "body_digest": "1ebf87d52d76e97f02335630daf7d5102362a9d97e6870c8b49bf92c7dbb2b8d"
+  },
+  {
+    "case": "X5",
+    "event": "response",
+    "method": "POST",
+    "url": "http://127.0.0.1:41579/booking/confirm/",
+    "status": 303,
+    "ns": "99935070993287"
+  },
+  {
+    "case": "X5",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:41579/booking/complete/?number=N-kIURMTvr02C2xihEAMZUjEetFIWZCPEB",
+    "ns": "99935071376086",
+    "body_digest": null
+  },
+  {
+    "case": "X5",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:41579/booking/complete/?number=N-kIURMTvr02C2xihEAMZUjEetFIWZCPEB",
+    "status": 200,
+    "ns": "99935074665872"
+  },
+  {
+    "case": "X5",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:41579/assets/site.css",
+    "ns": "99935093345041",
+    "body_digest": null
+  },
+  {
+    "case": "X5",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:41579/assets/site.css",
+    "status": 200,
+    "ns": "99935105464547"
+  },
+  {
+    "case": "X5",
+    "label": "resend",
+    "method": "POST",
+    "status": 200,
+    "url": "http://127.0.0.1:41579/booking/complete/?number=N-kIURMTvr02C2xihEAMZUjEetFIWZCPEB",
+    "start": "99935466603313",
+    "end": "99935476342566",
+    "body_digest": "6b81d5415bb4444742a509dcb162f5e764761af8e446d1abfdcf369f6c568794"
+  },
+  {
+    "case": "X5",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:41579/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "ns": "99935532402749",
+    "body_digest": null
+  },
+  {
+    "case": "X5",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:41579/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200,
+    "ns": "99935538422955"
+  },
+  {
+    "case": "X5",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:41579/assets/site.css",
+    "ns": "99935547641573",
+    "body_digest": null
+  },
+  {
+    "case": "X5",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:41579/assets/site.css",
+    "status": 200,
+    "ns": "99935554820013"
+  },
+  {
+    "case": "R",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "ns": "99935631849229",
+    "body_digest": null
+  },
+  {
+    "case": "R",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200,
+    "ns": "99935638717033"
+  },
+  {
+    "case": "R",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/assets/site.css",
+    "ns": "99935645421176",
+    "body_digest": null
+  },
+  {
+    "case": "R",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/assets/site.css",
+    "status": 200,
+    "ns": "99935650548778"
+  },
+  {
+    "case": "R",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R01",
+    "ns": "99935851382211",
+    "body_digest": null
+  },
+  {
+    "case": "R",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R01",
+    "status": 200,
+    "ns": "99935865828759"
+  },
+  {
+    "case": "R",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/assets/site.css",
+    "ns": "99935881340440",
+    "body_digest": null
+  },
+  {
+    "case": "R",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/assets/site.css",
+    "status": 200,
+    "ns": "99935902902907"
+  },
+  {
+    "case": "R",
+    "event": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:40289/booking/review/",
+    "ns": "99936310432524",
+    "body_digest": "73fd00806598ad274f961ee21b1ea490b55ee4bf745d286c2391cc0a822cdc3e"
+  },
+  {
+    "case": "R",
+    "event": "response",
+    "method": "POST",
+    "url": "http://127.0.0.1:40289/booking/review/",
+    "status": 200,
+    "ns": "99936326887925"
+  },
+  {
+    "case": "R",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/assets/site.css",
+    "ns": "99936341874566",
+    "body_digest": null
+  },
+  {
+    "case": "R",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/assets/site.css",
+    "status": 200,
+    "ns": "99936350593949"
+  },
+  {
+    "case": "R",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/booking/search/",
+    "ns": "99936727218421",
+    "body_digest": null
+  },
+  {
+    "case": "R",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/booking/search/",
+    "status": 200,
+    "ns": "99936731339656"
+  },
+  {
+    "case": "R",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/assets/site.css",
+    "ns": "99936739835879",
+    "body_digest": null
+  },
+  {
+    "case": "R",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/assets/site.css",
+    "status": 200,
+    "ns": "99936747257410"
+  },
+  {
+    "case": "R",
+    "event": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:40289/booking/confirm/",
+    "ns": "99937008850969",
+    "body_digest": "b250a5724e6c67fac295d7a938e9071c620f696599d5318a1f41c070115b7a24"
+  },
+  {
+    "case": "R",
+    "event": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:40289/booking/confirm/",
+    "ns": "99937089338999",
+    "body_digest": "b250a5724e6c67fac295d7a938e9071c620f696599d5318a1f41c070115b7a24"
+  },
+  {
+    "case": "R",
+    "event": "response",
+    "method": "POST",
+    "url": "http://127.0.0.1:40289/booking/confirm/",
+    "status": 303,
+    "ns": "99937100456005"
+  },
+  {
+    "case": "R",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/booking/complete/?number=N-TlaxNcd_IInGdvI7z-R5qaNsv5Is5yhi",
+    "ns": "99937101097706",
+    "body_digest": null
+  },
+  {
+    "case": "R",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/booking/complete/?number=N-TlaxNcd_IInGdvI7z-R5qaNsv5Is5yhi",
+    "status": 200,
+    "ns": "99937104730651"
+  },
+  {
+    "case": "R",
+    "event": "response",
+    "method": "POST",
+    "url": "http://127.0.0.1:40289/booking/confirm/",
+    "status": 303,
+    "ns": "99937111255149"
+  },
+  {
+    "case": "R",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/booking/complete/?number=N-TlaxNcd_IInGdvI7z-R5qaNsv5Is5yhi",
+    "ns": "99937111733932",
+    "body_digest": null
+  },
+  {
+    "case": "R",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/booking/complete/?number=N-TlaxNcd_IInGdvI7z-R5qaNsv5Is5yhi",
+    "status": 200,
+    "ns": "99937123333786"
+  },
+  {
+    "case": "R",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/assets/site.css",
+    "ns": "99937127422005",
+    "body_digest": null
+  },
+  {
+    "case": "R",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/assets/site.css",
+    "ns": "99937140024316",
+    "body_digest": null
+  },
+  {
+    "case": "R",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/assets/site.css",
+    "status": 200,
+    "ns": "99937144920296"
+  },
+  {
+    "case": "R",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/assets/site.css",
+    "status": 200,
+    "ns": "99937148020392"
+  },
+  {
+    "case": "R",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/booking/complete/?number=N-TlaxNcd_IInGdvI7z-R5qaNsv5Is5yhi",
+    "ns": "99937664974293",
+    "body_digest": null
+  },
+  {
+    "case": "R",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/booking/complete/?number=N-TlaxNcd_IInGdvI7z-R5qaNsv5Is5yhi",
+    "status": 200,
+    "ns": "99937672390305"
+  },
+  {
+    "case": "R",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/assets/site.css",
+    "ns": "99937686110934",
+    "body_digest": null
+  },
+  {
+    "case": "R",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/assets/site.css",
+    "status": 200,
+    "ns": "99937694533913"
+  },
+  {
+    "case": "R",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/booking/complete/?number=N-TlaxNcd_IInGdvI7z-R5qaNsv5Is5yhi",
+    "ns": "99937711858814",
+    "body_digest": null
+  },
+  {
+    "case": "R",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/booking/complete/?number=N-TlaxNcd_IInGdvI7z-R5qaNsv5Is5yhi",
+    "status": 200,
+    "ns": "99937719872872"
+  },
+  {
+    "case": "R",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/assets/site.css",
+    "ns": "99937738603175",
+    "body_digest": null
+  },
+  {
+    "case": "R",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/assets/site.css",
+    "status": 200,
+    "ns": "99937746650782"
+  },
+  {
+    "case": "R",
+    "event": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:40289/booking/confirm/",
+    "ns": "99937974239650",
+    "body_digest": "b250a5724e6c67fac295d7a938e9071c620f696599d5318a1f41c070115b7a24"
+  },
+  {
+    "case": "R",
+    "event": "response",
+    "method": "POST",
+    "url": "http://127.0.0.1:40289/booking/confirm/",
+    "status": 303,
+    "ns": "99937981972993"
+  },
+  {
+    "case": "R",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/booking/complete/?number=N-TlaxNcd_IInGdvI7z-R5qaNsv5Is5yhi",
+    "ns": "99937982348216",
+    "body_digest": null
+  },
+  {
+    "case": "R",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/booking/complete/?number=N-TlaxNcd_IInGdvI7z-R5qaNsv5Is5yhi",
+    "status": 200,
+    "ns": "99937985728539"
+  },
+  {
+    "case": "R",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/assets/site.css",
+    "ns": "99938001239981",
+    "body_digest": null
+  },
+  {
+    "case": "R",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/assets/site.css",
+    "status": 200,
+    "ns": "99938020258692"
+  },
+  {
+    "case": "R",
+    "label": "resend",
+    "method": "POST",
+    "status": 200,
+    "url": "http://127.0.0.1:40289/booking/complete/?number=N-TlaxNcd_IInGdvI7z-R5qaNsv5Is5yhi",
+    "start": "99938093300127",
+    "end": "99938109081004",
+    "body_digest": "b4276dc745bf931ee83fc2d35340b6f362ab209726d232b73841812692212c2c"
+  },
+  {
+    "case": "R",
+    "label": "K-changed-input",
+    "method": "POST",
+    "status": 409,
+    "url": "http://127.0.0.1:40289/booking/confirm/",
+    "start": "99938109513959",
+    "end": "99938114979775",
+    "body_digest": "970771443a2592c1be3c83587c09de04855e94b159314d546c33b05d96fd086a"
+  },
+  {
+    "case": "R",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "ns": "99938176407515",
+    "body_digest": null
+  },
+  {
+    "case": "R",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200,
+    "ns": "99938184426420"
+  },
+  {
+    "case": "R",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/assets/site.css",
+    "ns": "99938198364403",
+    "body_digest": null
+  },
+  {
+    "case": "R",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:40289/assets/site.css",
+    "status": 200,
+    "ns": "99938207270825"
+  },
+  {
+    "case": "X4",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:41331/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "ns": "99938298310399",
+    "body_digest": null
+  },
+  {
+    "case": "X4",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:41331/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200,
+    "ns": "99938305613623"
+  },
+  {
+    "case": "X4",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:41331/assets/site.css",
+    "ns": "99938313953878",
+    "body_digest": null
+  },
+  {
+    "case": "X4",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:41331/assets/site.css",
+    "status": 200,
+    "ns": "99938322012955"
+  },
+  {
+    "case": "X4",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:41331/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R01",
+    "ns": "99938498258483",
+    "body_digest": null
+  },
+  {
+    "case": "X4",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:41331/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R01",
+    "status": 200,
+    "ns": "99938512121294"
+  },
+  {
+    "case": "X4",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:41331/assets/site.css",
+    "ns": "99938527577356",
+    "body_digest": null
+  },
+  {
+    "case": "X4",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:41331/assets/site.css",
+    "status": 200,
+    "ns": "99938546219698"
+  },
+  {
+    "case": "X4",
+    "event": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:41331/booking/review/",
+    "ns": "99938960306204",
+    "body_digest": "1dcd7b22343f93e386f5eda14ee2889d93478d431e35bb6b7615e88dfcab10e9"
+  },
+  {
+    "case": "X4",
+    "event": "response",
+    "method": "POST",
+    "url": "http://127.0.0.1:41331/booking/review/",
+    "status": 200,
+    "ns": "99938975822206"
+  },
+  {
+    "case": "X4",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:41331/assets/site.css",
+    "ns": "99938994300016",
+    "body_digest": null
+  },
+  {
+    "case": "X4",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:41331/assets/site.css",
+    "status": 200,
+    "ns": "99939008384567"
+  },
+  {
+    "case": "X4",
+    "event": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:41331/booking/confirm/",
+    "ns": "99939492831144",
+    "body_digest": "327316d65e8c01fa82d9143fe673577dd9adef000fe045c4ec06204899b50628"
+  },
+  {
+    "case": "X4",
+    "event": "requestfailed",
+    "url": "http://127.0.0.1:41331/booking/confirm/",
+    "failure": {
+      "errorText": "net::ERR_EMPTY_RESPONSE"
+    },
+    "ns": "99939514599662"
+  },
+  {
+    "case": "X4",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:41331/booking/search/",
+    "ns": "99939806666134",
+    "body_digest": null
+  },
+  {
+    "case": "X4",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:41331/booking/search/",
+    "status": 200,
+    "ns": "99939822045883"
+  },
+  {
+    "case": "X4",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:41331/assets/site.css",
+    "ns": "99939840017716",
+    "body_digest": null
+  },
+  {
+    "case": "X4",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:41331/assets/site.css",
+    "status": 200,
+    "ns": "99939862685900"
+  },
+  {
+    "case": "X4",
+    "event": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:41331/booking/confirm/",
+    "ns": "99940140951637",
+    "body_digest": "327316d65e8c01fa82d9143fe673577dd9adef000fe045c4ec06204899b50628"
+  },
+  {
+    "case": "X4",
+    "event": "response",
+    "method": "POST",
+    "url": "http://127.0.0.1:41331/booking/confirm/",
+    "status": 303,
+    "ns": "99940152926200"
+  },
+  {
+    "case": "X4",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:41331/booking/complete/?number=N-A6UKvUYccFx6pq5fZoobH_Psy4j2xbGp",
+    "ns": "99940153237061",
+    "body_digest": null
+  },
+  {
+    "case": "X4",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:41331/booking/complete/?number=N-A6UKvUYccFx6pq5fZoobH_Psy4j2xbGp",
+    "status": 200,
+    "ns": "99940159119187"
+  },
+  {
+    "case": "X4",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:41331/assets/site.css",
+    "ns": "99940173324690",
+    "body_digest": null
+  },
+  {
+    "case": "X4",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:41331/assets/site.css",
+    "status": 200,
+    "ns": "99940183186945"
+  },
+  {
+    "case": "X4",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:41331/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "ns": "99940547207404",
+    "body_digest": null
+  },
+  {
+    "case": "X4",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:41331/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200,
+    "ns": "99940554212848"
+  },
+  {
+    "case": "X4",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:41331/assets/site.css",
+    "ns": "99940565790996",
+    "body_digest": null
+  },
+  {
+    "case": "X4",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:41331/assets/site.css",
+    "status": 200,
+    "ns": "99940573579383"
+  },
+  {
+    "case": "L",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:38047/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "ns": "99940694653915",
+    "body_digest": null
+  },
+  {
+    "case": "L",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:38047/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200,
+    "ns": "99940702352253"
+  },
+  {
+    "case": "L",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:38047/assets/site.css",
+    "ns": "99940718431316",
+    "body_digest": null
+  },
+  {
+    "case": "L",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:38047/assets/site.css",
+    "status": 200,
+    "ns": "99940726741020"
+  },
+  {
+    "case": "L",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:38047/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R01",
+    "ns": "99940901206410",
+    "body_digest": null
+  },
+  {
+    "case": "L",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:38047/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R01",
+    "status": 200,
+    "ns": "99940917235623"
+  },
+  {
+    "case": "L",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:38047/assets/site.css",
+    "ns": "99940944236526",
+    "body_digest": null
+  },
+  {
+    "case": "L",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:38047/assets/site.css",
+    "status": 200,
+    "ns": "99940964916605"
+  },
+  {
+    "case": "L",
+    "event": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:38047/booking/review/",
+    "ns": "99941376748346",
+    "body_digest": "573bbfb650f200dd2287f0c3cec02cd9d79b4b64016a4a6361f6825569b5ad2e"
+  },
+  {
+    "case": "L",
+    "event": "response",
+    "method": "POST",
+    "url": "http://127.0.0.1:38047/booking/review/",
+    "status": 200,
+    "ns": "99941392487161"
+  },
+  {
+    "case": "L",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:38047/assets/site.css",
+    "ns": "99941404940109",
+    "body_digest": null
+  },
+  {
+    "case": "L",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:38047/assets/site.css",
+    "status": 200,
+    "ns": "99941411796720"
+  },
+  {
+    "case": "L",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:38047/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "ns": "99941727163017",
+    "body_digest": null
+  },
+  {
+    "case": "L",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:38047/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200,
+    "ns": "99941732914066"
+  },
+  {
+    "case": "L",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:38047/assets/site.css",
+    "ns": "99941742461981",
+    "body_digest": null
+  },
+  {
+    "case": "L",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:38047/assets/site.css",
+    "status": 200,
+    "ns": "99941748911629"
+  },
+  {
+    "case": "L",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:38047/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R01",
+    "ns": "99941915175745",
+    "body_digest": null
+  },
+  {
+    "case": "L",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:38047/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R01",
+    "status": 200,
+    "ns": "99941926585428"
+  },
+  {
+    "case": "L",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:38047/assets/site.css",
+    "ns": "99941942498007",
+    "body_digest": null
+  },
+  {
+    "case": "L",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:38047/assets/site.css",
+    "status": 200,
+    "ns": "99941963702074"
+  },
+  {
+    "case": "L",
+    "event": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:38047/booking/review/",
+    "ns": "99942374768785",
+    "body_digest": "12ee716ddbb2a83e71577ab3da83cf26a771e5c074a2dd9e3ca003e9edac0f77"
+  },
+  {
+    "case": "L",
+    "event": "response",
+    "method": "POST",
+    "url": "http://127.0.0.1:38047/booking/review/",
+    "status": 200,
+    "ns": "99942386160799"
+  },
+  {
+    "case": "L",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:38047/assets/site.css",
+    "ns": "99942405856134",
+    "body_digest": null
+  },
+  {
+    "case": "L",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:38047/assets/site.css",
+    "status": 200,
+    "ns": "99942412879279"
+  },
+  {
+    "case": "L",
+    "event": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:38047/booking/confirm/",
+    "ns": "99943028768745",
+    "body_digest": "228958c0a5924d9baffeb6b5b2c458388df5f9502737342e4188a3eb0da53b16"
+  },
+  {
+    "case": "L",
+    "event": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:38047/booking/confirm/",
+    "ns": "99943030656776",
+    "body_digest": "a077d34e6e3b53c93ffbf55cc3cef8462ba74e8eeeb5decfc48be88c47f8fbf4"
+  },
+  {
+    "case": "L",
+    "event": "response",
+    "method": "POST",
+    "url": "http://127.0.0.1:38047/booking/confirm/",
+    "status": 303,
+    "ns": "99943058050103"
+  },
+  {
+    "case": "L",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:38047/booking/complete/?number=N-l78HtWZsxpPVyL1jy-OXZOYAmvYVlZim",
+    "ns": "99943058202661",
+    "body_digest": null
+  },
+  {
+    "case": "L",
+    "event": "response",
+    "method": "POST",
+    "url": "http://127.0.0.1:38047/booking/confirm/",
+    "status": 409,
+    "ns": "99943065076167"
+  },
+  {
+    "case": "L",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:38047/booking/complete/?number=N-l78HtWZsxpPVyL1jy-OXZOYAmvYVlZim",
+    "status": 200,
+    "ns": "99943069656116"
+  },
+  {
+    "case": "L",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:38047/assets/site.css",
+    "ns": "99943080754419",
+    "body_digest": null
+  },
+  {
+    "case": "L",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:38047/assets/site.css",
+    "ns": "99943084414706",
+    "body_digest": null
+  },
+  {
+    "case": "L",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:38047/assets/site.css",
+    "status": 200,
+    "ns": "99943088464630"
+  },
+  {
+    "case": "L",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:38047/assets/site.css",
+    "status": 200,
+    "ns": "99943090950885"
+  },
+  {
+    "case": "L",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:38047/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "ns": "99943588335938",
+    "body_digest": null
+  },
+  {
+    "case": "L",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:38047/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200,
+    "ns": "99943594747240"
+  },
+  {
+    "case": "L",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:38047/assets/site.css",
+    "ns": "99943611527978",
+    "body_digest": null
+  },
+  {
+    "case": "L",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:38047/assets/site.css",
+    "status": 200,
+    "ns": "99943621836794"
+  },
+  {
+    "case": "V",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:34971/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "ns": "99943820089704",
+    "body_digest": null
+  },
+  {
+    "case": "V",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:34971/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200,
+    "ns": "99943828103119"
+  },
+  {
+    "case": "V",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:34971/assets/site.css",
+    "ns": "99943843185599",
+    "body_digest": null
+  },
+  {
+    "case": "V",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:34971/assets/site.css",
+    "status": 200,
+    "ns": "99943851914659"
+  },
+  {
+    "case": "V",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:34971/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R01",
+    "ns": "99944045640094",
+    "body_digest": null
+  },
+  {
+    "case": "V",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:34971/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R01",
+    "status": 200,
+    "ns": "99944060260143"
+  },
+  {
+    "case": "V",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:34971/assets/site.css",
+    "ns": "99944072134437",
+    "body_digest": null
+  },
+  {
+    "case": "V",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:34971/assets/site.css",
+    "status": 200,
+    "ns": "99944087570748"
+  },
+  {
+    "case": "V",
+    "event": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:34971/booking/review/",
+    "ns": "99944510085684",
+    "body_digest": "3574c531a82d2f5bb09b620e224f63400fe1a3a15a69b609b98fd88b6fb8694a"
+  },
+  {
+    "case": "V",
+    "event": "response",
+    "method": "POST",
+    "url": "http://127.0.0.1:34971/booking/review/",
+    "status": 200,
+    "ns": "99944527485023"
+  },
+  {
+    "case": "V",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:34971/assets/site.css",
+    "ns": "99944543690666",
+    "body_digest": null
+  },
+  {
+    "case": "V",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:34971/assets/site.css",
+    "status": 200,
+    "ns": "99944552546327"
+  },
+  {
+    "case": "V",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:34971/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "ns": "99944888449118",
+    "body_digest": null
+  },
+  {
+    "case": "V",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:34971/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200,
+    "ns": "99944893352839"
+  },
+  {
+    "case": "V",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:34971/assets/site.css",
+    "ns": "99944900166662",
+    "body_digest": null
+  },
+  {
+    "case": "V",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:34971/assets/site.css",
+    "status": 200,
+    "ns": "99944906652327"
+  },
+  {
+    "case": "V",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:34971/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R01",
+    "ns": "99945085246311",
+    "body_digest": null
+  },
+  {
+    "case": "V",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:34971/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R01",
+    "status": 200,
+    "ns": "99945100943005"
+  },
+  {
+    "case": "V",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:34971/assets/site.css",
+    "ns": "99945114685902",
+    "body_digest": null
+  },
+  {
+    "case": "V",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:34971/assets/site.css",
+    "status": 200,
+    "ns": "99945134143088"
+  },
+  {
+    "case": "V",
+    "event": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:34971/booking/review/",
+    "ns": "99945575164836",
+    "body_digest": "e24cfc5d69110437bc22fb29b24962bc2c952eb65f3d116631eb227a20fb8dfc"
+  },
+  {
+    "case": "V",
+    "event": "response",
+    "method": "POST",
+    "url": "http://127.0.0.1:34971/booking/review/",
+    "status": 200,
+    "ns": "99945588721165"
+  },
+  {
+    "case": "V",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:34971/assets/site.css",
+    "ns": "99945599983837",
+    "body_digest": null
+  },
+  {
+    "case": "V",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:34971/assets/site.css",
+    "status": 200,
+    "ns": "99945608957865"
+  },
+  {
+    "case": "V",
+    "event": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:34971/booking/confirm/",
+    "ns": "99946110532559",
+    "body_digest": "40919470e4da16d1cbc0f3be493a6e43d5751898483a7f3a6d4415ec637a63fa"
+  },
+  {
+    "case": "V",
+    "event": "response",
+    "method": "POST",
+    "url": "http://127.0.0.1:34971/booking/confirm/",
+    "status": 303,
+    "ns": "99946130070328"
+  },
+  {
+    "case": "V",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:34971/booking/complete/?number=N-5RFhWaXO3nsxbQ3TNI1Ln_KdmhuJHI4z",
+    "ns": "99946130430592",
+    "body_digest": null
+  },
+  {
+    "case": "V",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:34971/booking/complete/?number=N-5RFhWaXO3nsxbQ3TNI1Ln_KdmhuJHI4z",
+    "status": 200,
+    "ns": "99946135095950"
+  },
+  {
+    "case": "V",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:34971/assets/site.css",
+    "ns": "99946151570211",
+    "body_digest": null
+  },
+  {
+    "case": "V",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:34971/assets/site.css",
+    "status": 200,
+    "ns": "99946158986409"
+  },
+  {
+    "case": "V",
+    "event": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:34971/booking/confirm/",
+    "ns": "99946557271585",
+    "body_digest": "6c2d9260261ff80983ce74aaac3e12d8b34c50114f405b5936d725543dbc6be2"
+  },
+  {
+    "case": "V",
+    "event": "response",
+    "method": "POST",
+    "url": "http://127.0.0.1:34971/booking/confirm/",
+    "status": 409,
+    "ns": "99946577355950"
+  },
+  {
+    "case": "V",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:34971/assets/site.css",
+    "ns": "99946596539924",
+    "body_digest": null
+  },
+  {
+    "case": "V",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:34971/assets/site.css",
+    "status": 200,
+    "ns": "99946606684004"
+  },
+  {
+    "case": "V",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:34971/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "ns": "99946994484322",
+    "body_digest": null
+  },
+  {
+    "case": "V",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:34971/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200,
+    "ns": "99946998882340"
+  },
+  {
+    "case": "V",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:34971/assets/site.css",
+    "ns": "99947006886096",
+    "body_digest": null
+  },
+  {
+    "case": "V",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:34971/assets/site.css",
+    "status": 200,
+    "ns": "99947024918038"
+  },
+  {
+    "case": "Q1",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:39361/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "ns": "99947533750870",
+    "body_digest": null
+  },
+  {
+    "case": "Q1",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:39361/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200,
+    "ns": "99947538724057"
+  },
+  {
+    "case": "Q1",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:39361/assets/site.css",
+    "ns": "99947548831347",
+    "body_digest": null
+  },
+  {
+    "case": "Q1",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:39361/assets/site.css",
+    "status": 200,
+    "ns": "99947558158040"
+  },
+  {
+    "case": "Q1",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:39361/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R01",
+    "ns": "99947747127637",
+    "body_digest": null
+  },
+  {
+    "case": "Q1",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:39361/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R01",
+    "status": 200,
+    "ns": "99947759663053"
+  },
+  {
+    "case": "Q1",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:39361/assets/site.css",
+    "ns": "99947775124999",
+    "body_digest": null
+  },
+  {
+    "case": "Q1",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:39361/assets/site.css",
+    "status": 200,
+    "ns": "99947795676354"
+  },
+  {
+    "case": "Q1",
+    "event": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:39361/booking/review/",
+    "ns": "99948210669691",
+    "body_digest": "8968b95b38b333db9f0a5cbaff3a11924b7464b17f65f3dbac01b9d221dd63ce"
+  },
+  {
+    "case": "Q1",
+    "event": "response",
+    "method": "POST",
+    "url": "http://127.0.0.1:39361/booking/review/",
+    "status": 200,
+    "ns": "99948233844581"
+  },
+  {
+    "case": "Q1",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:39361/assets/site.css",
+    "ns": "99948251432081",
+    "body_digest": null
+  },
+  {
+    "case": "Q1",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:39361/assets/site.css",
+    "status": 200,
+    "ns": "99948259121868"
+  },
+  {
+    "case": "Q1",
+    "event": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:39361/booking/confirm/",
+    "ns": "99948777260246",
+    "body_digest": "3e7b20446d80c73b1b88779429e4975124372fe53a9132e76486d6f49d220b06"
+  },
+  {
+    "case": "Q1",
+    "event": "response",
+    "method": "POST",
+    "url": "http://127.0.0.1:39361/booking/confirm/",
+    "status": 409,
+    "ns": "99948792977939"
+  },
+  {
+    "case": "Q1",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:39361/assets/site.css",
+    "ns": "99948813735636",
+    "body_digest": null
+  },
+  {
+    "case": "Q1",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:39361/assets/site.css",
+    "status": 200,
+    "ns": "99948826539459"
+  },
+  {
+    "case": "Q1",
+    "label": "old-K-rejected",
+    "method": "POST",
+    "status": 409,
+    "url": "http://127.0.0.1:39361/booking/confirm/",
+    "start": "99949189125621",
+    "end": "99949197465557",
+    "body_digest": "c9b722e0458c0f7824f125e6f8373b6a8ff38a8af0a82c9adfc655da663ef6a1"
+  },
+  {
+    "case": "Q1",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:39361/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R01",
+    "ns": "99949330419575",
+    "body_digest": null
+  },
+  {
+    "case": "Q1",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:39361/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R01",
+    "status": 200,
+    "ns": "99949338954629"
+  },
+  {
+    "case": "Q1",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:39361/assets/site.css",
+    "ns": "99949348235660",
+    "body_digest": null
+  },
+  {
+    "case": "Q1",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:39361/assets/site.css",
+    "status": 200,
+    "ns": "99949358572269"
+  },
+  {
+    "case": "Q1",
+    "event": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:39361/booking/review/",
+    "ns": "99949764781167",
+    "body_digest": "9a96b0ab99e447c4cfd61b12a7168489216efeed69804427fff2c96c2b39669d"
+  },
+  {
+    "case": "Q1",
+    "event": "response",
+    "method": "POST",
+    "url": "http://127.0.0.1:39361/booking/review/",
+    "status": 200,
+    "ns": "99949784596219"
+  },
+  {
+    "case": "Q1",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:39361/assets/site.css",
+    "ns": "99949799134056",
+    "body_digest": null
+  },
+  {
+    "case": "Q1",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:39361/assets/site.css",
+    "status": 200,
+    "ns": "99949804691184"
+  },
+  {
+    "case": "Q1",
+    "event": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:39361/booking/confirm/",
+    "ns": "99950259943964",
+    "body_digest": "dddc9351b95c2a12bdf6473bd85db7adc59150a8588a5a592620f4d1f26ba458"
+  },
+  {
+    "case": "Q1",
+    "event": "response",
+    "method": "POST",
+    "url": "http://127.0.0.1:39361/booking/confirm/",
+    "status": 303,
+    "ns": "99950280853979"
+  },
+  {
+    "case": "Q1",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:39361/booking/complete/?number=N-D9BhwkXF4uoI5d558u8ZrDTnvSzMd29-",
+    "ns": "99950281317013",
+    "body_digest": null
+  },
+  {
+    "case": "Q1",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:39361/booking/complete/?number=N-D9BhwkXF4uoI5d558u8ZrDTnvSzMd29-",
+    "status": 200,
+    "ns": "99950287487009"
+  },
+  {
+    "case": "Q1",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:39361/assets/site.css",
+    "ns": "99950303557662",
+    "body_digest": null
+  },
+  {
+    "case": "Q1",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:39361/assets/site.css",
+    "status": 200,
+    "ns": "99950313732799"
+  },
+  {
+    "case": "Q2",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:39139/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "ns": "99950718464755",
+    "body_digest": null
+  },
+  {
+    "case": "Q2",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:39139/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200,
+    "ns": "99950724363948"
+  },
+  {
+    "case": "Q2",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:39139/assets/site.css",
+    "ns": "99950732630585",
+    "body_digest": null
+  },
+  {
+    "case": "Q2",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:39139/assets/site.css",
+    "status": 200,
+    "ns": "99950739071816"
+  },
+  {
+    "case": "Q2",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:39139/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R01",
+    "ns": "99950914594034",
+    "body_digest": null
+  },
+  {
+    "case": "Q2",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:39139/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R01",
+    "status": 200,
+    "ns": "99950927474225"
+  },
+  {
+    "case": "Q2",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:39139/assets/site.css",
+    "ns": "99950935112846",
+    "body_digest": null
+  },
+  {
+    "case": "Q2",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:39139/assets/site.css",
+    "status": 200,
+    "ns": "99950950045918"
+  },
+  {
+    "case": "Q2",
+    "event": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:39139/booking/review/",
+    "ns": "99951375916162",
+    "body_digest": "3161abc49549c3f0c8b540bd091210670feacacf7dea4cef5d5339c987ad4760"
+  },
+  {
+    "case": "Q2",
+    "event": "response",
+    "method": "POST",
+    "url": "http://127.0.0.1:39139/booking/review/",
+    "status": 200,
+    "ns": "99951392650273"
+  },
+  {
+    "case": "Q2",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:39139/assets/site.css",
+    "ns": "99951410726077",
+    "body_digest": null
+  },
+  {
+    "case": "Q2",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:39139/assets/site.css",
+    "status": 200,
+    "ns": "99951418969593"
+  },
+  {
+    "case": "Q2",
+    "event": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:39139/booking/confirm/",
+    "ns": "99951967529787",
+    "body_digest": "ad51059c35c326c4d0045bffe8c0942705e81fc20e356a7bcfd5fec005820096"
+  },
+  {
+    "case": "Q2",
+    "event": "response",
+    "method": "POST",
+    "url": "http://127.0.0.1:39139/booking/confirm/",
+    "status": 409,
+    "ns": "99951981877420"
+  },
+  {
+    "case": "Q2",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:39139/assets/site.css",
+    "ns": "99952000822457",
+    "body_digest": null
+  },
+  {
+    "case": "Q2",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:39139/assets/site.css",
+    "status": 200,
+    "ns": "99952007069574"
+  },
+  {
+    "case": "Q2",
+    "label": "old-K-rejected",
+    "method": "POST",
+    "status": 409,
+    "url": "http://127.0.0.1:39139/booking/confirm/",
+    "start": "99952391387137",
+    "end": "99952396146598",
+    "body_digest": "e5d69c18529549b593db2122b2a5d6311ac8aee0b0bfbacb4edbeced70cb77a5"
+  },
+  {
+    "case": "Q2",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:39139/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R01",
+    "ns": "99952494820067",
+    "body_digest": null
+  },
+  {
+    "case": "Q2",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:39139/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R01",
+    "status": 200,
+    "ns": "99952502878365"
+  },
+  {
+    "case": "Q2",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:39139/assets/site.css",
+    "ns": "99952510352922",
+    "body_digest": null
+  },
+  {
+    "case": "Q2",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:39139/assets/site.css",
+    "status": 200,
+    "ns": "99952517420559"
+  },
+  {
+    "case": "Q2",
+    "event": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:39139/booking/review/",
+    "ns": "99952926207179",
+    "body_digest": "0013de043427e75777b63e895cfd359895d4712098543334af82067275251bc0"
+  },
+  {
+    "case": "Q2",
+    "event": "response",
+    "method": "POST",
+    "url": "http://127.0.0.1:39139/booking/review/",
+    "status": 200,
+    "ns": "99952938701432"
+  },
+  {
+    "case": "Q2",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:39139/assets/site.css",
+    "ns": "99952958058955",
+    "body_digest": null
+  },
+  {
+    "case": "Q2",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:39139/assets/site.css",
+    "status": 200,
+    "ns": "99952967036399"
+  },
+  {
+    "case": "Q2",
+    "event": "request",
+    "method": "POST",
+    "url": "http://127.0.0.1:39139/booking/confirm/",
+    "ns": "99953459547935",
+    "body_digest": "f82d8f16d2af48d57b6ec7fa1f3ad807032c811e35bc73c7194270ade173a08b"
+  },
+  {
+    "case": "Q2",
+    "event": "response",
+    "method": "POST",
+    "url": "http://127.0.0.1:39139/booking/confirm/",
+    "status": 303,
+    "ns": "99953477115197"
+  },
+  {
+    "case": "Q2",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:39139/booking/complete/?number=N-pAi4FkEYHj9Qv91J0hTd-b0GlZ08WJq8",
+    "ns": "99953477453871",
+    "body_digest": null
+  },
+  {
+    "case": "Q2",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:39139/booking/complete/?number=N-pAi4FkEYHj9Qv91J0hTd-b0GlZ08WJq8",
+    "status": 200,
+    "ns": "99953481723981"
+  },
+  {
+    "case": "Q2",
+    "event": "request",
+    "method": "GET",
+    "url": "http://127.0.0.1:39139/assets/site.css",
+    "ns": "99953496552240",
+    "body_digest": null
+  },
+  {
+    "case": "Q2",
+    "event": "response",
+    "method": "GET",
+    "url": "http://127.0.0.1:39139/assets/site.css",
+    "status": 200,
+    "ns": "99953504760156"
+  }
+]

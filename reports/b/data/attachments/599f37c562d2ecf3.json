@@ -1,0 +1,881 @@
+[
+  {
+    "t": "T04",
+    "name": "I1-empty-name 保存0",
+    "expected": [
+      0,
+      0,
+      0
+    ],
+    "actual": [
+      0,
+      0,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I1-blank-name 保存0",
+    "expected": [
+      0,
+      0,
+      0
+    ],
+    "actual": [
+      0,
+      0,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I1-empty-email 保存0",
+    "expected": [
+      0,
+      0,
+      0
+    ],
+    "actual": [
+      0,
+      0,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I1-bad-email 保存0",
+    "expected": [
+      0,
+      0,
+      0
+    ],
+    "actual": [
+      0,
+      0,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I2-equal 保存0",
+    "expected": [
+      0,
+      0,
+      0
+    ],
+    "actual": [
+      0,
+      0,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I2-reverse 保存0",
+    "expected": [
+      0,
+      0,
+      0
+    ],
+    "actual": [
+      0,
+      0,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I2-impossible 保存0",
+    "expected": [
+      0,
+      0,
+      0
+    ],
+    "actual": [
+      0,
+      0,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I2-empty-in 保存0",
+    "expected": [
+      0,
+      0,
+      0
+    ],
+    "actual": [
+      0,
+      0,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I2-empty-out 保存0",
+    "expected": [
+      0,
+      0,
+      0
+    ],
+    "actual": [
+      0,
+      0,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-zero 保存0",
+    "expected": [
+      0,
+      0,
+      0
+    ],
+    "actual": [
+      0,
+      0,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-minus 保存0",
+    "expected": [
+      0,
+      0,
+      0
+    ],
+    "actual": [
+      0,
+      0,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-decimal 保存0",
+    "expected": [
+      0,
+      0,
+      0
+    ],
+    "actual": [
+      0,
+      0,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-five 保存0",
+    "expected": [
+      0,
+      0,
+      0
+    ],
+    "actual": [
+      0,
+      0,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-R01 保存0",
+    "expected": [
+      0,
+      0,
+      0
+    ],
+    "actual": [
+      0,
+      0,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-R06 保存0",
+    "expected": [
+      0,
+      0,
+      0
+    ],
+    "actual": [
+      0,
+      0,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I4-today 保存0",
+    "expected": [
+      0,
+      0,
+      0
+    ],
+    "actual": [
+      0,
+      0,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I4-last-in 保存0",
+    "expected": [
+      0,
+      0,
+      0
+    ],
+    "actual": [
+      0,
+      0,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I4-last-out 保存0",
+    "expected": [
+      0,
+      0,
+      0
+    ],
+    "actual": [
+      0,
+      0,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I4-long 保存0",
+    "expected": [
+      0,
+      0,
+      0
+    ],
+    "actual": [
+      0,
+      0,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "invalid 最終件数",
+    "expected": [
+      0,
+      0,
+      0
+    ],
+    "actual": [
+      0,
+      0,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "empty-name HTTP",
+    "expected": 422,
+    "actual": 422,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "empty-name 理由",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "blank-name HTTP",
+    "expected": 422,
+    "actual": 422,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "blank-name 理由",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "empty-email HTTP",
+    "expected": 422,
+    "actual": 422,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "empty-email 理由",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "bad-email HTTP",
+    "expected": 422,
+    "actual": 422,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "bad-email 理由",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I2-equal searchHTTP",
+    "expected": 422,
+    "actual": 422,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I2-equal 候補なし",
+    "expected": 0,
+    "actual": 0,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I2-equal 欄別理由",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I2-equal guest拒否",
+    "expected": 422,
+    "actual": 422,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I2-reverse searchHTTP",
+    "expected": 422,
+    "actual": 422,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I2-reverse 候補なし",
+    "expected": 0,
+    "actual": 0,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I2-reverse 欄別理由",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I2-reverse guest拒否",
+    "expected": 422,
+    "actual": 422,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I2-impossible searchHTTP",
+    "expected": 422,
+    "actual": 422,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I2-impossible 候補なし",
+    "expected": 0,
+    "actual": 0,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I2-impossible 欄別理由",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I2-impossible guest拒否",
+    "expected": 422,
+    "actual": 422,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I2-empty-in searchHTTP",
+    "expected": 422,
+    "actual": 422,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I2-empty-in 候補なし",
+    "expected": 0,
+    "actual": 0,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I2-empty-in 欄別理由",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I2-empty-in guest拒否",
+    "expected": 422,
+    "actual": 422,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I2-empty-out searchHTTP",
+    "expected": 422,
+    "actual": 422,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I2-empty-out 候補なし",
+    "expected": 0,
+    "actual": 0,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I2-empty-out 欄別理由",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I2-empty-out guest拒否",
+    "expected": 422,
+    "actual": 422,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-zero searchHTTP",
+    "expected": 422,
+    "actual": 422,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-zero 候補なし",
+    "expected": 0,
+    "actual": 0,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-zero 欄別理由",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-zero guest拒否",
+    "expected": 422,
+    "actual": 422,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-zero 改変確定POST拒否",
+    "expected": 409,
+    "actual": 409,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-zero 改変理由",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-minus searchHTTP",
+    "expected": 422,
+    "actual": 422,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-minus 候補なし",
+    "expected": 0,
+    "actual": 0,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-minus 欄別理由",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-minus guest拒否",
+    "expected": 422,
+    "actual": 422,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-minus 改変確定POST拒否",
+    "expected": 409,
+    "actual": 409,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-minus 改変理由",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-decimal searchHTTP",
+    "expected": 422,
+    "actual": 422,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-decimal 候補なし",
+    "expected": 0,
+    "actual": 0,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-decimal 欄別理由",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-decimal guest拒否",
+    "expected": 422,
+    "actual": 422,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-decimal 改変確定POST拒否",
+    "expected": 409,
+    "actual": 409,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-decimal 改変理由",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-five searchHTTP",
+    "expected": 422,
+    "actual": 422,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-five 候補なし",
+    "expected": 0,
+    "actual": 0,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-five 欄別理由",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-five guest拒否",
+    "expected": 422,
+    "actual": 422,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-five 改変確定POST拒否",
+    "expected": 409,
+    "actual": 409,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-five 改変理由",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-R01 searchHTTP",
+    "expected": 422,
+    "actual": 422,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-R01 候補なし",
+    "expected": 0,
+    "actual": 0,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-R01 欄別理由",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-R01 guest拒否",
+    "expected": 422,
+    "actual": 422,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-R01 改変確定POST拒否",
+    "expected": 409,
+    "actual": 409,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-R01 改変理由",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-R06 searchHTTP",
+    "expected": 422,
+    "actual": 422,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-R06 候補なし",
+    "expected": 0,
+    "actual": 0,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-R06 欄別理由",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-R06 guest拒否",
+    "expected": 422,
+    "actual": 422,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-R06 改変確定POST拒否",
+    "expected": 409,
+    "actual": 409,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I3-R06 改変理由",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I4-today searchHTTP",
+    "expected": 422,
+    "actual": 422,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I4-today 候補なし",
+    "expected": 0,
+    "actual": 0,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I4-today 欄別理由",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I4-today guest拒否",
+    "expected": 422,
+    "actual": 422,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I4-last-in searchHTTP",
+    "expected": 422,
+    "actual": 422,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I4-last-in 候補なし",
+    "expected": 0,
+    "actual": 0,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I4-last-in 欄別理由",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I4-last-in guest拒否",
+    "expected": 422,
+    "actual": 422,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I4-last-out searchHTTP",
+    "expected": 422,
+    "actual": 422,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I4-last-out 候補なし",
+    "expected": 0,
+    "actual": 0,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I4-last-out 欄別理由",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I4-last-out guest拒否",
+    "expected": 422,
+    "actual": 422,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I4-long searchHTTP",
+    "expected": 422,
+    "actual": 422,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I4-long 候補なし",
+    "expected": 0,
+    "actual": 0,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I4-long 欄別理由",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "I4-long guest拒否",
+    "expected": 422,
+    "actual": 422,
+    "passed": true
+  },
+  {
+    "t": "T04",
+    "name": "全拒否後候補不変",
+    "expected": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "actual": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "passed": true
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "t": "T11",
+    "name": "base 最終件数",
+    "expected": [
+      1,
+      2,
+      0
+    ],
+    "actual": [
+      1,
+      2,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "t": "T11",
+    "name": "full 最終件数",
+    "expected": [
+      6,
+      12,
+      0
+    ],
+    "actual": [
+      6,
+      12,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "t": "T11",
+    "name": "BASE日別空き",
+    "expected": [
+      5,
+      5
+    ],
+    "actual": [
+      5,
+      5
+    ],
+    "passed": true
+  },
+  {
+    "t": "T11",
+    "name": "base 候補",
+    "expected": [
+      "R01",
+      "R03",
+      "R04"
+    ],
+    "actual": [
+      "R01",
+      "R03",
+      "R04"
+    ],
+    "passed": true
+  },
+  {
+    "t": "T11",
+    "name": "full 候補",
+    "expected": [],
+    "actual": [],
+    "passed": true
+  },
+  {
+    "t": "T11",
+    "name": "満室と再検索",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  }
+]

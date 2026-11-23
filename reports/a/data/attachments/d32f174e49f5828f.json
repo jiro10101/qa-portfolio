@@ -1,0 +1,17 @@
+[
+  {
+    "original": "video-320/page@694fffd1d3b09fe8e0c7ee9413e92e9e.webm",
+    "view": "video-320/page@694fffd1d3b09fe8e0c7ee9413e92e9e.2x.mp4",
+    "exit": 0
+  },
+  {
+    "original": "video-390/page@42624fbfbff84c8ef71b255ea4cce392.webm",
+    "view": "video-390/page@42624fbfbff84c8ef71b255ea4cce392.2x.mp4",
+    "exit": 0
+  },
+  {
+    "original": "video-1440/page@5e32456b605dd065df73a1535b63b179.webm",
+    "view": "video-1440/page@5e32456b605dd065df73a1535b63b179.2x.mp4",
+    "exit": 0
+  }
+]

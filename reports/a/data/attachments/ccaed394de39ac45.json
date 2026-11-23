@@ -1,0 +1,25 @@
+{
+  "run": "284-20261109-085615-tester-284",
+  "role": "tester44",
+  "source": "dc3ab45d9b278d96e9e989f8bc75e44fce8e0a6f",
+  "docs": "0cb170393565b636454129aa101ea8a9095423e2",
+  "script_sha": "b26c86d7dcbe4f8f382c2f6ef0802bed18c692da81bc88e756ac83154b8034cd",
+  "fixed_inputs": {
+    "OUTPUT/docs/fixtures.md": "f2fb19f92775f58520defbc0382218e7065af10a3e18fefc2d9901c3e313cc33",
+    "OUTPUT/docs/expected-results.md": "84dd39e5a442c78f2f6737f695e15f3259fd6dcfb275e722ef5ccb34eec9587f"
+  },
+  "fixture": "F1/F-EMPTY",
+  "clock": "2030-07-01T12:00:00+09:00",
+  "tz": "Asia/Tokyo",
+  "uid": 1000,
+  "profile": "codex-seaside-inn-browser",
+  "image_id": "窓口起動前照合、コンテナ内inspectなし",
+  "scope": [
+    "T01",
+    "T02",
+    "T07",
+    "T08",
+    "T09",
+    "T10"
+  ]
+}

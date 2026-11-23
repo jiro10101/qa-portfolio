@@ -1,0 +1,845 @@
+[
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/booking/search/",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/assets/site.css",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/assets/site.css",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R01",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/assets/site.css",
+    "status": 200
+  },
+  {
+    "method": "POST",
+    "url": "http://127.0.0.1:38479/booking/review/",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/assets/site.css",
+    "status": 200
+  },
+  {
+    "method": "POST",
+    "url": "http://127.0.0.1:38479/booking/confirm/",
+    "status": 303
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/booking/complete/?number=N-rAMqiO-PsG4RufPthlwro82eaG6z4RRV",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/assets/site.css",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/assets/site.css",
+    "status": 200
+  },
+  {
+    "label": "T14-foreign-complete",
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/booking/complete/?number=N-rAMqiO-PsG4RufPthlwro82eaG6z4RRV",
+    "status": 403
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/booking/complete/?number=N-rAMqiO-PsG4RufPthlwro82eaG6z4RRV",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/assets/site.css",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/assets/site.css",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:41811/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:41811/assets/site.css",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40351/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40351/assets/site.css",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:36519/booking/search/?checkin=2030-07-21&checkout=2030-07-23&guests=2",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:36519/assets/site.css",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:36519/booking/guest/?checkin=2030-07-21&checkout=2030-07-23&guests=2&room_id=R01",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:36519/assets/site.css",
+    "status": 200
+  },
+  {
+    "method": "POST",
+    "url": "http://127.0.0.1:36519/booking/review/",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:36519/assets/site.css",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:36519/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:36519/assets/site.css",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:36519/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R01",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:36519/assets/site.css",
+    "status": 200
+  },
+  {
+    "method": "POST",
+    "url": "http://127.0.0.1:36519/booking/review/",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:36519/assets/site.css",
+    "status": 200
+  },
+  {
+    "method": "POST",
+    "url": "http://127.0.0.1:36519/booking/confirm/",
+    "status": 303
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:36519/booking/complete/?number=N-knaaMda25hs_5rBSemV9N1F2pULV7M_1",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:36519/assets/site.css",
+    "status": 200
+  },
+  {
+    "method": "POST",
+    "url": "http://127.0.0.1:36519/booking/confirm/",
+    "status": 409
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:36519/assets/site.css",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:36519/booking/search/?checkin=2030-07-21&checkout=2030-07-23&guests=2",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:36519/assets/site.css",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/assets/site.css",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R01",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/assets/site.css",
+    "status": 200
+  },
+  {
+    "label": "I1-empty-name",
+    "method": "POST",
+    "url": "http://127.0.0.1:40399/booking/review/",
+    "status": 422
+  },
+  {
+    "label": "I1-blank-name",
+    "method": "POST",
+    "url": "http://127.0.0.1:40399/booking/review/",
+    "status": 422
+  },
+  {
+    "label": "I1-empty-email",
+    "method": "POST",
+    "url": "http://127.0.0.1:40399/booking/review/",
+    "status": 422
+  },
+  {
+    "label": "I1-bad-email",
+    "method": "POST",
+    "url": "http://127.0.0.1:40399/booking/review/",
+    "status": 422
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/search/?checkin=2030-07-20&checkout=2030-07-20&guests=2",
+    "status": 422
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/assets/site.css",
+    "status": 200
+  },
+  {
+    "label": "I2-equal-guest",
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/guest/?checkin=2030-07-20&checkout=2030-07-20&guests=2&room_id=R01",
+    "status": 422
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/search/?checkin=2030-07-20&checkout=2030-07-19&guests=2",
+    "status": 422
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/assets/site.css",
+    "status": 200
+  },
+  {
+    "label": "I2-reverse-guest",
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/guest/?checkin=2030-07-20&checkout=2030-07-19&guests=2&room_id=R01",
+    "status": 422
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/search/?checkin=2030-02-30&checkout=2030-07-22&guests=2",
+    "status": 422
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/assets/site.css",
+    "status": 200
+  },
+  {
+    "label": "I2-impossible-guest",
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/guest/?checkin=2030-02-30&checkout=2030-07-22&guests=2&room_id=R01",
+    "status": 422
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/search/?checkin=&checkout=2030-07-22&guests=2",
+    "status": 422
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/assets/site.css",
+    "status": 200
+  },
+  {
+    "label": "I2-empty-in-guest",
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/guest/?checkin=&checkout=2030-07-22&guests=2&room_id=R01",
+    "status": 422
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/search/?checkin=2030-07-20&checkout=&guests=2",
+    "status": 422
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/assets/site.css",
+    "status": 200
+  },
+  {
+    "label": "I2-empty-out-guest",
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/guest/?checkin=2030-07-20&checkout=&guests=2&room_id=R01",
+    "status": 422
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=0",
+    "status": 422
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/assets/site.css",
+    "status": 200
+  },
+  {
+    "label": "I3-zero-guest",
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=0&room_id=R01",
+    "status": 422
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/assets/site.css",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R01",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/assets/site.css",
+    "status": 200
+  },
+  {
+    "method": "POST",
+    "url": "http://127.0.0.1:40399/booking/review/",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/assets/site.css",
+    "status": 200
+  },
+  {
+    "label": "I3-zero-post",
+    "method": "POST",
+    "url": "http://127.0.0.1:40399/booking/confirm/",
+    "status": 409
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=-1",
+    "status": 422
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/assets/site.css",
+    "status": 200
+  },
+  {
+    "label": "I3-minus-guest",
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=-1&room_id=R01",
+    "status": 422
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/assets/site.css",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R01",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/assets/site.css",
+    "status": 200
+  },
+  {
+    "method": "POST",
+    "url": "http://127.0.0.1:40399/booking/review/",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/assets/site.css",
+    "status": 200
+  },
+  {
+    "label": "I3-minus-post",
+    "method": "POST",
+    "url": "http://127.0.0.1:40399/booking/confirm/",
+    "status": 409
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=1.5",
+    "status": 422
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/assets/site.css",
+    "status": 200
+  },
+  {
+    "label": "I3-decimal-guest",
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=1.5&room_id=R01",
+    "status": 422
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/assets/site.css",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R01",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/assets/site.css",
+    "status": 200
+  },
+  {
+    "method": "POST",
+    "url": "http://127.0.0.1:40399/booking/review/",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/assets/site.css",
+    "status": 200
+  },
+  {
+    "label": "I3-decimal-post",
+    "method": "POST",
+    "url": "http://127.0.0.1:40399/booking/confirm/",
+    "status": 409
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=5",
+    "status": 422
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/assets/site.css",
+    "status": 200
+  },
+  {
+    "label": "I3-five-guest",
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=5&room_id=R01",
+    "status": 422
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/assets/site.css",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R01",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/assets/site.css",
+    "status": 200
+  },
+  {
+    "method": "POST",
+    "url": "http://127.0.0.1:40399/booking/review/",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/assets/site.css",
+    "status": 200
+  },
+  {
+    "label": "I3-five-post",
+    "method": "POST",
+    "url": "http://127.0.0.1:40399/booking/confirm/",
+    "status": 409
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=3&room_id=R01",
+    "status": 422
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/assets/site.css",
+    "status": 200
+  },
+  {
+    "label": "I3-R01-guest",
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=3&room_id=R01",
+    "status": 422
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/assets/site.css",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R01",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/assets/site.css",
+    "status": 200
+  },
+  {
+    "method": "POST",
+    "url": "http://127.0.0.1:40399/booking/review/",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/assets/site.css",
+    "status": 200
+  },
+  {
+    "label": "I3-R01-post",
+    "method": "POST",
+    "url": "http://127.0.0.1:40399/booking/confirm/",
+    "status": 409
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R06",
+    "status": 422
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/assets/site.css",
+    "status": 200
+  },
+  {
+    "label": "I3-R06-guest",
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R06",
+    "status": 422
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/assets/site.css",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/guest/?checkin=2030-07-20&checkout=2030-07-22&guests=2&room_id=R01",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/assets/site.css",
+    "status": 200
+  },
+  {
+    "method": "POST",
+    "url": "http://127.0.0.1:40399/booking/review/",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/assets/site.css",
+    "status": 200
+  },
+  {
+    "label": "I3-R06-post",
+    "method": "POST",
+    "url": "http://127.0.0.1:40399/booking/confirm/",
+    "status": 409
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/search/?checkin=2030-07-01&checkout=2030-07-22&guests=2",
+    "status": 422
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/assets/site.css",
+    "status": 200
+  },
+  {
+    "label": "I4-today-guest",
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/guest/?checkin=2030-07-01&checkout=2030-07-22&guests=2&room_id=R01",
+    "status": 422
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/search/?checkin=2030-12-31&checkout=2031-01-01&guests=2",
+    "status": 422
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/assets/site.css",
+    "status": 200
+  },
+  {
+    "label": "I4-last-in-guest",
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/guest/?checkin=2030-12-31&checkout=2031-01-01&guests=2&room_id=R01",
+    "status": 422
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/search/?checkin=2030-12-30&checkout=2031-01-01&guests=2",
+    "status": 422
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/assets/site.css",
+    "status": 200
+  },
+  {
+    "label": "I4-last-out-guest",
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/guest/?checkin=2030-12-30&checkout=2031-01-01&guests=2&room_id=R01",
+    "status": 422
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/search/?checkin=2030-07-20&checkout=2030-08-04&guests=2",
+    "status": 422
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/assets/site.css",
+    "status": 200
+  },
+  {
+    "label": "I4-long-guest",
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/guest/?checkin=2030-07-20&checkout=2030-08-04&guests=2&room_id=R01",
+    "status": 422
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/booking/search/?checkin=2030-07-20&checkout=2030-07-22&guests=2",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:40399/assets/site.css",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/staff/login/",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/assets/site.css",
+    "status": 200
+  },
+  {
+    "method": "POST",
+    "url": "http://127.0.0.1:38479/staff/login/",
+    "status": 303
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/staff/reservations/",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/assets/site.css",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/staff/login/",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/assets/site.css",
+    "status": 200
+  },
+  {
+    "method": "POST",
+    "url": "http://127.0.0.1:38479/staff/login/",
+    "status": 303
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/staff/reservations/",
+    "status": 403
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/assets/site.css",
+    "status": 200
+  },
+  {
+    "label": "T16-anonymous-api",
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/staff/api/reservations/?number=N-rAMqiO-PsG4RufPthlwro82eaG6z4RRV&checkin=2030-07-20&checkout=2030-07-22&room_id=R01",
+    "status": 401
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/staff/reservations/?number=N-rAMqiO-PsG4RufPthlwro82eaG6z4RRV&checkin=2030-07-20&checkout=2030-07-22&room_id=R01",
+    "status": 303
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/staff/login/",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/assets/site.css",
+    "status": 200
+  },
+  {
+    "label": "T16-general-api",
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/staff/api/reservations/?number=N-rAMqiO-PsG4RufPthlwro82eaG6z4RRV&checkin=2030-07-20&checkout=2030-07-22&room_id=R01",
+    "status": 403
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/staff/reservations/?number=N-rAMqiO-PsG4RufPthlwro82eaG6z4RRV&checkin=2030-07-20&checkout=2030-07-22&room_id=R01",
+    "status": 403
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/assets/site.css",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/staff/reservations/?number=N-rAMqiO-PsG4RufPthlwro82eaG6z4RRV&checkin=2030-07-20&checkout=2030-07-22&room_id=R01",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/assets/site.css",
+    "status": 200
+  },
+  {
+    "label": "T16-staff-api",
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/staff/api/reservations/?number=N-rAMqiO-PsG4RufPthlwro82eaG6z4RRV&checkin=2030-07-20&checkout=2030-07-22&room_id=R01",
+    "status": 200
+  },
+  {
+    "label": "T16-other-number",
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/staff/api/reservations/?number=N-other&checkin=2030-07-20&checkout=2030-07-22&room_id=R01",
+    "status": 200
+  },
+  {
+    "label": "T16-partial-number",
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/staff/api/reservations/?number=N-rAMqiO-PsG4RufPthlwro82eaG6z4RR&checkin=2030-07-20&checkout=2030-07-22&room_id=R01",
+    "status": 200
+  },
+  {
+    "label": "T16-other-dates",
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/staff/api/reservations/?number=N-rAMqiO-PsG4RufPthlwro82eaG6z4RRV&checkin=2030-07-22&checkout=2030-07-23&room_id=R01",
+    "status": 200
+  },
+  {
+    "label": "T16-other-room",
+    "method": "GET",
+    "url": "http://127.0.0.1:38479/staff/api/reservations/?number=N-rAMqiO-PsG4RufPthlwro82eaG6z4RRV&checkin=2030-07-20&checkout=2030-07-22&room_id=R02",
+    "status": 200
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "trace": "DOM/操作/画像trace有効JSON。伏字処理で破損したnetworkメタデータを除外。HTTP原記録はhttp.json/応答HTMLを参照。認証ページはtrace/動画対象外。",
+  "source_commit": "dc3ab45d9b278d96e9e989f8bc75e44fce8e0a6f",
+  "source_clean": true,
+  "script_final_sha256": "8589cc6bb9955075cf42db56678eaaeaa34951df6b0394cf05e2b2d8786a0dc8",
+  "script_execution_sha256": "5d02828cef2c7b290f78fa199a6f25266bcc11bbc70b21e674ae21959fdf6723",
+  "script_adjustments": 2,
+  "job_reruns": 0,
+  "by_t": {
+    "T03": 30,
+    "T14": 7,
+    "T11": 6,
+    "T12": 9,
+    "T04": 101,
+    "T16": 23,
+    "環境": 8
+  },
+  "failed": 0,
+  "attachment_references_valid": true
+}

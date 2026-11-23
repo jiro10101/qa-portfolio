@@ -1,0 +1,235 @@
+[
+  {
+    "t": "T14",
+    "name": "同一URLで専用HTTP再起動",
+    "expected": "http://127.0.0.1:38479",
+    "actual": "http://127.0.0.1:38479",
+    "passed": true
+  },
+  {
+    "t": "T14",
+    "name": "再起動前後全保存一致",
+    "expected": {
+      "reservations": [
+        {
+          "id": 1,
+          "number": "N-rAMqiO-PsG4RufPthlwro82eaG6z4RRV",
+          "room_id": "R01",
+          "checkin": "2030-07-20",
+          "checkout": "2030-07-22",
+          "guests": 2,
+          "total": 24000,
+          "status": "CONFIRMED"
+        }
+      ],
+      "occupancy": [
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-20",
+          "reservation_id": 1,
+          "closure_id": null
+        },
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-21",
+          "reservation_id": 1,
+          "closure_id": null
+        }
+      ],
+      "submissions": [
+        {
+          "reservation_id": 1
+        }
+      ],
+      "reservation_details": [
+        {
+          "reservation_id": 1,
+          "guest_name": "試験 太郎",
+          "email": "taro@example.invalid",
+          "snapshot": "{\"room_id\": \"R01\", \"checkin\": \"2030-07-20\", \"checkout\": \"2030-07-22\", \"name\": \"朝凪\", \"capacity\": 2, \"base_rate\": 12000, \"guests\": 2, \"nights\": 2, \"total\": 24000, \"breakdown\": [{\"stay_date\": \"2030-07-20\", \"base\": 12000, \"extra\": 0}, {\"stay_date\": \"2030-07-21\", \"base\": 12000, \"extra\": 0}], \"price_version\": \"P1\", \"condition_version\": \"C1\", \"condition\": \"チェックイン15:00～20:00、アウト10:00。子どもも同額。\", \"issued_at\": \"2030-07-01T12:00:00+09:00\", \"expires_at\": \"2030-07-01T12:15:00+09:00\"}",
+          "created_at": "2030-07-01T12:00:00+09:00"
+        }
+      ]
+    },
+    "actual": {
+      "reservations": [
+        {
+          "id": 1,
+          "number": "N-rAMqiO-PsG4RufPthlwro82eaG6z4RRV",
+          "room_id": "R01",
+          "checkin": "2030-07-20",
+          "checkout": "2030-07-22",
+          "guests": 2,
+          "total": 24000,
+          "status": "CONFIRMED"
+        }
+      ],
+      "occupancy": [
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-20",
+          "reservation_id": 1,
+          "closure_id": null
+        },
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-21",
+          "reservation_id": 1,
+          "closure_id": null
+        }
+      ],
+      "submissions": [
+        {
+          "reservation_id": 1
+        }
+      ],
+      "reservation_details": [
+        {
+          "reservation_id": 1,
+          "guest_name": "試験 太郎",
+          "email": "taro@example.invalid",
+          "snapshot": "{\"room_id\": \"R01\", \"checkin\": \"2030-07-20\", \"checkout\": \"2030-07-22\", \"name\": \"朝凪\", \"capacity\": 2, \"base_rate\": 12000, \"guests\": 2, \"nights\": 2, \"total\": 24000, \"breakdown\": [{\"stay_date\": \"2030-07-20\", \"base\": 12000, \"extra\": 0}, {\"stay_date\": \"2030-07-21\", \"base\": 12000, \"extra\": 0}], \"price_version\": \"P1\", \"condition_version\": \"C1\", \"condition\": \"チェックイン15:00～20:00、アウト10:00。子どもも同額。\", \"issued_at\": \"2030-07-01T12:00:00+09:00\", \"expires_at\": \"2030-07-01T12:15:00+09:00\"}",
+          "created_at": "2030-07-01T12:00:00+09:00"
+        }
+      ]
+    },
+    "passed": true
+  },
+  {
+    "t": "T14",
+    "name": "再起動照会後保存不変",
+    "expected": {
+      "reservations": [
+        {
+          "id": 1,
+          "number": "N-rAMqiO-PsG4RufPthlwro82eaG6z4RRV",
+          "room_id": "R01",
+          "checkin": "2030-07-20",
+          "checkout": "2030-07-22",
+          "guests": 2,
+          "total": 24000,
+          "status": "CONFIRMED"
+        }
+      ],
+      "occupancy": [
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-20",
+          "reservation_id": 1,
+          "closure_id": null
+        },
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-21",
+          "reservation_id": 1,
+          "closure_id": null
+        }
+      ],
+      "submissions": [
+        {
+          "reservation_id": 1
+        }
+      ],
+      "reservation_details": [
+        {
+          "reservation_id": 1,
+          "guest_name": "試験 太郎",
+          "email": "taro@example.invalid",
+          "snapshot": "{\"room_id\": \"R01\", \"checkin\": \"2030-07-20\", \"checkout\": \"2030-07-22\", \"name\": \"朝凪\", \"capacity\": 2, \"base_rate\": 12000, \"guests\": 2, \"nights\": 2, \"total\": 24000, \"breakdown\": [{\"stay_date\": \"2030-07-20\", \"base\": 12000, \"extra\": 0}, {\"stay_date\": \"2030-07-21\", \"base\": 12000, \"extra\": 0}], \"price_version\": \"P1\", \"condition_version\": \"C1\", \"condition\": \"チェックイン15:00～20:00、アウト10:00。子どもも同額。\", \"issued_at\": \"2030-07-01T12:00:00+09:00\", \"expires_at\": \"2030-07-01T12:15:00+09:00\"}",
+          "created_at": "2030-07-01T12:00:00+09:00"
+        }
+      ]
+    },
+    "actual": {
+      "reservations": [
+        {
+          "id": 1,
+          "number": "N-rAMqiO-PsG4RufPthlwro82eaG6z4RRV",
+          "room_id": "R01",
+          "checkin": "2030-07-20",
+          "checkout": "2030-07-22",
+          "guests": 2,
+          "total": 24000,
+          "status": "CONFIRMED"
+        }
+      ],
+      "occupancy": [
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-20",
+          "reservation_id": 1,
+          "closure_id": null
+        },
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-21",
+          "reservation_id": 1,
+          "closure_id": null
+        }
+      ],
+      "submissions": [
+        {
+          "reservation_id": 1
+        }
+      ],
+      "reservation_details": [
+        {
+          "reservation_id": 1,
+          "guest_name": "試験 太郎",
+          "email": "taro@example.invalid",
+          "snapshot": "{\"room_id\": \"R01\", \"checkin\": \"2030-07-20\", \"checkout\": \"2030-07-22\", \"name\": \"朝凪\", \"capacity\": 2, \"base_rate\": 12000, \"guests\": 2, \"nights\": 2, \"total\": 24000, \"breakdown\": [{\"stay_date\": \"2030-07-20\", \"base\": 12000, \"extra\": 0}, {\"stay_date\": \"2030-07-21\", \"base\": 12000, \"extra\": 0}], \"price_version\": \"P1\", \"condition_version\": \"C1\", \"condition\": \"チェックイン15:00～20:00、アウト10:00。子どもも同額。\", \"issued_at\": \"2030-07-01T12:00:00+09:00\", \"expires_at\": \"2030-07-01T12:15:00+09:00\"}",
+          "created_at": "2030-07-01T12:00:00+09:00"
+        }
+      ]
+    },
+    "passed": true
+  },
+  {
+    "t": "T14",
+    "name": "別ブラウザ候補",
+    "expected": [
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "actual": [
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "passed": true
+  },
+  {
+    "t": "T14",
+    "name": "別ブラウザ詳細403",
+    "expected": 403,
+    "actual": 403,
+    "passed": true
+  },
+  {
+    "t": "T14",
+    "name": "再起動後同番号全表示",
+    "expected": "予約完了\n\n保存が完了しました。予約番号 N-rAMqiO-PsG4RufPthlwro82eaG6z4RRV\n\nR01 朝凪\n\n2030-07-20 ～ 2030-07-22 / 2名・2泊 / 合計（税込）24,000円\n\n2030-07-20：基本 12,000円 ＋ 追加人数 0円\n2030-07-21：基本 12,000円 ＋ 追加人数 0円\n\n価格版P1・条件版C1 / チェックイン15:00～20:00、アウト10:00。子どもも同額。\n\n素泊まり・食事0円、追加手数料0円。\n\n試験 太郎 / taro@example.invalid",
+    "actual": "予約完了\n\n保存が完了しました。予約番号 N-rAMqiO-PsG4RufPthlwro82eaG6z4RRV\n\nR01 朝凪\n\n2030-07-20 ～ 2030-07-22 / 2名・2泊 / 合計（税込）24,000円\n\n2030-07-20：基本 12,000円 ＋ 追加人数 0円\n2030-07-21：基本 12,000円 ＋ 追加人数 0円\n\n価格版P1・条件版C1 / チェックイン15:00～20:00、アウト10:00。子どもも同額。\n\n素泊まり・食事0円、追加手数料0円。\n\n試験 太郎 / taro@example.invalid",
+    "passed": true
+  },
+  {
+    "t": "T14",
+    "name": "再起動後候補",
+    "expected": [
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "actual": [
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "passed": true
+  }
+]

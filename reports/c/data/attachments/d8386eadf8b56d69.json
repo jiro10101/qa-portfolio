@@ -1,0 +1,11 @@
+{
+  "all_http_stopped": true,
+  "hooks_disabled": true,
+  "locks_released": true,
+  "synchronization_removed": true,
+  "server_connect_restored": true,
+  "browser_exit": 0,
+  "db_retained": true,
+  "shared_services_changed": false,
+  "version_changes": "Q1/Q2各専用DBのみ。停止済みDBは証拠として版変更を保持、他環境変更なし"
+}

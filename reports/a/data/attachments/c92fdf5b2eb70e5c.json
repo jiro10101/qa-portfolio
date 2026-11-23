@@ -1,0 +1,7205 @@
+[
+  {
+    "t": "T09",
+    "name": "320 HTTP /",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "320 page0 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "320 page0 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "320 page0 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "320 page0 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "320 画像寸法 0",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "320 HTTP /rooms/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "320 page1 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "320 page1 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "320 page1 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "320 page1 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "320 画像寸法 1",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 室数 1",
+    "expected": 6,
+    "actual": 6,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R01 id",
+    "expected": "R01",
+    "actual": "R01",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R01 name",
+    "expected": "朝凪",
+    "actual": "朝凪",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R01 capacity",
+    "expected": "2名",
+    "actual": "2名",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R01 bedding",
+    "expected": "シングルベッド2台",
+    "actual": "シングルベッド2台",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R01 equipment",
+    "expected": "シャワー",
+    "actual": "シャワー",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R01 view",
+    "expected": "海正面",
+    "actual": "海正面",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R01 rate",
+    "expected": "12,000円/室/泊（2名まで。1名でも同額）",
+    "actual": "12,000円/室/泊（2名まで。1名でも同額）",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R01 common",
+    "expected": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "actual": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R01 素材",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R02 id",
+    "expected": "R02",
+    "actual": "R02",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R02 name",
+    "expected": "潮音",
+    "actual": "潮音",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R02 capacity",
+    "expected": "2名",
+    "actual": "2名",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R02 bedding",
+    "expected": "布団2組",
+    "actual": "布団2組",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R02 equipment",
+    "expected": "浴槽",
+    "actual": "浴槽",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R02 view",
+    "expected": "海斜め",
+    "actual": "海斜め",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R02 rate",
+    "expected": "14,000円/室/泊（2名まで。1名でも同額）",
+    "actual": "14,000円/室/泊（2名まで。1名でも同額）",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R02 common",
+    "expected": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "actual": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R02 素材",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R03 id",
+    "expected": "R03",
+    "actual": "R03",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R03 name",
+    "expected": "砂浜",
+    "actual": "砂浜",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R03 capacity",
+    "expected": "3名",
+    "actual": "3名",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R03 bedding",
+    "expected": "布団3組",
+    "actual": "布団3組",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R03 equipment",
+    "expected": "シャワー",
+    "actual": "シャワー",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R03 view",
+    "expected": "庭",
+    "actual": "庭",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R03 rate",
+    "expected": "15,000円/室/泊（2名まで。1名でも同額）",
+    "actual": "15,000円/室/泊（2名まで。1名でも同額）",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R03 common",
+    "expected": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "actual": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R03 素材",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R04 id",
+    "expected": "R04",
+    "actual": "R04",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R04 name",
+    "expected": "灯台",
+    "actual": "灯台",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R04 capacity",
+    "expected": "4名",
+    "actual": "4名",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R04 bedding",
+    "expected": "ベッド2台・布団2組",
+    "actual": "ベッド2台・布団2組",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R04 equipment",
+    "expected": "浴槽",
+    "actual": "浴槽",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R04 view",
+    "expected": "海正面",
+    "actual": "海正面",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R04 rate",
+    "expected": "18,000円/室/泊（2名まで。1名でも同額）",
+    "actual": "18,000円/室/泊（2名まで。1名でも同額）",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R04 common",
+    "expected": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "actual": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R04 素材",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R05 id",
+    "expected": "R05",
+    "actual": "R05",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R05 name",
+    "expected": "波間",
+    "actual": "波間",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R05 capacity",
+    "expected": "4名",
+    "actual": "4名",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R05 bedding",
+    "expected": "布団4組",
+    "actual": "布団4組",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R05 equipment",
+    "expected": "シャワー",
+    "actual": "シャワー",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R05 view",
+    "expected": "海斜め",
+    "actual": "海斜め",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R05 rate",
+    "expected": "20,000円/室/泊（2名まで。1名でも同額）",
+    "actual": "20,000円/室/泊（2名まで。1名でも同額）",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R05 common",
+    "expected": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "actual": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R05 素材",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R06 id",
+    "expected": "R06",
+    "actual": "R06",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R06 name",
+    "expected": "夕凪",
+    "actual": "夕凪",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R06 capacity",
+    "expected": "1名",
+    "actual": "1名",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R06 bedding",
+    "expected": "シングルベッド1台",
+    "actual": "シングルベッド1台",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R06 equipment",
+    "expected": "シャワー",
+    "actual": "シャワー",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R06 view",
+    "expected": "庭",
+    "actual": "庭",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R06 rate",
+    "expected": "9,000円/室/泊（1名利用のみ）",
+    "actual": "9,000円/室/泊（1名利用のみ）",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R06 common",
+    "expected": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "actual": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R06 素材",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "320 HTTP /rooms/R01/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "320 page2 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "320 page2 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "320 page2 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "320 page2 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "320 画像寸法 2",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 室数 2",
+    "expected": 1,
+    "actual": 1,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R01 id",
+    "expected": "R01",
+    "actual": "R01",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R01 name",
+    "expected": "朝凪",
+    "actual": "朝凪",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R01 capacity",
+    "expected": "2名",
+    "actual": "2名",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R01 bedding",
+    "expected": "シングルベッド2台",
+    "actual": "シングルベッド2台",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R01 equipment",
+    "expected": "シャワー",
+    "actual": "シャワー",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R01 view",
+    "expected": "海正面",
+    "actual": "海正面",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R01 rate",
+    "expected": "12,000円/室/泊（2名まで。1名でも同額）",
+    "actual": "12,000円/室/泊（2名まで。1名でも同額）",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R01 common",
+    "expected": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "actual": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R01 素材",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 2 すべて税込",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 2 3人目以降1人1泊3,000円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 2 季節・曜日・連泊割引・清掃料・サービス料は0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 2 食事0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 2 子どもも同額・寝具あり",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 2 添い寝割引なし",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 2 チェックイン15:00～20:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 2 チェックアウト10:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 2 最大14泊",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 2 8日以上前0%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 2 7～2日前20%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 2 前日50%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 2 当日・無連絡100%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "320 HTTP /rooms/R02/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "320 page3 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "320 page3 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "320 page3 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "320 page3 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "320 画像寸法 3",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 室数 3",
+    "expected": 1,
+    "actual": 1,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R02 id",
+    "expected": "R02",
+    "actual": "R02",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R02 name",
+    "expected": "潮音",
+    "actual": "潮音",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R02 capacity",
+    "expected": "2名",
+    "actual": "2名",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R02 bedding",
+    "expected": "布団2組",
+    "actual": "布団2組",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R02 equipment",
+    "expected": "浴槽",
+    "actual": "浴槽",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R02 view",
+    "expected": "海斜め",
+    "actual": "海斜め",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R02 rate",
+    "expected": "14,000円/室/泊（2名まで。1名でも同額）",
+    "actual": "14,000円/室/泊（2名まで。1名でも同額）",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R02 common",
+    "expected": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "actual": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R02 素材",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 3 すべて税込",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 3 3人目以降1人1泊3,000円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 3 季節・曜日・連泊割引・清掃料・サービス料は0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 3 食事0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 3 子どもも同額・寝具あり",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 3 添い寝割引なし",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 3 チェックイン15:00～20:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 3 チェックアウト10:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 3 最大14泊",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 3 8日以上前0%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 3 7～2日前20%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 3 前日50%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 3 当日・無連絡100%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "320 HTTP /rooms/R03/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "320 page4 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "320 page4 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "320 page4 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "320 page4 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "320 画像寸法 4",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 室数 4",
+    "expected": 1,
+    "actual": 1,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R03 id",
+    "expected": "R03",
+    "actual": "R03",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R03 name",
+    "expected": "砂浜",
+    "actual": "砂浜",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R03 capacity",
+    "expected": "3名",
+    "actual": "3名",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R03 bedding",
+    "expected": "布団3組",
+    "actual": "布団3組",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R03 equipment",
+    "expected": "シャワー",
+    "actual": "シャワー",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R03 view",
+    "expected": "庭",
+    "actual": "庭",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R03 rate",
+    "expected": "15,000円/室/泊（2名まで。1名でも同額）",
+    "actual": "15,000円/室/泊（2名まで。1名でも同額）",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R03 common",
+    "expected": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "actual": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R03 素材",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 4 すべて税込",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 4 3人目以降1人1泊3,000円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 4 季節・曜日・連泊割引・清掃料・サービス料は0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 4 食事0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 4 子どもも同額・寝具あり",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 4 添い寝割引なし",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 4 チェックイン15:00～20:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 4 チェックアウト10:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 4 最大14泊",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 4 8日以上前0%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 4 7～2日前20%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 4 前日50%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 4 当日・無連絡100%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "320 HTTP /rooms/R04/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "320 page5 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "320 page5 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "320 page5 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "320 page5 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "320 画像寸法 5",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 室数 5",
+    "expected": 1,
+    "actual": 1,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R04 id",
+    "expected": "R04",
+    "actual": "R04",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R04 name",
+    "expected": "灯台",
+    "actual": "灯台",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R04 capacity",
+    "expected": "4名",
+    "actual": "4名",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R04 bedding",
+    "expected": "ベッド2台・布団2組",
+    "actual": "ベッド2台・布団2組",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R04 equipment",
+    "expected": "浴槽",
+    "actual": "浴槽",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R04 view",
+    "expected": "海正面",
+    "actual": "海正面",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R04 rate",
+    "expected": "18,000円/室/泊（2名まで。1名でも同額）",
+    "actual": "18,000円/室/泊（2名まで。1名でも同額）",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R04 common",
+    "expected": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "actual": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R04 素材",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 5 すべて税込",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 5 3人目以降1人1泊3,000円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 5 季節・曜日・連泊割引・清掃料・サービス料は0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 5 食事0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 5 子どもも同額・寝具あり",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 5 添い寝割引なし",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 5 チェックイン15:00～20:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 5 チェックアウト10:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 5 最大14泊",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 5 8日以上前0%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 5 7～2日前20%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 5 前日50%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 5 当日・無連絡100%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "320 HTTP /rooms/R05/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "320 page6 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "320 page6 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "320 page6 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "320 page6 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "320 画像寸法 6",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 室数 6",
+    "expected": 1,
+    "actual": 1,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R05 id",
+    "expected": "R05",
+    "actual": "R05",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R05 name",
+    "expected": "波間",
+    "actual": "波間",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R05 capacity",
+    "expected": "4名",
+    "actual": "4名",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R05 bedding",
+    "expected": "布団4組",
+    "actual": "布団4組",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R05 equipment",
+    "expected": "シャワー",
+    "actual": "シャワー",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R05 view",
+    "expected": "海斜め",
+    "actual": "海斜め",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R05 rate",
+    "expected": "20,000円/室/泊（2名まで。1名でも同額）",
+    "actual": "20,000円/室/泊（2名まで。1名でも同額）",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R05 common",
+    "expected": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "actual": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R05 素材",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 6 すべて税込",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 6 3人目以降1人1泊3,000円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 6 季節・曜日・連泊割引・清掃料・サービス料は0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 6 食事0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 6 子どもも同額・寝具あり",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 6 添い寝割引なし",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 6 チェックイン15:00～20:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 6 チェックアウト10:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 6 最大14泊",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 6 8日以上前0%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 6 7～2日前20%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 6 前日50%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 6 当日・無連絡100%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "320 HTTP /rooms/R06/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "320 page7 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "320 page7 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "320 page7 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "320 page7 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "320 画像寸法 7",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 室数 7",
+    "expected": 1,
+    "actual": 1,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R06 id",
+    "expected": "R06",
+    "actual": "R06",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R06 name",
+    "expected": "夕凪",
+    "actual": "夕凪",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R06 capacity",
+    "expected": "1名",
+    "actual": "1名",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R06 bedding",
+    "expected": "シングルベッド1台",
+    "actual": "シングルベッド1台",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R06 equipment",
+    "expected": "シャワー",
+    "actual": "シャワー",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R06 view",
+    "expected": "庭",
+    "actual": "庭",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R06 rate",
+    "expected": "9,000円/室/泊（1名利用のみ）",
+    "actual": "9,000円/室/泊（1名利用のみ）",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R06 common",
+    "expected": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "actual": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "320 R06 素材",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 7 すべて税込",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 7 3人目以降1人1泊3,000円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 7 季節・曜日・連泊割引・清掃料・サービス料は0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 7 食事0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 7 子どもも同額・寝具あり",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 7 添い寝割引なし",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 7 チェックイン15:00～20:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 7 チェックアウト10:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 7 最大14泊",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 7 8日以上前0%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 7 7～2日前20%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 7 前日50%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 7 当日・無連絡100%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "320 HTTP /stay/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "320 page8 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "320 page8 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "320 page8 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "320 page8 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "320 画像寸法 8",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 8 すべて税込",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 8 3人目以降1人1泊3,000円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 8 季節・曜日・連泊割引・清掃料・サービス料は0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 8 食事0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 8 子どもも同額・寝具あり",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 8 添い寝割引なし",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 8 チェックイン15:00～20:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 8 チェックアウト10:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 8 最大14泊",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 8 8日以上前0%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 8 7～2日前20%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 8 前日50%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 条件 8 当日・無連絡100%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 金額例 24,000",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 金額例 28,000",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 金額例 30,000",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 金額例 36,000",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 金額例 40,000",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 金額例 18,000",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 金額例 48,000",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 金額例 52,000",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 金額例 4,800",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "320 金額例 12,000",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "320 HTTP /access/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "320 page9 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "320 page9 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "320 page9 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "320 page9 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "320 画像寸法 9",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "320 アクセス 架空県なぎさ市海岸町0-0",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "320 アクセス 6台",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "320 アクセス 15分",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "320 アクセス 徒歩5分",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "320 アクセス 徒歩2分",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "320 架空案内図alt",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "320 HTTP /contact/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "320 page10 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "320 page10 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "320 page10 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "320 page10 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "320 画像寸法 10",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "320 連絡 demo-contact@example.invalid",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "320 連絡 デモのため電話受付なし",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "320 外部送信リンクなし",
+    "expected": 0,
+    "actual": 0,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "320 HTTP /privacy/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "320 page11 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "320 page11 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "320 page11 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "320 page11 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "320 画像寸法 11",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "320 HTTP /booking/search/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "320 page12 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "320 page12 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "320 page12 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "320 page12 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "320 画像寸法 12",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "320 必須",
+    "expected": false,
+    "actual": false,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "320 422",
+    "expected": 422,
+    "actual": 422,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "320 error 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "320 error 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "320 error 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "320 error label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "320 概要focus",
+    "expected": "errors",
+    "actual": "errors",
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "320 エラー関連",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "320 欄復帰",
+    "expected": "checkout",
+    "actual": "checkout",
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "320 逆Tab",
+    "expected": "checkin",
+    "actual": "checkin",
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "320 results 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "320 results 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "320 results 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "320 results label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "320 guest 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "320 guest 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "320 guest 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "320 guest label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "320 email",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "320 focus可視",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "320 review 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "320 review 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "320 review 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "320 review label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "320 complete 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "320 complete 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "320 complete 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "320 complete label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "320 宿画面横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "320 宿ラベル",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "320 宿Tab",
+    "expected": "checkin",
+    "actual": "checkin",
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "320 宿逆Tab",
+    "expected": "number",
+    "actual": "number",
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "390 HTTP /",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "390 page0 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "390 page0 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "390 page0 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "390 page0 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "390 画像寸法 0",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "390 HTTP /rooms/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "390 page1 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "390 page1 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "390 page1 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "390 page1 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "390 画像寸法 1",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 室数 1",
+    "expected": 6,
+    "actual": 6,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R01 id",
+    "expected": "R01",
+    "actual": "R01",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R01 name",
+    "expected": "朝凪",
+    "actual": "朝凪",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R01 capacity",
+    "expected": "2名",
+    "actual": "2名",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R01 bedding",
+    "expected": "シングルベッド2台",
+    "actual": "シングルベッド2台",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R01 equipment",
+    "expected": "シャワー",
+    "actual": "シャワー",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R01 view",
+    "expected": "海正面",
+    "actual": "海正面",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R01 rate",
+    "expected": "12,000円/室/泊（2名まで。1名でも同額）",
+    "actual": "12,000円/室/泊（2名まで。1名でも同額）",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R01 common",
+    "expected": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "actual": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R01 素材",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R02 id",
+    "expected": "R02",
+    "actual": "R02",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R02 name",
+    "expected": "潮音",
+    "actual": "潮音",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R02 capacity",
+    "expected": "2名",
+    "actual": "2名",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R02 bedding",
+    "expected": "布団2組",
+    "actual": "布団2組",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R02 equipment",
+    "expected": "浴槽",
+    "actual": "浴槽",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R02 view",
+    "expected": "海斜め",
+    "actual": "海斜め",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R02 rate",
+    "expected": "14,000円/室/泊（2名まで。1名でも同額）",
+    "actual": "14,000円/室/泊（2名まで。1名でも同額）",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R02 common",
+    "expected": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "actual": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R02 素材",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R03 id",
+    "expected": "R03",
+    "actual": "R03",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R03 name",
+    "expected": "砂浜",
+    "actual": "砂浜",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R03 capacity",
+    "expected": "3名",
+    "actual": "3名",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R03 bedding",
+    "expected": "布団3組",
+    "actual": "布団3組",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R03 equipment",
+    "expected": "シャワー",
+    "actual": "シャワー",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R03 view",
+    "expected": "庭",
+    "actual": "庭",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R03 rate",
+    "expected": "15,000円/室/泊（2名まで。1名でも同額）",
+    "actual": "15,000円/室/泊（2名まで。1名でも同額）",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R03 common",
+    "expected": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "actual": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R03 素材",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R04 id",
+    "expected": "R04",
+    "actual": "R04",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R04 name",
+    "expected": "灯台",
+    "actual": "灯台",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R04 capacity",
+    "expected": "4名",
+    "actual": "4名",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R04 bedding",
+    "expected": "ベッド2台・布団2組",
+    "actual": "ベッド2台・布団2組",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R04 equipment",
+    "expected": "浴槽",
+    "actual": "浴槽",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R04 view",
+    "expected": "海正面",
+    "actual": "海正面",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R04 rate",
+    "expected": "18,000円/室/泊（2名まで。1名でも同額）",
+    "actual": "18,000円/室/泊（2名まで。1名でも同額）",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R04 common",
+    "expected": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "actual": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R04 素材",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R05 id",
+    "expected": "R05",
+    "actual": "R05",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R05 name",
+    "expected": "波間",
+    "actual": "波間",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R05 capacity",
+    "expected": "4名",
+    "actual": "4名",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R05 bedding",
+    "expected": "布団4組",
+    "actual": "布団4組",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R05 equipment",
+    "expected": "シャワー",
+    "actual": "シャワー",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R05 view",
+    "expected": "海斜め",
+    "actual": "海斜め",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R05 rate",
+    "expected": "20,000円/室/泊（2名まで。1名でも同額）",
+    "actual": "20,000円/室/泊（2名まで。1名でも同額）",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R05 common",
+    "expected": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "actual": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R05 素材",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R06 id",
+    "expected": "R06",
+    "actual": "R06",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R06 name",
+    "expected": "夕凪",
+    "actual": "夕凪",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R06 capacity",
+    "expected": "1名",
+    "actual": "1名",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R06 bedding",
+    "expected": "シングルベッド1台",
+    "actual": "シングルベッド1台",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R06 equipment",
+    "expected": "シャワー",
+    "actual": "シャワー",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R06 view",
+    "expected": "庭",
+    "actual": "庭",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R06 rate",
+    "expected": "9,000円/室/泊（1名利用のみ）",
+    "actual": "9,000円/室/泊（1名利用のみ）",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R06 common",
+    "expected": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "actual": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R06 素材",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "390 HTTP /rooms/R01/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "390 page2 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "390 page2 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "390 page2 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "390 page2 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "390 画像寸法 2",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 室数 2",
+    "expected": 1,
+    "actual": 1,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R01 id",
+    "expected": "R01",
+    "actual": "R01",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R01 name",
+    "expected": "朝凪",
+    "actual": "朝凪",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R01 capacity",
+    "expected": "2名",
+    "actual": "2名",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R01 bedding",
+    "expected": "シングルベッド2台",
+    "actual": "シングルベッド2台",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R01 equipment",
+    "expected": "シャワー",
+    "actual": "シャワー",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R01 view",
+    "expected": "海正面",
+    "actual": "海正面",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R01 rate",
+    "expected": "12,000円/室/泊（2名まで。1名でも同額）",
+    "actual": "12,000円/室/泊（2名まで。1名でも同額）",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R01 common",
+    "expected": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "actual": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R01 素材",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 2 すべて税込",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 2 3人目以降1人1泊3,000円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 2 季節・曜日・連泊割引・清掃料・サービス料は0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 2 食事0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 2 子どもも同額・寝具あり",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 2 添い寝割引なし",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 2 チェックイン15:00～20:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 2 チェックアウト10:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 2 最大14泊",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 2 8日以上前0%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 2 7～2日前20%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 2 前日50%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 2 当日・無連絡100%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "390 HTTP /rooms/R02/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "390 page3 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "390 page3 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "390 page3 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "390 page3 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "390 画像寸法 3",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 室数 3",
+    "expected": 1,
+    "actual": 1,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R02 id",
+    "expected": "R02",
+    "actual": "R02",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R02 name",
+    "expected": "潮音",
+    "actual": "潮音",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R02 capacity",
+    "expected": "2名",
+    "actual": "2名",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R02 bedding",
+    "expected": "布団2組",
+    "actual": "布団2組",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R02 equipment",
+    "expected": "浴槽",
+    "actual": "浴槽",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R02 view",
+    "expected": "海斜め",
+    "actual": "海斜め",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R02 rate",
+    "expected": "14,000円/室/泊（2名まで。1名でも同額）",
+    "actual": "14,000円/室/泊（2名まで。1名でも同額）",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R02 common",
+    "expected": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "actual": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R02 素材",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 3 すべて税込",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 3 3人目以降1人1泊3,000円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 3 季節・曜日・連泊割引・清掃料・サービス料は0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 3 食事0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 3 子どもも同額・寝具あり",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 3 添い寝割引なし",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 3 チェックイン15:00～20:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 3 チェックアウト10:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 3 最大14泊",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 3 8日以上前0%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 3 7～2日前20%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 3 前日50%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 3 当日・無連絡100%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "390 HTTP /rooms/R03/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "390 page4 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "390 page4 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "390 page4 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "390 page4 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "390 画像寸法 4",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 室数 4",
+    "expected": 1,
+    "actual": 1,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R03 id",
+    "expected": "R03",
+    "actual": "R03",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R03 name",
+    "expected": "砂浜",
+    "actual": "砂浜",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R03 capacity",
+    "expected": "3名",
+    "actual": "3名",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R03 bedding",
+    "expected": "布団3組",
+    "actual": "布団3組",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R03 equipment",
+    "expected": "シャワー",
+    "actual": "シャワー",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R03 view",
+    "expected": "庭",
+    "actual": "庭",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R03 rate",
+    "expected": "15,000円/室/泊（2名まで。1名でも同額）",
+    "actual": "15,000円/室/泊（2名まで。1名でも同額）",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R03 common",
+    "expected": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "actual": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R03 素材",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 4 すべて税込",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 4 3人目以降1人1泊3,000円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 4 季節・曜日・連泊割引・清掃料・サービス料は0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 4 食事0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 4 子どもも同額・寝具あり",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 4 添い寝割引なし",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 4 チェックイン15:00～20:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 4 チェックアウト10:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 4 最大14泊",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 4 8日以上前0%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 4 7～2日前20%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 4 前日50%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 4 当日・無連絡100%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "390 HTTP /rooms/R04/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "390 page5 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "390 page5 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "390 page5 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "390 page5 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "390 画像寸法 5",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 室数 5",
+    "expected": 1,
+    "actual": 1,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R04 id",
+    "expected": "R04",
+    "actual": "R04",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R04 name",
+    "expected": "灯台",
+    "actual": "灯台",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R04 capacity",
+    "expected": "4名",
+    "actual": "4名",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R04 bedding",
+    "expected": "ベッド2台・布団2組",
+    "actual": "ベッド2台・布団2組",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R04 equipment",
+    "expected": "浴槽",
+    "actual": "浴槽",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R04 view",
+    "expected": "海正面",
+    "actual": "海正面",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R04 rate",
+    "expected": "18,000円/室/泊（2名まで。1名でも同額）",
+    "actual": "18,000円/室/泊（2名まで。1名でも同額）",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R04 common",
+    "expected": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "actual": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R04 素材",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 5 すべて税込",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 5 3人目以降1人1泊3,000円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 5 季節・曜日・連泊割引・清掃料・サービス料は0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 5 食事0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 5 子どもも同額・寝具あり",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 5 添い寝割引なし",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 5 チェックイン15:00～20:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 5 チェックアウト10:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 5 最大14泊",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 5 8日以上前0%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 5 7～2日前20%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 5 前日50%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 5 当日・無連絡100%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "390 HTTP /rooms/R05/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "390 page6 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "390 page6 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "390 page6 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "390 page6 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "390 画像寸法 6",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 室数 6",
+    "expected": 1,
+    "actual": 1,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R05 id",
+    "expected": "R05",
+    "actual": "R05",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R05 name",
+    "expected": "波間",
+    "actual": "波間",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R05 capacity",
+    "expected": "4名",
+    "actual": "4名",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R05 bedding",
+    "expected": "布団4組",
+    "actual": "布団4組",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R05 equipment",
+    "expected": "シャワー",
+    "actual": "シャワー",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R05 view",
+    "expected": "海斜め",
+    "actual": "海斜め",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R05 rate",
+    "expected": "20,000円/室/泊（2名まで。1名でも同額）",
+    "actual": "20,000円/室/泊（2名まで。1名でも同額）",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R05 common",
+    "expected": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "actual": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R05 素材",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 6 すべて税込",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 6 3人目以降1人1泊3,000円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 6 季節・曜日・連泊割引・清掃料・サービス料は0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 6 食事0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 6 子どもも同額・寝具あり",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 6 添い寝割引なし",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 6 チェックイン15:00～20:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 6 チェックアウト10:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 6 最大14泊",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 6 8日以上前0%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 6 7～2日前20%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 6 前日50%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 6 当日・無連絡100%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "390 HTTP /rooms/R06/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "390 page7 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "390 page7 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "390 page7 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "390 page7 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "390 画像寸法 7",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 室数 7",
+    "expected": 1,
+    "actual": 1,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R06 id",
+    "expected": "R06",
+    "actual": "R06",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R06 name",
+    "expected": "夕凪",
+    "actual": "夕凪",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R06 capacity",
+    "expected": "1名",
+    "actual": "1名",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R06 bedding",
+    "expected": "シングルベッド1台",
+    "actual": "シングルベッド1台",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R06 equipment",
+    "expected": "シャワー",
+    "actual": "シャワー",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R06 view",
+    "expected": "庭",
+    "actual": "庭",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R06 rate",
+    "expected": "9,000円/室/泊（1名利用のみ）",
+    "actual": "9,000円/室/泊（1名利用のみ）",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R06 common",
+    "expected": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "actual": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "390 R06 素材",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 7 すべて税込",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 7 3人目以降1人1泊3,000円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 7 季節・曜日・連泊割引・清掃料・サービス料は0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 7 食事0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 7 子どもも同額・寝具あり",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 7 添い寝割引なし",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 7 チェックイン15:00～20:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 7 チェックアウト10:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 7 最大14泊",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 7 8日以上前0%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 7 7～2日前20%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 7 前日50%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 7 当日・無連絡100%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "390 HTTP /stay/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "390 page8 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "390 page8 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "390 page8 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "390 page8 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "390 画像寸法 8",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 8 すべて税込",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 8 3人目以降1人1泊3,000円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 8 季節・曜日・連泊割引・清掃料・サービス料は0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 8 食事0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 8 子どもも同額・寝具あり",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 8 添い寝割引なし",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 8 チェックイン15:00～20:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 8 チェックアウト10:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 8 最大14泊",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 8 8日以上前0%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 8 7～2日前20%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 8 前日50%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 条件 8 当日・無連絡100%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 金額例 24,000",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 金額例 28,000",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 金額例 30,000",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 金額例 36,000",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 金額例 40,000",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 金額例 18,000",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 金額例 48,000",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 金額例 52,000",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 金額例 4,800",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "390 金額例 12,000",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "390 HTTP /access/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "390 page9 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "390 page9 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "390 page9 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "390 page9 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "390 画像寸法 9",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "390 アクセス 架空県なぎさ市海岸町0-0",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "390 アクセス 6台",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "390 アクセス 15分",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "390 アクセス 徒歩5分",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "390 アクセス 徒歩2分",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "390 架空案内図alt",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "390 HTTP /contact/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "390 page10 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "390 page10 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "390 page10 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "390 page10 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "390 画像寸法 10",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "390 連絡 demo-contact@example.invalid",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "390 連絡 デモのため電話受付なし",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "390 外部送信リンクなし",
+    "expected": 0,
+    "actual": 0,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "390 HTTP /privacy/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "390 page11 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "390 page11 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "390 page11 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "390 page11 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "390 画像寸法 11",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "390 HTTP /booking/search/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "390 page12 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "390 page12 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "390 page12 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "390 page12 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "390 画像寸法 12",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "390 必須",
+    "expected": false,
+    "actual": false,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "390 422",
+    "expected": 422,
+    "actual": 422,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "390 error 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "390 error 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "390 error 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "390 error label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "390 概要focus",
+    "expected": "errors",
+    "actual": "errors",
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "390 エラー関連",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "390 欄復帰",
+    "expected": "checkout",
+    "actual": "checkout",
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "390 逆Tab",
+    "expected": "checkin",
+    "actual": "checkin",
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "390 results 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "390 results 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "390 results 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "390 results label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "390 guest 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "390 guest 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "390 guest 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "390 guest label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "390 email",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "390 focus可視",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "390 review 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "390 review 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "390 review 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "390 review label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "390 complete 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "390 complete 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "390 complete 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "390 complete label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "390 宿画面横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "390 宿ラベル",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "390 宿Tab",
+    "expected": "checkin",
+    "actual": "checkin",
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "390 宿逆Tab",
+    "expected": "number",
+    "actual": "number",
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "1440 HTTP /",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "1440 page0 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "1440 page0 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "1440 page0 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "1440 page0 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "1440 画像寸法 0",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "1440 HTTP /rooms/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "1440 page1 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "1440 page1 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "1440 page1 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "1440 page1 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "1440 画像寸法 1",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 室数 1",
+    "expected": 6,
+    "actual": 6,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R01 id",
+    "expected": "R01",
+    "actual": "R01",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R01 name",
+    "expected": "朝凪",
+    "actual": "朝凪",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R01 capacity",
+    "expected": "2名",
+    "actual": "2名",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R01 bedding",
+    "expected": "シングルベッド2台",
+    "actual": "シングルベッド2台",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R01 equipment",
+    "expected": "シャワー",
+    "actual": "シャワー",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R01 view",
+    "expected": "海正面",
+    "actual": "海正面",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R01 rate",
+    "expected": "12,000円/室/泊（2名まで。1名でも同額）",
+    "actual": "12,000円/室/泊（2名まで。1名でも同額）",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R01 common",
+    "expected": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "actual": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R01 素材",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R02 id",
+    "expected": "R02",
+    "actual": "R02",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R02 name",
+    "expected": "潮音",
+    "actual": "潮音",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R02 capacity",
+    "expected": "2名",
+    "actual": "2名",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R02 bedding",
+    "expected": "布団2組",
+    "actual": "布団2組",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R02 equipment",
+    "expected": "浴槽",
+    "actual": "浴槽",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R02 view",
+    "expected": "海斜め",
+    "actual": "海斜め",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R02 rate",
+    "expected": "14,000円/室/泊（2名まで。1名でも同額）",
+    "actual": "14,000円/室/泊（2名まで。1名でも同額）",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R02 common",
+    "expected": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "actual": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R02 素材",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R03 id",
+    "expected": "R03",
+    "actual": "R03",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R03 name",
+    "expected": "砂浜",
+    "actual": "砂浜",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R03 capacity",
+    "expected": "3名",
+    "actual": "3名",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R03 bedding",
+    "expected": "布団3組",
+    "actual": "布団3組",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R03 equipment",
+    "expected": "シャワー",
+    "actual": "シャワー",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R03 view",
+    "expected": "庭",
+    "actual": "庭",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R03 rate",
+    "expected": "15,000円/室/泊（2名まで。1名でも同額）",
+    "actual": "15,000円/室/泊（2名まで。1名でも同額）",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R03 common",
+    "expected": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "actual": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R03 素材",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R04 id",
+    "expected": "R04",
+    "actual": "R04",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R04 name",
+    "expected": "灯台",
+    "actual": "灯台",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R04 capacity",
+    "expected": "4名",
+    "actual": "4名",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R04 bedding",
+    "expected": "ベッド2台・布団2組",
+    "actual": "ベッド2台・布団2組",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R04 equipment",
+    "expected": "浴槽",
+    "actual": "浴槽",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R04 view",
+    "expected": "海正面",
+    "actual": "海正面",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R04 rate",
+    "expected": "18,000円/室/泊（2名まで。1名でも同額）",
+    "actual": "18,000円/室/泊（2名まで。1名でも同額）",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R04 common",
+    "expected": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "actual": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R04 素材",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R05 id",
+    "expected": "R05",
+    "actual": "R05",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R05 name",
+    "expected": "波間",
+    "actual": "波間",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R05 capacity",
+    "expected": "4名",
+    "actual": "4名",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R05 bedding",
+    "expected": "布団4組",
+    "actual": "布団4組",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R05 equipment",
+    "expected": "シャワー",
+    "actual": "シャワー",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R05 view",
+    "expected": "海斜め",
+    "actual": "海斜め",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R05 rate",
+    "expected": "20,000円/室/泊（2名まで。1名でも同額）",
+    "actual": "20,000円/室/泊（2名まで。1名でも同額）",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R05 common",
+    "expected": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "actual": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R05 素材",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R06 id",
+    "expected": "R06",
+    "actual": "R06",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R06 name",
+    "expected": "夕凪",
+    "actual": "夕凪",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R06 capacity",
+    "expected": "1名",
+    "actual": "1名",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R06 bedding",
+    "expected": "シングルベッド1台",
+    "actual": "シングルベッド1台",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R06 equipment",
+    "expected": "シャワー",
+    "actual": "シャワー",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R06 view",
+    "expected": "庭",
+    "actual": "庭",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R06 rate",
+    "expected": "9,000円/室/泊（1名利用のみ）",
+    "actual": "9,000円/室/泊（1名利用のみ）",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R06 common",
+    "expected": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "actual": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R06 素材",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "1440 HTTP /rooms/R01/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "1440 page2 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "1440 page2 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "1440 page2 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "1440 page2 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "1440 画像寸法 2",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 室数 2",
+    "expected": 1,
+    "actual": 1,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R01 id",
+    "expected": "R01",
+    "actual": "R01",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R01 name",
+    "expected": "朝凪",
+    "actual": "朝凪",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R01 capacity",
+    "expected": "2名",
+    "actual": "2名",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R01 bedding",
+    "expected": "シングルベッド2台",
+    "actual": "シングルベッド2台",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R01 equipment",
+    "expected": "シャワー",
+    "actual": "シャワー",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R01 view",
+    "expected": "海正面",
+    "actual": "海正面",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R01 rate",
+    "expected": "12,000円/室/泊（2名まで。1名でも同額）",
+    "actual": "12,000円/室/泊（2名まで。1名でも同額）",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R01 common",
+    "expected": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "actual": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R01 素材",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 2 すべて税込",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 2 3人目以降1人1泊3,000円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 2 季節・曜日・連泊割引・清掃料・サービス料は0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 2 食事0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 2 子どもも同額・寝具あり",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 2 添い寝割引なし",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 2 チェックイン15:00～20:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 2 チェックアウト10:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 2 最大14泊",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 2 8日以上前0%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 2 7～2日前20%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 2 前日50%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 2 当日・無連絡100%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "1440 HTTP /rooms/R02/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "1440 page3 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "1440 page3 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "1440 page3 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "1440 page3 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "1440 画像寸法 3",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 室数 3",
+    "expected": 1,
+    "actual": 1,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R02 id",
+    "expected": "R02",
+    "actual": "R02",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R02 name",
+    "expected": "潮音",
+    "actual": "潮音",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R02 capacity",
+    "expected": "2名",
+    "actual": "2名",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R02 bedding",
+    "expected": "布団2組",
+    "actual": "布団2組",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R02 equipment",
+    "expected": "浴槽",
+    "actual": "浴槽",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R02 view",
+    "expected": "海斜め",
+    "actual": "海斜め",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R02 rate",
+    "expected": "14,000円/室/泊（2名まで。1名でも同額）",
+    "actual": "14,000円/室/泊（2名まで。1名でも同額）",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R02 common",
+    "expected": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "actual": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R02 素材",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 3 すべて税込",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 3 3人目以降1人1泊3,000円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 3 季節・曜日・連泊割引・清掃料・サービス料は0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 3 食事0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 3 子どもも同額・寝具あり",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 3 添い寝割引なし",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 3 チェックイン15:00～20:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 3 チェックアウト10:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 3 最大14泊",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 3 8日以上前0%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 3 7～2日前20%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 3 前日50%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 3 当日・無連絡100%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "1440 HTTP /rooms/R03/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "1440 page4 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "1440 page4 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "1440 page4 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "1440 page4 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "1440 画像寸法 4",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 室数 4",
+    "expected": 1,
+    "actual": 1,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R03 id",
+    "expected": "R03",
+    "actual": "R03",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R03 name",
+    "expected": "砂浜",
+    "actual": "砂浜",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R03 capacity",
+    "expected": "3名",
+    "actual": "3名",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R03 bedding",
+    "expected": "布団3組",
+    "actual": "布団3組",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R03 equipment",
+    "expected": "シャワー",
+    "actual": "シャワー",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R03 view",
+    "expected": "庭",
+    "actual": "庭",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R03 rate",
+    "expected": "15,000円/室/泊（2名まで。1名でも同額）",
+    "actual": "15,000円/室/泊（2名まで。1名でも同額）",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R03 common",
+    "expected": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "actual": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R03 素材",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 4 すべて税込",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 4 3人目以降1人1泊3,000円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 4 季節・曜日・連泊割引・清掃料・サービス料は0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 4 食事0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 4 子どもも同額・寝具あり",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 4 添い寝割引なし",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 4 チェックイン15:00～20:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 4 チェックアウト10:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 4 最大14泊",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 4 8日以上前0%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 4 7～2日前20%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 4 前日50%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 4 当日・無連絡100%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "1440 HTTP /rooms/R04/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "1440 page5 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "1440 page5 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "1440 page5 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "1440 page5 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "1440 画像寸法 5",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 室数 5",
+    "expected": 1,
+    "actual": 1,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R04 id",
+    "expected": "R04",
+    "actual": "R04",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R04 name",
+    "expected": "灯台",
+    "actual": "灯台",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R04 capacity",
+    "expected": "4名",
+    "actual": "4名",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R04 bedding",
+    "expected": "ベッド2台・布団2組",
+    "actual": "ベッド2台・布団2組",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R04 equipment",
+    "expected": "浴槽",
+    "actual": "浴槽",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R04 view",
+    "expected": "海正面",
+    "actual": "海正面",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R04 rate",
+    "expected": "18,000円/室/泊（2名まで。1名でも同額）",
+    "actual": "18,000円/室/泊（2名まで。1名でも同額）",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R04 common",
+    "expected": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "actual": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R04 素材",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 5 すべて税込",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 5 3人目以降1人1泊3,000円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 5 季節・曜日・連泊割引・清掃料・サービス料は0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 5 食事0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 5 子どもも同額・寝具あり",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 5 添い寝割引なし",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 5 チェックイン15:00～20:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 5 チェックアウト10:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 5 最大14泊",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 5 8日以上前0%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 5 7～2日前20%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 5 前日50%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 5 当日・無連絡100%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "1440 HTTP /rooms/R05/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "1440 page6 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "1440 page6 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "1440 page6 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "1440 page6 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "1440 画像寸法 6",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 室数 6",
+    "expected": 1,
+    "actual": 1,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R05 id",
+    "expected": "R05",
+    "actual": "R05",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R05 name",
+    "expected": "波間",
+    "actual": "波間",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R05 capacity",
+    "expected": "4名",
+    "actual": "4名",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R05 bedding",
+    "expected": "布団4組",
+    "actual": "布団4組",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R05 equipment",
+    "expected": "シャワー",
+    "actual": "シャワー",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R05 view",
+    "expected": "海斜め",
+    "actual": "海斜め",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R05 rate",
+    "expected": "20,000円/室/泊（2名まで。1名でも同額）",
+    "actual": "20,000円/室/泊（2名まで。1名でも同額）",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R05 common",
+    "expected": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "actual": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R05 素材",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 6 すべて税込",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 6 3人目以降1人1泊3,000円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 6 季節・曜日・連泊割引・清掃料・サービス料は0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 6 食事0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 6 子どもも同額・寝具あり",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 6 添い寝割引なし",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 6 チェックイン15:00～20:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 6 チェックアウト10:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 6 最大14泊",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 6 8日以上前0%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 6 7～2日前20%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 6 前日50%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 6 当日・無連絡100%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "1440 HTTP /rooms/R06/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "1440 page7 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "1440 page7 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "1440 page7 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "1440 page7 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "1440 画像寸法 7",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 室数 7",
+    "expected": 1,
+    "actual": 1,
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R06 id",
+    "expected": "R06",
+    "actual": "R06",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R06 name",
+    "expected": "夕凪",
+    "actual": "夕凪",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R06 capacity",
+    "expected": "1名",
+    "actual": "1名",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R06 bedding",
+    "expected": "シングルベッド1台",
+    "actual": "シングルベッド1台",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R06 equipment",
+    "expected": "シャワー",
+    "actual": "シャワー",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R06 view",
+    "expected": "庭",
+    "actual": "庭",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R06 rate",
+    "expected": "9,000円/室/泊（1名利用のみ）",
+    "actual": "9,000円/室/泊（1名利用のみ）",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R06 common",
+    "expected": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "actual": "冷暖房、Wi-Fi、トイレ、タオル、禁煙",
+    "passed": true
+  },
+  {
+    "t": "T01",
+    "name": "1440 R06 素材",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 7 すべて税込",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 7 3人目以降1人1泊3,000円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 7 季節・曜日・連泊割引・清掃料・サービス料は0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 7 食事0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 7 子どもも同額・寝具あり",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 7 添い寝割引なし",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 7 チェックイン15:00～20:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 7 チェックアウト10:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 7 最大14泊",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 7 8日以上前0%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 7 7～2日前20%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 7 前日50%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 7 当日・無連絡100%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "1440 HTTP /stay/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "1440 page8 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "1440 page8 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "1440 page8 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "1440 page8 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "1440 画像寸法 8",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 8 すべて税込",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 8 3人目以降1人1泊3,000円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 8 季節・曜日・連泊割引・清掃料・サービス料は0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 8 食事0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 8 子どもも同額・寝具あり",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 8 添い寝割引なし",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 8 チェックイン15:00～20:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 8 チェックアウト10:00",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 8 最大14泊",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 8 8日以上前0%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 8 7～2日前20%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 8 前日50%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 条件 8 当日・無連絡100%",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 金額例 24,000",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 金額例 28,000",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 金額例 30,000",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 金額例 36,000",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 金額例 40,000",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 金額例 18,000",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 金額例 48,000",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 金額例 52,000",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 金額例 4,800",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T02",
+    "name": "1440 金額例 12,000",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "1440 HTTP /access/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "1440 page9 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "1440 page9 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "1440 page9 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "1440 page9 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "1440 画像寸法 9",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "1440 アクセス 架空県なぎさ市海岸町0-0",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "1440 アクセス 6台",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "1440 アクセス 15分",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "1440 アクセス 徒歩5分",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "1440 アクセス 徒歩2分",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "1440 架空案内図alt",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "1440 HTTP /contact/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "1440 page10 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "1440 page10 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "1440 page10 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "1440 page10 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "1440 画像寸法 10",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "1440 連絡 demo-contact@example.invalid",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "1440 連絡 デモのため電話受付なし",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "1440 外部送信リンクなし",
+    "expected": 0,
+    "actual": 0,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "1440 HTTP /privacy/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "1440 page11 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "1440 page11 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "1440 page11 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "1440 page11 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "1440 画像寸法 11",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "1440 HTTP /booking/search/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "1440 page12 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "1440 page12 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "1440 page12 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "1440 page12 label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "1440 画像寸法 12",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "1440 必須",
+    "expected": false,
+    "actual": false,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "1440 422",
+    "expected": 422,
+    "actual": 422,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "1440 error 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "1440 error 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "1440 error 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "1440 error label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "1440 概要focus",
+    "expected": "errors",
+    "actual": "errors",
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "1440 エラー関連",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "1440 欄復帰",
+    "expected": "checkout",
+    "actual": "checkout",
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "1440 逆Tab",
+    "expected": "checkin",
+    "actual": "checkin",
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "1440 results 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "1440 results 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "1440 results 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "1440 results label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "1440 guest 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "1440 guest 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "1440 guest 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "1440 guest label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "1440 email",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "1440 focus可視",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "1440 review 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "1440 review 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "1440 review 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "1440 review label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "1440 complete 操作領域",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "1440 complete 横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "1440 complete 架空注意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "1440 complete label",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T07",
+    "name": "1440 宿画面横幅",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "1440 宿ラベル",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "1440 宿Tab",
+    "expected": "checkin",
+    "actual": "checkin",
+    "passed": true
+  },
+  {
+    "t": "T08",
+    "name": "1440 宿逆Tab",
+    "expected": "number",
+    "actual": "number",
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "リンク http://127.0.0.1:39027/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "リンク http://127.0.0.1:39027/rooms/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "リンク http://127.0.0.1:39027/stay/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "リンク http://127.0.0.1:39027/access/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "リンク http://127.0.0.1:39027/booking/search/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "リンク http://127.0.0.1:39027/contact/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "リンク http://127.0.0.1:39027/privacy/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "リンク http://127.0.0.1:39027/staff/login/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "リンク http://127.0.0.1:39027/rooms/R01/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "リンク http://127.0.0.1:39027/rooms/R02/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "リンク http://127.0.0.1:39027/rooms/R03/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "リンク http://127.0.0.1:39027/rooms/R04/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "リンク http://127.0.0.1:39027/rooms/R05/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "リンク http://127.0.0.1:39027/rooms/R06/",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "リンク http://127.0.0.1:39027/assets/sea.svg",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "リンク http://127.0.0.1:39027/assets/exterior.svg",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "リンク http://127.0.0.1:39027/assets/room-r01.svg",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "リンク http://127.0.0.1:39027/assets/room-r02.svg",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "リンク http://127.0.0.1:39027/assets/room-r03.svg",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "リンク http://127.0.0.1:39027/assets/room-r04.svg",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "リンク http://127.0.0.1:39027/assets/room-r05.svg",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "リンク http://127.0.0.1:39027/assets/room-r06.svg",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T09",
+    "name": "リンク http://127.0.0.1:39027/assets/map.svg",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T10",
+    "name": "外向要求0",
+    "expected": [],
+    "actual": [],
+    "passed": true
+  }
+]

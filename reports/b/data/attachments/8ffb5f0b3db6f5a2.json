@@ -1,0 +1,296 @@
+[
+  {
+    "t": "T03",
+    "name": "確認時保存0",
+    "expected": [
+      0,
+      0,
+      0
+    ],
+    "actual": [
+      0,
+      0,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "t": "T03",
+    "name": "予約/室泊/submission",
+    "expected": [
+      1,
+      2,
+      1
+    ],
+    "actual": [
+      1,
+      2,
+      1
+    ],
+    "passed": true
+  },
+  {
+    "t": "T03",
+    "name": "保存固定項目",
+    "expected": [
+      "R01",
+      "2030-07-20",
+      "2030-07-22",
+      2,
+      24000,
+      "CONFIRMED"
+    ],
+    "actual": [
+      "R01",
+      "2030-07-20",
+      "2030-07-22",
+      2,
+      24000,
+      "CONFIRMED"
+    ],
+    "passed": true
+  },
+  {
+    "t": "T03",
+    "name": "氏名メール",
+    "expected": [
+      "試験 太郎",
+      "taro@example.invalid"
+    ],
+    "actual": [
+      "試験 太郎",
+      "taro@example.invalid"
+    ],
+    "passed": true
+  },
+  {
+    "t": "T03",
+    "name": "版と日別基本",
+    "expected": [
+      24000,
+      "P1",
+      "C1",
+      12000,
+      12000
+    ],
+    "actual": [
+      24000,
+      "P1",
+      "C1",
+      12000,
+      12000
+    ],
+    "passed": true
+  },
+  {
+    "t": "T03",
+    "name": "占有室日",
+    "expected": [
+      [
+        "R01",
+        "2030-07-20"
+      ],
+      [
+        "R01",
+        "2030-07-21"
+      ]
+    ],
+    "actual": [
+      [
+        "R01",
+        "2030-07-20"
+      ],
+      [
+        "R01",
+        "2030-07-21"
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "t": "T03",
+    "name": "占有参照",
+    "expected": [
+      1,
+      1
+    ],
+    "actual": [
+      1,
+      1
+    ],
+    "passed": true
+  },
+  {
+    "t": "T03",
+    "name": "submission参照",
+    "expected": 1,
+    "actual": 1,
+    "passed": true
+  },
+  {
+    "t": "T03",
+    "name": "空でない番号画面DB一致",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T03",
+    "name": "初期候補",
+    "expected": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "actual": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "passed": true
+  },
+  {
+    "t": "T03",
+    "name": "確認 R01 朝凪",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T03",
+    "name": "確認 2030-07-20",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T03",
+    "name": "確認 2030-07-22",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T03",
+    "name": "確認 2名・2泊",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T03",
+    "name": "確認 24,000円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T03",
+    "name": "確認 価格版P1・条件版C1",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T03",
+    "name": "確認 試験 太郎",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T03",
+    "name": "確認 taro@example.invalid",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T03",
+    "name": "確認 2030-07-20：基本 12,000円 ＋ 追加人数 0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T03",
+    "name": "確認 2030-07-21：基本 12,000円 ＋ 追加人数 0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T03",
+    "name": "完了 R01 朝凪",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T03",
+    "name": "完了 2030-07-20",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T03",
+    "name": "完了 2030-07-22",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T03",
+    "name": "完了 2名・2泊",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T03",
+    "name": "完了 24,000円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T03",
+    "name": "完了 価格版P1・条件版C1",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T03",
+    "name": "完了 試験 太郎",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T03",
+    "name": "完了 taro@example.invalid",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T03",
+    "name": "完了 2030-07-20：基本 12,000円 ＋ 追加人数 0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T03",
+    "name": "完了 2030-07-21：基本 12,000円 ＋ 追加人数 0円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  }
+]

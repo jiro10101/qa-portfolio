@@ -1,0 +1,267 @@
+[
+  {
+    "t": "T16",
+    "name": "宿照合の予約副作用0",
+    "expected": {
+      "reservations": [
+        {
+          "id": 1,
+          "number": "N-rAMqiO-PsG4RufPthlwro82eaG6z4RRV",
+          "room_id": "R01",
+          "checkin": "2030-07-20",
+          "checkout": "2030-07-22",
+          "guests": 2,
+          "total": 24000,
+          "status": "CONFIRMED"
+        }
+      ],
+      "occupancy": [
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-20",
+          "reservation_id": 1,
+          "closure_id": null
+        },
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-21",
+          "reservation_id": 1,
+          "closure_id": null
+        }
+      ],
+      "submissions": [
+        {
+          "reservation_id": 1
+        }
+      ],
+      "reservation_details": [
+        {
+          "reservation_id": 1,
+          "guest_name": "試験 太郎",
+          "email": "taro@example.invalid",
+          "snapshot": "{\"room_id\": \"R01\", \"checkin\": \"2030-07-20\", \"checkout\": \"2030-07-22\", \"name\": \"朝凪\", \"capacity\": 2, \"base_rate\": 12000, \"guests\": 2, \"nights\": 2, \"total\": 24000, \"breakdown\": [{\"stay_date\": \"2030-07-20\", \"base\": 12000, \"extra\": 0}, {\"stay_date\": \"2030-07-21\", \"base\": 12000, \"extra\": 0}], \"price_version\": \"P1\", \"condition_version\": \"C1\", \"condition\": \"チェックイン15:00～20:00、アウト10:00。子どもも同額。\", \"issued_at\": \"2030-07-01T12:00:00+09:00\", \"expires_at\": \"2030-07-01T12:15:00+09:00\"}",
+          "created_at": "2030-07-01T12:00:00+09:00"
+        }
+      ]
+    },
+    "actual": {
+      "reservations": [
+        {
+          "id": 1,
+          "number": "N-rAMqiO-PsG4RufPthlwro82eaG6z4RRV",
+          "room_id": "R01",
+          "checkin": "2030-07-20",
+          "checkout": "2030-07-22",
+          "guests": 2,
+          "total": 24000,
+          "status": "CONFIRMED"
+        }
+      ],
+      "occupancy": [
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-20",
+          "reservation_id": 1,
+          "closure_id": null
+        },
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-21",
+          "reservation_id": 1,
+          "closure_id": null
+        }
+      ],
+      "submissions": [
+        {
+          "reservation_id": 1
+        }
+      ],
+      "reservation_details": [
+        {
+          "reservation_id": 1,
+          "guest_name": "試験 太郎",
+          "email": "taro@example.invalid",
+          "snapshot": "{\"room_id\": \"R01\", \"checkin\": \"2030-07-20\", \"checkout\": \"2030-07-22\", \"name\": \"朝凪\", \"capacity\": 2, \"base_rate\": 12000, \"guests\": 2, \"nights\": 2, \"total\": 24000, \"breakdown\": [{\"stay_date\": \"2030-07-20\", \"base\": 12000, \"extra\": 0}, {\"stay_date\": \"2030-07-21\", \"base\": 12000, \"extra\": 0}], \"price_version\": \"P1\", \"condition_version\": \"C1\", \"condition\": \"チェックイン15:00～20:00、アウト10:00。子どもも同額。\", \"issued_at\": \"2030-07-01T12:00:00+09:00\", \"expires_at\": \"2030-07-01T12:15:00+09:00\"}",
+          "created_at": "2030-07-01T12:00:00+09:00"
+        }
+      ]
+    },
+    "passed": true
+  },
+  {
+    "t": "T16",
+    "name": "anonymous API",
+    "expected": 401,
+    "actual": 401,
+    "passed": true
+  },
+  {
+    "t": "T16",
+    "name": "anonymous 情報非公開",
+    "expected": false,
+    "actual": false,
+    "passed": true
+  },
+  {
+    "t": "T16",
+    "name": "anonymous screen",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T16",
+    "name": "anonymous screen漏えいなし",
+    "expected": false,
+    "actual": false,
+    "passed": true
+  },
+  {
+    "t": "T16",
+    "name": "general API",
+    "expected": 403,
+    "actual": 403,
+    "passed": true
+  },
+  {
+    "t": "T16",
+    "name": "general 情報非公開",
+    "expected": false,
+    "actual": false,
+    "passed": true
+  },
+  {
+    "t": "T16",
+    "name": "general screen",
+    "expected": 403,
+    "actual": 403,
+    "passed": true
+  },
+  {
+    "t": "T16",
+    "name": "general screen漏えいなし",
+    "expected": false,
+    "actual": false,
+    "passed": true
+  },
+  {
+    "t": "T16",
+    "name": "宿画面 N-rAMqiO-PsG4RufPthlwro82eaG6z4RRV",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T16",
+    "name": "宿画面 R01",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T16",
+    "name": "宿画面 2030-07-20",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T16",
+    "name": "宿画面 2030-07-22",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T16",
+    "name": "宿画面 2名",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T16",
+    "name": "宿画面 24,000円",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T16",
+    "name": "宿画面 試験 太郎",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T16",
+    "name": "宿画面 taro@example.invalid",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T16",
+    "name": "宿API HTTP",
+    "expected": 200,
+    "actual": 200,
+    "passed": true
+  },
+  {
+    "t": "T16",
+    "name": "宿API固定値",
+    "expected": [
+      {
+        "number": "N-rAMqiO-PsG4RufPthlwro82eaG6z4RRV",
+        "room_id": "R01",
+        "checkin": "2030-07-20",
+        "checkout": "2030-07-22",
+        "guests": 2,
+        "total": 24000,
+        "guest_name": "試験 太郎",
+        "email": "taro@example.invalid"
+      }
+    ],
+    "actual": [
+      {
+        "number": "N-rAMqiO-PsG4RufPthlwro82eaG6z4RRV",
+        "room_id": "R01",
+        "checkin": "2030-07-20",
+        "checkout": "2030-07-22",
+        "guests": 2,
+        "total": 24000,
+        "guest_name": "試験 太郎",
+        "email": "taro@example.invalid"
+      }
+    ],
+    "passed": true
+  },
+  {
+    "t": "T16",
+    "name": "other-number 0件",
+    "expected": [],
+    "actual": [],
+    "passed": true
+  },
+  {
+    "t": "T16",
+    "name": "partial-number 0件",
+    "expected": [],
+    "actual": [],
+    "passed": true
+  },
+  {
+    "t": "T16",
+    "name": "other-dates 0件",
+    "expected": [],
+    "actual": [],
+    "passed": true
+  },
+  {
+    "t": "T16",
+    "name": "other-room 0件",
+    "expected": [],
+    "actual": [],
+    "passed": true
+  }
+]

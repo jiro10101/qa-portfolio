@@ -1,0 +1,842 @@
+[
+  {
+    "url": "http://127.0.0.1:39027/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/sea.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/exterior.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/rooms/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r02.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r01.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r03.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r04.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r05.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r06.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/rooms/R01/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r01.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/rooms/R02/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r02.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/rooms/R03/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r03.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/rooms/R04/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r04.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/rooms/R05/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r05.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/rooms/R06/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r06.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/stay/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/access/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/map.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/contact/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/privacy/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/booking/search/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/sea.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/exterior.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/rooms/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r01.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r02.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r04.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r05.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r03.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r06.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/sea.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/exterior.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/booking/search/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/booking/search/",
+    "status": 422
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/booking/search/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/booking/guest/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/booking/review/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/booking/confirm/",
+    "status": 303
+  },
+  {
+    "url": "http://127.0.0.1:39027/booking/complete/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/exterior.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/sea.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/rooms/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r01.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r02.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r03.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r05.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r04.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r06.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/rooms/R01/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r01.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/rooms/R02/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r02.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/rooms/R03/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r03.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/rooms/R04/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r04.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/rooms/R05/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r05.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/rooms/R06/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r06.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/stay/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/access/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/map.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/contact/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/privacy/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/booking/search/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/exterior.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/sea.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/rooms/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r01.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r02.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r03.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r05.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r04.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r06.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/sea.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/exterior.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/booking/search/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/booking/search/",
+    "status": 422
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/booking/search/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/booking/guest/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/booking/review/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/booking/confirm/",
+    "status": 303
+  },
+  {
+    "url": "http://127.0.0.1:39027/booking/complete/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/sea.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/exterior.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/rooms/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r02.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r01.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r03.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r04.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r05.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r06.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/rooms/R01/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r01.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/rooms/R02/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r02.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/rooms/R03/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r03.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/rooms/R04/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r04.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/rooms/R05/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r05.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/rooms/R06/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r06.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/stay/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/access/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/map.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/contact/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/privacy/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/booking/search/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/sea.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/exterior.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/rooms/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r01.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r02.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r03.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r04.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r06.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/room-r05.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/exterior.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/sea.svg",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/booking/search/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/booking/search/",
+    "status": 422
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/booking/search/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/booking/guest/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/booking/review/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/booking/confirm/",
+    "status": 303
+  },
+  {
+    "url": "http://127.0.0.1:39027/booking/complete/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:39027/assets/site.css",
+    "status": 200
+  }
+]

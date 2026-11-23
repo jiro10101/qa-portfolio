@@ -1,0 +1,209 @@
+[
+  {
+    "t": "T12",
+    "name": "境界件数",
+    "expected": [
+      2,
+      4,
+      1
+    ],
+    "actual": [
+      2,
+      4,
+      1
+    ],
+    "passed": true
+  },
+  {
+    "t": "T12",
+    "name": "境界室日",
+    "expected": [
+      "2030-07-18",
+      "2030-07-19",
+      "2030-07-20",
+      "2030-07-21"
+    ],
+    "actual": [
+      "2030-07-18",
+      "2030-07-19",
+      "2030-07-20",
+      "2030-07-21"
+    ],
+    "passed": true
+  },
+  {
+    "t": "T12",
+    "name": "2番号別",
+    "expected": 2,
+    "actual": 2,
+    "passed": true
+  },
+  {
+    "t": "T12",
+    "name": "重複拒否後保存不変",
+    "expected": {
+      "reservations": [
+        {
+          "id": 1,
+          "number": "FX-D01",
+          "room_id": "R01",
+          "checkin": "2030-07-18",
+          "checkout": "2030-07-20",
+          "guests": 2,
+          "total": 24000,
+          "status": "CONFIRMED"
+        },
+        {
+          "id": 2,
+          "number": "N-knaaMda25hs_5rBSemV9N1F2pULV7M_1",
+          "room_id": "R01",
+          "checkin": "2030-07-20",
+          "checkout": "2030-07-22",
+          "guests": 2,
+          "total": 24000,
+          "status": "CONFIRMED"
+        }
+      ],
+      "occupancy": [
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-18",
+          "reservation_id": 1,
+          "closure_id": null
+        },
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-19",
+          "reservation_id": 1,
+          "closure_id": null
+        },
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-20",
+          "reservation_id": 2,
+          "closure_id": null
+        },
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-21",
+          "reservation_id": 2,
+          "closure_id": null
+        }
+      ],
+      "submissions": [
+        {
+          "reservation_id": 2
+        }
+      ],
+      "reservation_details": [
+        {
+          "reservation_id": 2,
+          "guest_name": "試験 太郎",
+          "email": "taro@example.invalid",
+          "snapshot": "{\"room_id\": \"R01\", \"checkin\": \"2030-07-20\", \"checkout\": \"2030-07-22\", \"name\": \"朝凪\", \"capacity\": 2, \"base_rate\": 12000, \"guests\": 2, \"nights\": 2, \"total\": 24000, \"breakdown\": [{\"stay_date\": \"2030-07-20\", \"base\": 12000, \"extra\": 0}, {\"stay_date\": \"2030-07-21\", \"base\": 12000, \"extra\": 0}], \"price_version\": \"P1\", \"condition_version\": \"C1\", \"condition\": \"チェックイン15:00～20:00、アウト10:00。子どもも同額。\", \"issued_at\": \"2030-07-01T12:00:00+09:00\", \"expires_at\": \"2030-07-01T12:15:00+09:00\"}",
+          "created_at": "2030-07-01T12:00:00+09:00"
+        }
+      ]
+    },
+    "actual": {
+      "reservations": [
+        {
+          "id": 1,
+          "number": "FX-D01",
+          "room_id": "R01",
+          "checkin": "2030-07-18",
+          "checkout": "2030-07-20",
+          "guests": 2,
+          "total": 24000,
+          "status": "CONFIRMED"
+        },
+        {
+          "id": 2,
+          "number": "N-knaaMda25hs_5rBSemV9N1F2pULV7M_1",
+          "room_id": "R01",
+          "checkin": "2030-07-20",
+          "checkout": "2030-07-22",
+          "guests": 2,
+          "total": 24000,
+          "status": "CONFIRMED"
+        }
+      ],
+      "occupancy": [
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-18",
+          "reservation_id": 1,
+          "closure_id": null
+        },
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-19",
+          "reservation_id": 1,
+          "closure_id": null
+        },
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-20",
+          "reservation_id": 2,
+          "closure_id": null
+        },
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-21",
+          "reservation_id": 2,
+          "closure_id": null
+        }
+      ],
+      "submissions": [
+        {
+          "reservation_id": 2
+        }
+      ],
+      "reservation_details": [
+        {
+          "reservation_id": 2,
+          "guest_name": "試験 太郎",
+          "email": "taro@example.invalid",
+          "snapshot": "{\"room_id\": \"R01\", \"checkin\": \"2030-07-20\", \"checkout\": \"2030-07-22\", \"name\": \"朝凪\", \"capacity\": 2, \"base_rate\": 12000, \"guests\": 2, \"nights\": 2, \"total\": 24000, \"breakdown\": [{\"stay_date\": \"2030-07-20\", \"base\": 12000, \"extra\": 0}, {\"stay_date\": \"2030-07-21\", \"base\": 12000, \"extra\": 0}], \"price_version\": \"P1\", \"condition_version\": \"C1\", \"condition\": \"チェックイン15:00～20:00、アウト10:00。子どもも同額。\", \"issued_at\": \"2030-07-01T12:00:00+09:00\", \"expires_at\": \"2030-07-01T12:15:00+09:00\"}",
+          "created_at": "2030-07-01T12:00:00+09:00"
+        }
+      ]
+    },
+    "passed": true
+  },
+  {
+    "t": "T12",
+    "name": "7/22残骸0",
+    "expected": [],
+    "actual": [],
+    "passed": true
+  },
+  {
+    "t": "T12",
+    "name": "境界成功金額",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T12",
+    "name": "重複HTTP409",
+    "expected": 409,
+    "actual": 409,
+    "passed": true
+  },
+  {
+    "t": "T12",
+    "name": "空室消失と検索導線",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T12",
+    "name": "重複候補から除外",
+    "expected": false,
+    "actual": false,
+    "passed": true
+  }
+]

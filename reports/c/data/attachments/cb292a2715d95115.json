@@ -1,0 +1,1489 @@
+[
+  {
+    "t": "T05",
+    "name": "X1 確認時保存なし",
+    "expected": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X1 実注入位置",
+    "expected": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "actual": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X1 失敗残骸0",
+    "expected": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X1 全保存初期と同一",
+    "expected": {
+      "reservations": [],
+      "occupancy": [],
+      "submissions": [],
+      "reservation_details": [],
+      "foreign_key_violations": []
+    },
+    "actual": {
+      "reservations": [],
+      "occupancy": [],
+      "submissions": [],
+      "reservation_details": [],
+      "foreign_key_violations": []
+    },
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X1 ROLLBACK実証",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X1 件数",
+    "expected": [
+      1,
+      2,
+      1,
+      1
+    ],
+    "actual": [
+      1,
+      2,
+      1,
+      1
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X1 固定保存",
+    "expected": [
+      "R01",
+      "2030-07-20",
+      "2030-07-22",
+      2,
+      24000,
+      "CONFIRMED"
+    ],
+    "actual": [
+      "R01",
+      "2030-07-20",
+      "2030-07-22",
+      2,
+      24000,
+      "CONFIRMED"
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X1 日別在庫",
+    "expected": [
+      [
+        "R01",
+        "2030-07-20",
+        1
+      ],
+      [
+        "R01",
+        "2030-07-21",
+        1
+      ]
+    ],
+    "actual": [
+      [
+        "R01",
+        "2030-07-20",
+        1
+      ],
+      [
+        "R01",
+        "2030-07-21",
+        1
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X1 提示snapshot",
+    "expected": [
+      24000,
+      "P1",
+      "C1",
+      [
+        12000,
+        12000
+      ]
+    ],
+    "actual": [
+      24000,
+      "P1",
+      "C1",
+      [
+        12000,
+        12000
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X1 submission参照",
+    "expected": 1,
+    "actual": 1,
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X1 外部キー孤児0",
+    "expected": [],
+    "actual": [],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X1 番号非空一意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X1 再送拒否等で保存不変",
+    "expected": {
+      "reservations": [
+        {
+          "id": 1,
+          "number": "N-bRZPzVYb9Fa2ssIVNWwnay0w2Izv4vRx",
+          "room_id": "R01",
+          "checkin": "2030-07-20",
+          "checkout": "2030-07-22",
+          "guests": 2,
+          "total": 24000,
+          "status": "CONFIRMED"
+        }
+      ],
+      "occupancy": [
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-20",
+          "reservation_id": 1,
+          "closure_id": null
+        },
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-21",
+          "reservation_id": 1,
+          "closure_id": null
+        }
+      ],
+      "submissions": [
+        {
+          "reservation_id": 1
+        }
+      ],
+      "reservation_details": [
+        {
+          "reservation_id": 1,
+          "guest_name": "試験 太郎",
+          "email": "taro@example.invalid",
+          "snapshot": "{\"room_id\": \"R01\", \"checkin\": \"2030-07-20\", \"checkout\": \"2030-07-22\", \"name\": \"朝凪\", \"capacity\": 2, \"base_rate\": 12000, \"guests\": 2, \"nights\": 2, \"total\": 24000, \"breakdown\": [{\"stay_date\": \"2030-07-20\", \"base\": 12000, \"extra\": 0}, {\"stay_date\": \"2030-07-21\", \"base\": 12000, \"extra\": 0}], \"price_version\": \"P1\", \"condition_version\": \"C1\", \"condition\": \"チェックイン15:00～20:00、アウト10:00。子どもも同額。\", \"issued_at\": \"2030-07-01T12:00:00+09:00\", \"expires_at\": \"2030-07-01T12:15:00+09:00\"}",
+          "created_at": "2030-07-01T12:00:00+09:00"
+        }
+      ],
+      "foreign_key_violations": []
+    },
+    "actual": {
+      "reservations": [
+        {
+          "id": 1,
+          "number": "N-bRZPzVYb9Fa2ssIVNWwnay0w2Izv4vRx",
+          "room_id": "R01",
+          "checkin": "2030-07-20",
+          "checkout": "2030-07-22",
+          "guests": 2,
+          "total": 24000,
+          "status": "CONFIRMED"
+        }
+      ],
+      "occupancy": [
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-20",
+          "reservation_id": 1,
+          "closure_id": null
+        },
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-21",
+          "reservation_id": 1,
+          "closure_id": null
+        }
+      ],
+      "submissions": [
+        {
+          "reservation_id": 1
+        }
+      ],
+      "reservation_details": [
+        {
+          "reservation_id": 1,
+          "guest_name": "試験 太郎",
+          "email": "taro@example.invalid",
+          "snapshot": "{\"room_id\": \"R01\", \"checkin\": \"2030-07-20\", \"checkout\": \"2030-07-22\", \"name\": \"朝凪\", \"capacity\": 2, \"base_rate\": 12000, \"guests\": 2, \"nights\": 2, \"total\": 24000, \"breakdown\": [{\"stay_date\": \"2030-07-20\", \"base\": 12000, \"extra\": 0}, {\"stay_date\": \"2030-07-21\", \"base\": 12000, \"extra\": 0}], \"price_version\": \"P1\", \"condition_version\": \"C1\", \"condition\": \"チェックイン15:00～20:00、アウト10:00。子どもも同額。\", \"issued_at\": \"2030-07-01T12:00:00+09:00\", \"expires_at\": \"2030-07-01T12:15:00+09:00\"}",
+          "created_at": "2030-07-01T12:00:00+09:00"
+        }
+      ],
+      "foreign_key_violations": []
+    },
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X2 確認時保存なし",
+    "expected": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X2 実注入位置",
+    "expected": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "actual": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X2 失敗残骸0",
+    "expected": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X2 全保存初期と同一",
+    "expected": {
+      "reservations": [],
+      "occupancy": [],
+      "submissions": [],
+      "reservation_details": [],
+      "foreign_key_violations": []
+    },
+    "actual": {
+      "reservations": [],
+      "occupancy": [],
+      "submissions": [],
+      "reservation_details": [],
+      "foreign_key_violations": []
+    },
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X2 ROLLBACK実証",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X2 件数",
+    "expected": [
+      1,
+      2,
+      1,
+      1
+    ],
+    "actual": [
+      1,
+      2,
+      1,
+      1
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X2 固定保存",
+    "expected": [
+      "R01",
+      "2030-07-20",
+      "2030-07-22",
+      2,
+      24000,
+      "CONFIRMED"
+    ],
+    "actual": [
+      "R01",
+      "2030-07-20",
+      "2030-07-22",
+      2,
+      24000,
+      "CONFIRMED"
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X2 日別在庫",
+    "expected": [
+      [
+        "R01",
+        "2030-07-20",
+        1
+      ],
+      [
+        "R01",
+        "2030-07-21",
+        1
+      ]
+    ],
+    "actual": [
+      [
+        "R01",
+        "2030-07-20",
+        1
+      ],
+      [
+        "R01",
+        "2030-07-21",
+        1
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X2 提示snapshot",
+    "expected": [
+      24000,
+      "P1",
+      "C1",
+      [
+        12000,
+        12000
+      ]
+    ],
+    "actual": [
+      24000,
+      "P1",
+      "C1",
+      [
+        12000,
+        12000
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X2 submission参照",
+    "expected": 1,
+    "actual": 1,
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X2 外部キー孤児0",
+    "expected": [],
+    "actual": [],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X2 番号非空一意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X2 再送拒否等で保存不変",
+    "expected": {
+      "reservations": [
+        {
+          "id": 1,
+          "number": "N-r4J8r2Poh3gay5YLiymV8Sd5Cq17vEdp",
+          "room_id": "R01",
+          "checkin": "2030-07-20",
+          "checkout": "2030-07-22",
+          "guests": 2,
+          "total": 24000,
+          "status": "CONFIRMED"
+        }
+      ],
+      "occupancy": [
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-20",
+          "reservation_id": 1,
+          "closure_id": null
+        },
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-21",
+          "reservation_id": 1,
+          "closure_id": null
+        }
+      ],
+      "submissions": [
+        {
+          "reservation_id": 1
+        }
+      ],
+      "reservation_details": [
+        {
+          "reservation_id": 1,
+          "guest_name": "試験 太郎",
+          "email": "taro@example.invalid",
+          "snapshot": "{\"room_id\": \"R01\", \"checkin\": \"2030-07-20\", \"checkout\": \"2030-07-22\", \"name\": \"朝凪\", \"capacity\": 2, \"base_rate\": 12000, \"guests\": 2, \"nights\": 2, \"total\": 24000, \"breakdown\": [{\"stay_date\": \"2030-07-20\", \"base\": 12000, \"extra\": 0}, {\"stay_date\": \"2030-07-21\", \"base\": 12000, \"extra\": 0}], \"price_version\": \"P1\", \"condition_version\": \"C1\", \"condition\": \"チェックイン15:00～20:00、アウト10:00。子どもも同額。\", \"issued_at\": \"2030-07-01T12:00:00+09:00\", \"expires_at\": \"2030-07-01T12:15:00+09:00\"}",
+          "created_at": "2030-07-01T12:00:00+09:00"
+        }
+      ],
+      "foreign_key_violations": []
+    },
+    "actual": {
+      "reservations": [
+        {
+          "id": 1,
+          "number": "N-r4J8r2Poh3gay5YLiymV8Sd5Cq17vEdp",
+          "room_id": "R01",
+          "checkin": "2030-07-20",
+          "checkout": "2030-07-22",
+          "guests": 2,
+          "total": 24000,
+          "status": "CONFIRMED"
+        }
+      ],
+      "occupancy": [
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-20",
+          "reservation_id": 1,
+          "closure_id": null
+        },
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-21",
+          "reservation_id": 1,
+          "closure_id": null
+        }
+      ],
+      "submissions": [
+        {
+          "reservation_id": 1
+        }
+      ],
+      "reservation_details": [
+        {
+          "reservation_id": 1,
+          "guest_name": "試験 太郎",
+          "email": "taro@example.invalid",
+          "snapshot": "{\"room_id\": \"R01\", \"checkin\": \"2030-07-20\", \"checkout\": \"2030-07-22\", \"name\": \"朝凪\", \"capacity\": 2, \"base_rate\": 12000, \"guests\": 2, \"nights\": 2, \"total\": 24000, \"breakdown\": [{\"stay_date\": \"2030-07-20\", \"base\": 12000, \"extra\": 0}, {\"stay_date\": \"2030-07-21\", \"base\": 12000, \"extra\": 0}], \"price_version\": \"P1\", \"condition_version\": \"C1\", \"condition\": \"チェックイン15:00～20:00、アウト10:00。子どもも同額。\", \"issued_at\": \"2030-07-01T12:00:00+09:00\", \"expires_at\": \"2030-07-01T12:15:00+09:00\"}",
+          "created_at": "2030-07-01T12:00:00+09:00"
+        }
+      ],
+      "foreign_key_violations": []
+    },
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X3 確認時保存なし",
+    "expected": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X3 実注入位置",
+    "expected": [
+      1,
+      2,
+      0,
+      1
+    ],
+    "actual": [
+      1,
+      2,
+      0,
+      1
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X3 失敗残骸0",
+    "expected": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X3 全保存初期と同一",
+    "expected": {
+      "reservations": [],
+      "occupancy": [],
+      "submissions": [],
+      "reservation_details": [],
+      "foreign_key_violations": []
+    },
+    "actual": {
+      "reservations": [],
+      "occupancy": [],
+      "submissions": [],
+      "reservation_details": [],
+      "foreign_key_violations": []
+    },
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X3 ROLLBACK実証",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X3 件数",
+    "expected": [
+      1,
+      2,
+      1,
+      1
+    ],
+    "actual": [
+      1,
+      2,
+      1,
+      1
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X3 固定保存",
+    "expected": [
+      "R01",
+      "2030-07-20",
+      "2030-07-22",
+      2,
+      24000,
+      "CONFIRMED"
+    ],
+    "actual": [
+      "R01",
+      "2030-07-20",
+      "2030-07-22",
+      2,
+      24000,
+      "CONFIRMED"
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X3 日別在庫",
+    "expected": [
+      [
+        "R01",
+        "2030-07-20",
+        1
+      ],
+      [
+        "R01",
+        "2030-07-21",
+        1
+      ]
+    ],
+    "actual": [
+      [
+        "R01",
+        "2030-07-20",
+        1
+      ],
+      [
+        "R01",
+        "2030-07-21",
+        1
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X3 提示snapshot",
+    "expected": [
+      24000,
+      "P1",
+      "C1",
+      [
+        12000,
+        12000
+      ]
+    ],
+    "actual": [
+      24000,
+      "P1",
+      "C1",
+      [
+        12000,
+        12000
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X3 submission参照",
+    "expected": 1,
+    "actual": 1,
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X3 外部キー孤児0",
+    "expected": [],
+    "actual": [],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X3 番号非空一意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X3 再送拒否等で保存不変",
+    "expected": {
+      "reservations": [
+        {
+          "id": 1,
+          "number": "N-SSMVRmbAx4-Twzkx58IVIh44ykWnMLS9",
+          "room_id": "R01",
+          "checkin": "2030-07-20",
+          "checkout": "2030-07-22",
+          "guests": 2,
+          "total": 24000,
+          "status": "CONFIRMED"
+        }
+      ],
+      "occupancy": [
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-20",
+          "reservation_id": 1,
+          "closure_id": null
+        },
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-21",
+          "reservation_id": 1,
+          "closure_id": null
+        }
+      ],
+      "submissions": [
+        {
+          "reservation_id": 1
+        }
+      ],
+      "reservation_details": [
+        {
+          "reservation_id": 1,
+          "guest_name": "試験 太郎",
+          "email": "taro@example.invalid",
+          "snapshot": "{\"room_id\": \"R01\", \"checkin\": \"2030-07-20\", \"checkout\": \"2030-07-22\", \"name\": \"朝凪\", \"capacity\": 2, \"base_rate\": 12000, \"guests\": 2, \"nights\": 2, \"total\": 24000, \"breakdown\": [{\"stay_date\": \"2030-07-20\", \"base\": 12000, \"extra\": 0}, {\"stay_date\": \"2030-07-21\", \"base\": 12000, \"extra\": 0}], \"price_version\": \"P1\", \"condition_version\": \"C1\", \"condition\": \"チェックイン15:00～20:00、アウト10:00。子どもも同額。\", \"issued_at\": \"2030-07-01T12:00:00+09:00\", \"expires_at\": \"2030-07-01T12:15:00+09:00\"}",
+          "created_at": "2030-07-01T12:00:00+09:00"
+        }
+      ],
+      "foreign_key_violations": []
+    },
+    "actual": {
+      "reservations": [
+        {
+          "id": 1,
+          "number": "N-SSMVRmbAx4-Twzkx58IVIh44ykWnMLS9",
+          "room_id": "R01",
+          "checkin": "2030-07-20",
+          "checkout": "2030-07-22",
+          "guests": 2,
+          "total": 24000,
+          "status": "CONFIRMED"
+        }
+      ],
+      "occupancy": [
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-20",
+          "reservation_id": 1,
+          "closure_id": null
+        },
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-21",
+          "reservation_id": 1,
+          "closure_id": null
+        }
+      ],
+      "submissions": [
+        {
+          "reservation_id": 1
+        }
+      ],
+      "reservation_details": [
+        {
+          "reservation_id": 1,
+          "guest_name": "試験 太郎",
+          "email": "taro@example.invalid",
+          "snapshot": "{\"room_id\": \"R01\", \"checkin\": \"2030-07-20\", \"checkout\": \"2030-07-22\", \"name\": \"朝凪\", \"capacity\": 2, \"base_rate\": 12000, \"guests\": 2, \"nights\": 2, \"total\": 24000, \"breakdown\": [{\"stay_date\": \"2030-07-20\", \"base\": 12000, \"extra\": 0}, {\"stay_date\": \"2030-07-21\", \"base\": 12000, \"extra\": 0}], \"price_version\": \"P1\", \"condition_version\": \"C1\", \"condition\": \"チェックイン15:00～20:00、アウト10:00。子どもも同額。\", \"issued_at\": \"2030-07-01T12:00:00+09:00\", \"expires_at\": \"2030-07-01T12:15:00+09:00\"}",
+          "created_at": "2030-07-01T12:00:00+09:00"
+        }
+      ],
+      "foreign_key_violations": []
+    },
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X5 確認時保存なし",
+    "expected": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X5 失敗残骸0",
+    "expected": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X5 全保存初期と同一",
+    "expected": {
+      "reservations": [],
+      "occupancy": [],
+      "submissions": [],
+      "reservation_details": [],
+      "foreign_key_violations": []
+    },
+    "actual": {
+      "reservations": [],
+      "occupancy": [],
+      "submissions": [],
+      "reservation_details": [],
+      "foreign_key_violations": []
+    },
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X5 件数",
+    "expected": [
+      1,
+      2,
+      1,
+      1
+    ],
+    "actual": [
+      1,
+      2,
+      1,
+      1
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X5 固定保存",
+    "expected": [
+      "R01",
+      "2030-07-20",
+      "2030-07-22",
+      2,
+      24000,
+      "CONFIRMED"
+    ],
+    "actual": [
+      "R01",
+      "2030-07-20",
+      "2030-07-22",
+      2,
+      24000,
+      "CONFIRMED"
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X5 日別在庫",
+    "expected": [
+      [
+        "R01",
+        "2030-07-20",
+        1
+      ],
+      [
+        "R01",
+        "2030-07-21",
+        1
+      ]
+    ],
+    "actual": [
+      [
+        "R01",
+        "2030-07-20",
+        1
+      ],
+      [
+        "R01",
+        "2030-07-21",
+        1
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X5 提示snapshot",
+    "expected": [
+      24000,
+      "P1",
+      "C1",
+      [
+        12000,
+        12000
+      ]
+    ],
+    "actual": [
+      24000,
+      "P1",
+      "C1",
+      [
+        12000,
+        12000
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X5 submission参照",
+    "expected": 1,
+    "actual": 1,
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X5 外部キー孤児0",
+    "expected": [],
+    "actual": [],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X5 番号非空一意",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X5 再送拒否等で保存不変",
+    "expected": {
+      "reservations": [
+        {
+          "id": 1,
+          "number": "N-kIURMTvr02C2xihEAMZUjEetFIWZCPEB",
+          "room_id": "R01",
+          "checkin": "2030-07-20",
+          "checkout": "2030-07-22",
+          "guests": 2,
+          "total": 24000,
+          "status": "CONFIRMED"
+        }
+      ],
+      "occupancy": [
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-20",
+          "reservation_id": 1,
+          "closure_id": null
+        },
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-21",
+          "reservation_id": 1,
+          "closure_id": null
+        }
+      ],
+      "submissions": [
+        {
+          "reservation_id": 1
+        }
+      ],
+      "reservation_details": [
+        {
+          "reservation_id": 1,
+          "guest_name": "試験 太郎",
+          "email": "taro@example.invalid",
+          "snapshot": "{\"room_id\": \"R01\", \"checkin\": \"2030-07-20\", \"checkout\": \"2030-07-22\", \"name\": \"朝凪\", \"capacity\": 2, \"base_rate\": 12000, \"guests\": 2, \"nights\": 2, \"total\": 24000, \"breakdown\": [{\"stay_date\": \"2030-07-20\", \"base\": 12000, \"extra\": 0}, {\"stay_date\": \"2030-07-21\", \"base\": 12000, \"extra\": 0}], \"price_version\": \"P1\", \"condition_version\": \"C1\", \"condition\": \"チェックイン15:00～20:00、アウト10:00。子どもも同額。\", \"issued_at\": \"2030-07-01T12:00:00+09:00\", \"expires_at\": \"2030-07-01T12:15:00+09:00\"}",
+          "created_at": "2030-07-01T12:00:00+09:00"
+        }
+      ],
+      "foreign_key_violations": []
+    },
+    "actual": {
+      "reservations": [
+        {
+          "id": 1,
+          "number": "N-kIURMTvr02C2xihEAMZUjEetFIWZCPEB",
+          "room_id": "R01",
+          "checkin": "2030-07-20",
+          "checkout": "2030-07-22",
+          "guests": 2,
+          "total": 24000,
+          "status": "CONFIRMED"
+        }
+      ],
+      "occupancy": [
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-20",
+          "reservation_id": 1,
+          "closure_id": null
+        },
+        {
+          "room_id": "R01",
+          "stay_date": "2030-07-21",
+          "reservation_id": 1,
+          "closure_id": null
+        }
+      ],
+      "submissions": [
+        {
+          "reservation_id": 1
+        }
+      ],
+      "reservation_details": [
+        {
+          "reservation_id": 1,
+          "guest_name": "試験 太郎",
+          "email": "taro@example.invalid",
+          "snapshot": "{\"room_id\": \"R01\", \"checkin\": \"2030-07-20\", \"checkout\": \"2030-07-22\", \"name\": \"朝凪\", \"capacity\": 2, \"base_rate\": 12000, \"guests\": 2, \"nights\": 2, \"total\": 24000, \"breakdown\": [{\"stay_date\": \"2030-07-20\", \"base\": 12000, \"extra\": 0}, {\"stay_date\": \"2030-07-21\", \"base\": 12000, \"extra\": 0}], \"price_version\": \"P1\", \"condition_version\": \"C1\", \"condition\": \"チェックイン15:00～20:00、アウト10:00。子どもも同額。\", \"issued_at\": \"2030-07-01T12:00:00+09:00\", \"expires_at\": \"2030-07-01T12:15:00+09:00\"}",
+          "created_at": "2030-07-01T12:00:00+09:00"
+        }
+      ],
+      "foreign_key_violations": []
+    },
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X1 検索候補",
+    "expected": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "actual": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X1 失敗HTTP",
+    "expected": 503,
+    "actual": 503,
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X1 失敗/再操作/未確定",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X1 同K/CSRF/quote維持",
+    "expected": "c920e57c7a955e7255dccc2b1a43588fc7ad82a2b3ace86cd8be0f050fc8d118",
+    "actual": "c920e57c7a955e7255dccc2b1a43588fc7ad82a2b3ace86cd8be0f050fc8d118",
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X1 検索候補",
+    "expected": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "actual": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X1 再操作303",
+    "expected": 303,
+    "actual": 303,
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X1 同番号・金額",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X1 再送同番号",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X1 検索候補",
+    "expected": [
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "actual": [
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X2 検索候補",
+    "expected": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "actual": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X2 失敗HTTP",
+    "expected": 503,
+    "actual": 503,
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X2 失敗/再操作/未確定",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X2 同K/CSRF/quote維持",
+    "expected": "42be5f180a03851dd4bf76c2836401b1e1cff2e7028bf3cb29387cd4aee5c7d8",
+    "actual": "42be5f180a03851dd4bf76c2836401b1e1cff2e7028bf3cb29387cd4aee5c7d8",
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X2 検索候補",
+    "expected": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "actual": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X2 再操作303",
+    "expected": 303,
+    "actual": 303,
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X2 同番号・金額",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X2 再送同番号",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X2 検索候補",
+    "expected": [
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "actual": [
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X3 検索候補",
+    "expected": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "actual": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X3 失敗HTTP",
+    "expected": 503,
+    "actual": 503,
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X3 失敗/再操作/未確定",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X3 同K/CSRF/quote維持",
+    "expected": "38e9414e4cf39077c99b239f31d2da723452b745974b1593645b5dac7ead64bc",
+    "actual": "38e9414e4cf39077c99b239f31d2da723452b745974b1593645b5dac7ead64bc",
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X3 検索候補",
+    "expected": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "actual": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X3 再操作303",
+    "expected": 303,
+    "actual": 303,
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X3 同番号・金額",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X3 再送同番号",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X3 検索候補",
+    "expected": [
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "actual": [
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X5 検索候補",
+    "expected": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "actual": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X5 失敗HTTP",
+    "expected": 503,
+    "actual": 503,
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X5 実待機5秒",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X5 失敗/再操作/未確定",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X5 同K/CSRF/quote維持",
+    "expected": "6b81d5415bb4444742a509dcb162f5e764761af8e446d1abfdcf369f6c568794",
+    "actual": "6b81d5415bb4444742a509dcb162f5e764761af8e446d1abfdcf369f6c568794",
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X5 検索候補",
+    "expected": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "actual": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X5 再操作303",
+    "expected": 303,
+    "actual": 303,
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X5 同番号・金額",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X5 再送同番号",
+    "expected": true,
+    "actual": true,
+    "passed": true
+  },
+  {
+    "t": "T05",
+    "name": "X5 検索候補",
+    "expected": [
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "actual": [
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "passed": true
+  }
+]
